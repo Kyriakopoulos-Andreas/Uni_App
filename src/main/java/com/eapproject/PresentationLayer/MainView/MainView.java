@@ -1,6 +1,9 @@
 
 package com.eapproject.PresentationLayer.MainView;
 
+import com.eapproject.PresentationLayer.CountryView.CountryView;
+import com.eapproject.PresentationLayer.UniversityView.UniversityView;
+
 import javax.swing.*;
 import java.awt.*;
 import java.util.HashMap;
@@ -77,19 +80,7 @@ public class MainView extends javax.swing.JFrame {
         System.exit(0); // Terminates the application
     }
 
-    // Adds a mouse listener to remove focus from the OutLinedTextField when clicking elsewhere
-    private void addMouseListenerToRemoveFocus() {
-        // Adds a mouse listener to the JFrame to detect clicks outside the text field
-        OutLinedTextField.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mousePressed(java.awt.event.MouseEvent evt) {
-                // Checks if the click is outside the OutLinedTextField
-                if (!OutLinedTextField.contains(evt.getPoint())) {
-                    // Removes focus from the OutLinedTextField
-                    OutLinedTextField.transferFocus();
-                }
-            }
-        });
-    }
+
 
 
     private void initComponents() {
@@ -118,9 +109,9 @@ public class MainView extends javax.swing.JFrame {
         rightScreenPanel = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
         outLinedTextFieldPanel.setFocusable(true);
+
         this.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mousePressed(java.awt.event.MouseEvent evt) {
-                // Ελέγξτε αν το κλικ δεν είναι πάνω στο OutLinedTextField
                 if (!OutLinedTextField.getBounds().contains(evt.getPoint())) {
                     // Αφαίρεση του focus από το OutLinedTextField
                     OutLinedTextField.transferFocus();
@@ -129,6 +120,7 @@ public class MainView extends javax.swing.JFrame {
         });
 
         // Add a mouse listener to OutLinedTextField to transfer focus when clicked outside
+        // Add a mouse listener to OutLinedTextField to transfer focus when clicked outside
         OutLinedTextField.addFocusListener(new java.awt.event.FocusAdapter() {
             @Override
             public void focusLost(java.awt.event.FocusEvent evt) {
@@ -136,6 +128,15 @@ public class MainView extends javax.swing.JFrame {
                     // Αν το πεδίο είναι άδειο, επαναφέρουμε την υπόδειξη κειμένου
                     OutLinedTextField.setText("Search University");
                     OutLinedTextField.setForeground(new java.awt.Color(169, 169, 169));
+                }
+            }
+
+            @Override
+            public void focusGained(java.awt.event.FocusEvent evt) {
+                // Όταν ο χρήστης πατήσει πάνω στο πεδίο, καθαρίζει το placeholder
+                if (OutLinedTextField.getText().equals("Search University")) {
+                    OutLinedTextField.setText(""); // Καθαρίζει το placeholder
+                    OutLinedTextField.setForeground(new java.awt.Color(0, 0, 0)); // Ρυθμίζει το χρώμα του κειμένου σε μαύρο
                 }
             }
         });
@@ -423,7 +424,7 @@ public class MainView extends javax.swing.JFrame {
                 layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                         .addComponent(mainPanel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
-        addMouseListenerToRemoveFocus();
+
 
 
         pack();

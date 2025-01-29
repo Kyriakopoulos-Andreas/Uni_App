@@ -1,7 +1,6 @@
-package com.eapproject.PresentationLayer.MainView;
+package com.eapproject.PresentationLayer.CountryView;
 
 import javax.swing.*;
-import javax.swing.plaf.metal.MetalScrollBarUI;
 import javax.swing.table.DefaultTableCellRenderer;
 
 public class CountryView extends javax.swing.JPanel {
@@ -11,6 +10,8 @@ public class CountryView extends javax.swing.JPanel {
         initComponents();
         this.setPreferredSize(new java.awt.Dimension(1050, 500));
     }
+
+
 
     // Initializes all the components and sets up layout and styles
     @SuppressWarnings("unchecked")
@@ -78,6 +79,39 @@ public class CountryView extends javax.swing.JPanel {
                                 )
         );
 
+        this.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mousePressed(java.awt.event.MouseEvent evt) {
+                // Ελέγξτε αν το κλικ δεν είναι πάνω στο OutLinedTextField
+                if (!outLinedTextField.getBounds().contains(evt.getPoint())) {
+                    // Αφαίρεση του focus από το OutLinedTextField
+                    outLinedTextField.transferFocus();
+                }
+            }
+        });
+
+        // Add a mouse listener to OutLinedTextField to transfer focus when clicked outside
+        outLinedTextField.addFocusListener(new java.awt.event.FocusAdapter() {
+            @Override
+            public void focusLost(java.awt.event.FocusEvent evt) {
+                if (outLinedTextField.getText().isEmpty()) {
+                    // Αν το πεδίο είναι άδειο, επαναφέρουμε την υπόδειξη κειμένου
+                    outLinedTextField.setText("Search Country");
+                    outLinedTextField.setForeground(new java.awt.Color(169, 169, 169));
+                }
+            }
+
+            @Override
+            public void focusGained(java.awt.event.FocusEvent evt) {
+                // Όταν ο χρήστης πατήσει πάνω στο πεδίο, καθαρίζει το placeholder
+                if (outLinedTextField.getText().equals("Search Country")) {
+                    outLinedTextField.setText(""); // Καθαρίζει το placeholder
+                    outLinedTextField.setForeground(new java.awt.Color(0, 0, 0)); // Ρυθμίζει το χρώμα του κειμένου σε μαύρο
+                }
+            }
+        });
+
+
+
 
         // Main panel setup
         mainPanel.setBackground(new java.awt.Color(252, 252, 242)); // Light background for main panel
@@ -96,7 +130,8 @@ public class CountryView extends javax.swing.JPanel {
         // Outlined text field for search input
         outLinedTextField.setBackground(new java.awt.Color(255, 255, 255)); // White background for the text field
         outLinedTextField.setHorizontalAlignment(javax.swing.JTextField.CENTER); // Centered text
-        outLinedTextField.setText("Search Country"); // Placeholder text
+        outLinedTextField.setText("Search Country");
+        outLinedTextField.setForeground(new java.awt.Color(169, 169, 169));
         outLinedTextField.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(223, 109, 35), 2, true)); // Orange border
 
         // Table model with sample data (Country and associated University)
