@@ -8,13 +8,20 @@ package com.eapproject.PresentationLayer.UniversityView;
  *
  * @author kamoz
  */
+import javax.swing.*;
 import java.awt.*;
 public class UniversityView extends javax.swing.JPanel {
 
+
+    private String universityLogo;
+    private int spaceY;
+    private int spaceYBeforeBottomDivider;
+    private int spaceYifFaculties;
     /**
      * Creates the initial view of the panel for the university display
      */
-    public UniversityView() {
+    public UniversityView(String university) {
+        this.universityLogo = university;
         initComponents();
     }
 
@@ -44,16 +51,19 @@ public class UniversityView extends javax.swing.JPanel {
         facultiesLabel = new javax.swing.JLabel();
         TODOcontactLabel = new javax.swing.JLabel();
         TODOfacultiesLabel = new javax.swing.JLabel();
+        universityLabelPanel = new javax.swing.JPanel();
+
 
         // Set properties for the contact label (TODO)
         TODOcontactLabel.setFont(new java.awt.Font("Segoe UI", 0, 28)); // Font size
         TODOcontactLabel.setForeground(new java.awt.Color(96, 59, 6)); // Font color
-        TODOcontactLabel.setText("TODO");
+        TODOcontactLabel.setText("");
+
 
         // Set properties for the faculties label (TODO)
         TODOfacultiesLabel.setFont(new java.awt.Font("Segoe UI", 0, 28)); // Font size
         TODOfacultiesLabel.setForeground(new java.awt.Color(96, 59, 6)); // Font color
-        TODOfacultiesLabel.setText("TODO");
+        TODOfacultiesLabel.setText("fdsfsd");
 
         // Set properties for the "Contact" label
         contactLabel.setFont(new java.awt.Font("Segoe UI", 0, 42)); // Font size
@@ -64,15 +74,22 @@ public class UniversityView extends javax.swing.JPanel {
         facultiesLabel.setFont(new java.awt.Font("Segoe UI", 0, 42)); // Font size
         facultiesLabel.setForeground(new java.awt.Color(223, 109, 35)); // Font color
         facultiesLabel.setText("Faculties:");
+        updateVisibility();
 
         // Set background color for the main panel
         universityViewMainPanel.setBackground(new java.awt.Color(252, 252, 242));
+        universityLabelPanel.setBackground(new java.awt.Color(252, 252, 242));
 
         // Set properties for the main university label
         UniversityLabelTODO.setBackground(new java.awt.Color(223, 109, 35));
-        UniversityLabelTODO.setFont(new java.awt.Font("Segoe UI", 0, 48)); // Font size
-        UniversityLabelTODO.setForeground(new java.awt.Color(223, 109, 35)); // Font color
-        UniversityLabelTODO.setText("University");
+        UniversityLabelTODO.setFont(new java.awt.Font("Segoe UI", 1, 36)); // Font size
+        UniversityLabelTODO.setForeground(new java.awt.Color(223, 109, 28)); // Font color
+        UniversityLabelTODO.setText(universityLogo);
+
+        universityLabelPanel.add(UniversityLabelTODO);
+
+
+
 
         // Set properties for the dividers
         topDivider.setBackground(new java.awt.Color(223, 109, 35));
@@ -113,9 +130,12 @@ public class UniversityView extends javax.swing.JPanel {
         updateButton.setText("Update Information");
         updateButton.setBorder(javax.swing.BorderFactory.createMatteBorder(6, 6, 6, 6, new java.awt.Color(223, 109, 35)));
 
-        updateButton.setFont(new java.awt.Font("Segoe UI", Font.BOLD, 18)); // Font size
-        updateButton.setPreferredSize(new java.awt.Dimension(300, 100)); // Button size
-        updateButton.setMargin(new java.awt.Insets(20, 40, 20, 40));
+
+
+        updateButton.setBackground(new java.awt.Color(223, 109, 35)); // Button background color
+        updateButton.setForeground(new java.awt.Color(255, 255, 255)); // Button text color
+        updateButton.setText("Update Country"); // Set button label
+        updateButton.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1)); //
 
         // Set properties for the TODO labels
         TODOcountryLabel.setFont(new java.awt.Font("Segoe UI", 0, 28)); // Font size
@@ -148,8 +168,8 @@ public class UniversityView extends javax.swing.JPanel {
                         .addComponent(topDivider)
                         .addComponent(bottomDivider)
                         .addGroup(universityViewMainPanelLayout.createSequentialGroup()
-                                .addGap(400, 400, 400) // The `UniversityLabelTODO` stays in place
-                                .addComponent(UniversityLabelTODO))
+                                .addGap(1, 1, 1) // The `UniversityLabelTODO` stays in place
+                                .addComponent(universityLabelPanel, javax.swing.GroupLayout.PREFERRED_SIZE, 1043, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addGroup(universityViewMainPanelLayout.createSequentialGroup()
                                 .addGap(120, 120, 120) // The remaining labels move to the left
                                 .addGroup(universityViewMainPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -173,8 +193,8 @@ public class UniversityView extends javax.swing.JPanel {
                                                         .addComponent(TODOfacultiesLabel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
                                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                         .addGroup(universityViewMainPanelLayout.createSequentialGroup()
-                                .addGap(410, 410, 410) // Moves the button to the left
-                                .addComponent(updateButton)
+                                .addGap(416, 416, 416) // Moves the button to the left
+                                .addComponent(updateButton, javax.swing.GroupLayout.PREFERRED_SIZE, 229, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addGap(50, 150, Short.MAX_VALUE))
         );
 
@@ -182,48 +202,100 @@ public class UniversityView extends javax.swing.JPanel {
         universityViewMainPanelLayout.setVerticalGroup(
                 universityViewMainPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                         .addGroup(universityViewMainPanelLayout.createSequentialGroup()
-                                .addGap(18, 18, 18)
-                                .addComponent(UniversityLabelTODO)
-                                .addGap(30, 30, 30)
+                                .addGap(20, 20, 20)
+                                .addComponent(universityLabelPanel, javax.swing.GroupLayout.PREFERRED_SIZE, 55, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(17, 17, 17)
                                 .addComponent(topDivider, javax.swing.GroupLayout.PREFERRED_SIZE, 10, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addGap(30, 30, 30)
+
+                                // Πάντα ορατά labels (Country έως Alpha Two Code) με σταθερό κενό
                                 .addGroup(universityViewMainPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                                         .addComponent(countryLabel)
                                         .addComponent(TODOcountryLabel))
-                                .addGap(40, 40, 40)
+                                .addGap(spaceY, spaceY, spaceY)
+
                                 .addGroup(universityViewMainPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                                         .addComponent(stateLabel)
                                         .addComponent(TODOstateLabel))
-                                .addGap(40, 40, 40)
+                                .addGap(spaceY, spaceY, spaceY)
+
                                 .addGroup(universityViewMainPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                                         .addComponent(webPageLabel)
                                         .addComponent(TODOwebPageLabel))
-                                .addGap(40, 40, 40)
+                                .addGap(spaceY, spaceY, spaceY)
+
                                 .addGroup(universityViewMainPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                                         .addComponent(domainLabel)
                                         .addComponent(TODOdomainLabel))
-                                .addGap(40, 40, 40)
+                                .addGap(spaceY, spaceY, spaceY)
+
                                 .addGroup(universityViewMainPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                                         .addComponent(alphaTwoCodeLabel)
                                         .addComponent(TODOalphaTwoCodeLabel))
-                                .addGap(40, 40, 40)
+                                        .addGap(40, 40, 40)
+
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED, spaceYifFaculties, Short.MAX_VALUE)
+
+                                // Conditional Contact Section
                                 .addGroup(universityViewMainPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                                         .addComponent(contactLabel)
                                         .addComponent(TODOcontactLabel))
                                 .addGap(40, 40, 40)
+
+                                // Conditional Faculties Section
                                 .addGroup(universityViewMainPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                                         .addComponent(facultiesLabel)
                                         .addComponent(TODOfacultiesLabel))
-                                .addGap(40, 40, 40)
+
+                                // Κενό πριν το bottomDivider
+                                .addGap(spaceYBeforeBottomDivider, spaceYBeforeBottomDivider, spaceYBeforeBottomDivider)
                                 .addComponent(bottomDivider, javax.swing.GroupLayout.PREFERRED_SIZE, 10, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(40, 40, 40)
-                                .addComponent(updateButton)
+                                .addGap(15, 15, 15)
+                                .addComponent(updateButton, javax.swing.GroupLayout.PREFERRED_SIZE, 39, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addContainerGap(50, Short.MAX_VALUE))
         );
 
         // Add the main panel to the frame or parent container
         this.add(universityViewMainPanel);
     }
+
+    // Μέθοδος για ενημέρωση της ορατότητας των labels
+    private void updateVisibility() {
+        // Έλεγχος για το "Contact"
+        boolean isContactEmpty = TODOcontactLabel.getText().trim().isEmpty();
+        contactLabel.setVisible(!isContactEmpty);
+        TODOcontactLabel.setVisible(!isContactEmpty);
+
+        // Έλεγχος για το "Faculties"
+        boolean isFacultiesEmpty = TODOfacultiesLabel.getText().trim().isEmpty();
+        if(!isFacultiesEmpty && !isContactEmpty){
+            this.spaceY = 40;
+            spaceYBeforeBottomDivider = 90;
+
+        }else if(!isContactEmpty && isFacultiesEmpty || isContactEmpty && !isFacultiesEmpty ){
+            this.spaceY = 60;
+            if(!isFacultiesEmpty)
+            {
+                spaceYifFaculties = 10;
+                spaceYBeforeBottomDivider = 67;
+            }else{
+                spaceYBeforeBottomDivider = 41;
+                spaceYifFaculties = 40;
+            }
+        }else{
+            this.spaceY = 80;
+            spaceYBeforeBottomDivider = 19;
+        }
+        facultiesLabel.setVisible(!isFacultiesEmpty);
+        TODOfacultiesLabel.setVisible(!isFacultiesEmpty);
+
+        // Ανανέωση του UI
+        revalidate();
+        repaint();
+    }
+
+    // ... υπόλοιπες μεταβλητές και μέθοδοι παραμένουν ίδιες ...
+
 
     // Variables declaration - do not modify
     private javax.swing.JLabel TODOalphaTwoCodeLabel;
@@ -245,5 +317,6 @@ public class UniversityView extends javax.swing.JPanel {
     private javax.swing.JLabel facultiesLabel;
     private javax.swing.JLabel TODOcontactLabel;
     private javax.swing.JLabel TODOfacultiesLabel;
+    private javax.swing.JPanel universityLabelPanel;
     // End of variables declaration
 }

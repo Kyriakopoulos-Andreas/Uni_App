@@ -2,6 +2,7 @@
 package com.eapproject.PresentationLayer.MainView;
 
 import com.eapproject.PresentationLayer.CountryView.CountryView;
+import com.eapproject.PresentationLayer.InformationView.InformationView;
 import com.eapproject.PresentationLayer.UniversityView.UniversityView;
 
 import javax.swing.*;
@@ -33,6 +34,7 @@ public class MainView extends javax.swing.JFrame {
     private void onEnterPressed() {
         System.out.println("Right Screen Panel Dimensions:");
         System.out.println("Width: " + rightScreenPanel.getWidth() + ", Height: " + rightScreenPanel.getHeight());
+        String searchText = OutLinedTextField.getText();
 
         // Clears the panel and resets its layout
         jLabel1.setIcon(null); // Removes any icon from jLabel1
@@ -41,7 +43,7 @@ public class MainView extends javax.swing.JFrame {
         rightScreenPanel.setLayout(new CardLayout()); // Sets CardLayout for switching views
 
         // Creates and adds a new panel (UniversityView2) to the rightScreenPanel
-        UniversityView panel = new UniversityView();
+        UniversityView panel = new UniversityView(searchText);
 
         System.out.println("Adding UniversityView2...");
         System.out.println("Panel size: " + panel.getWidth() + "x" + panel.getHeight());
@@ -477,7 +479,7 @@ public class MainView extends javax.swing.JFrame {
                 jLabel1.setPreferredSize(new java.awt.Dimension(0, 0));
                 rightScreenPanel.removeAll();
                 rightScreenPanel.setLayout(new CardLayout());
-                rightScreenPanel.add(new CountryView(), "CountryView");
+                rightScreenPanel.add(new CountryView(rightScreenPanel), "CountryView");
                 rightScreenPanel.revalidate();
                 rightScreenPanel.repaint();
                 ((CardLayout) rightScreenPanel.getLayout()).show(rightScreenPanel, "CountryView");
@@ -511,6 +513,17 @@ public class MainView extends javax.swing.JFrame {
                 if (activeButton != null) {
                     activeButton.setBackground(initialColors.get(activeButton));
                 }
+
+                jLabel1.setIcon(null);
+                jLabel1.setPreferredSize(new java.awt.Dimension(0, 0));
+                rightScreenPanel.removeAll();
+                rightScreenPanel.setLayout(new CardLayout());
+                rightScreenPanel.add(new InformationView(), "InformationView");
+                rightScreenPanel.revalidate();
+                rightScreenPanel.repaint();
+                ((CardLayout) rightScreenPanel.getLayout()).show(rightScreenPanel, "InformationView");
+
+
                 infotmationsPanel.setBackground(new java.awt.Color(139, 89, 61));
                 activeButton = infotmationsPanel;
             }

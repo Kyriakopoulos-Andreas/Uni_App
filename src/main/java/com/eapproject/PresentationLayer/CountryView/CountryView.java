@@ -1,13 +1,30 @@
 package com.eapproject.PresentationLayer.CountryView;
 
+import com.eapproject.PresentationLayer.CountryUniversitiesView.CountryUniversities;
+
 import javax.swing.*;
+import javax.swing.event.DocumentEvent;
+import javax.swing.event.DocumentListener;
 import javax.swing.table.DefaultTableCellRenderer;
+import javax.swing.table.DefaultTableModel;
+import javax.swing.table.TableRowSorter;
+import java.awt.*;
+import java.awt.event.MouseAdapter;
+import java.awt.event.MouseEvent;
 
 public class CountryView extends javax.swing.JPanel {
 
+    private final JPanel rightScreenPanel;
+    private DefaultTableModel model;
+    private TableRowSorter<DefaultTableModel> sorter;
+
     // Constructor for initializing the CountryView panel
-    public CountryView() {
+    public CountryView(JPanel rightScreenJpanel) {
+        this.rightScreenPanel = rightScreenJpanel;
         initComponents();
+        model = (DefaultTableModel) table.getModel();
+        sorter = new TableRowSorter<>(model);
+        table.setRowSorter(sorter);
         this.setPreferredSize(new java.awt.Dimension(1050, 500));
     }
 
@@ -39,7 +56,7 @@ public class CountryView extends javax.swing.JPanel {
         table.getTableHeader().setFont(new java.awt.Font("Segoe UI", java.awt.Font.BOLD, 14)); // Bold font for headers
 
         // Table Grid customization
-        table.setShowGrid(true);
+        table.setShowGrid(false);
         table.setGridColor(new java.awt.Color(223, 109, 35)); // Grid lines in orange
         table.setIntercellSpacing(new java.awt.Dimension(0, 0)); // Remove space between cells
 
@@ -49,7 +66,7 @@ public class CountryView extends javax.swing.JPanel {
 
         // ScrollPane for table with border
         jScrollPane3.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(223, 109, 35), 2)); // Border color orange
-
+        jScrollPane3.getViewport().setBackground(new java.awt.Color(255, 255, 255)); // Αλλαγή του background χρώματος
         // Disable table editing and selection behavior settings
         table.setCellSelectionEnabled(true);
         table.setFocusable(false); // Disable focus (no direct editing)
@@ -81,9 +98,9 @@ public class CountryView extends javax.swing.JPanel {
 
         this.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mousePressed(java.awt.event.MouseEvent evt) {
-                // Ελέγξτε αν το κλικ δεν είναι πάνω στο OutLinedTextField
+
                 if (!outLinedTextField.getBounds().contains(evt.getPoint())) {
-                    // Αφαίρεση του focus από το OutLinedTextField
+
                     outLinedTextField.transferFocus();
                 }
             }
@@ -119,7 +136,7 @@ public class CountryView extends javax.swing.JPanel {
 
         // Logo text in main panel
         countriesLogo.setBackground(new java.awt.Color(223, 109, 35)); // Orange background for logo
-        countriesLogo.setFont(new java.awt.Font("Segoe UI", 0, 48)); // Large font size for the title
+        countriesLogo.setFont(new java.awt.Font("Segoe UI", java.awt.Font.BOLD, 48)); // Bold font
         countriesLogo.setForeground(new java.awt.Color(223, 109, 35)); // Orange color for logo text
         countriesLogo.setText("Countries"); // Setting logo name
 
@@ -134,34 +151,87 @@ public class CountryView extends javax.swing.JPanel {
         outLinedTextField.setForeground(new java.awt.Color(169, 169, 169));
         outLinedTextField.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(223, 109, 35), 2, true)); // Orange border
 
+        outLinedTextField.getDocument().addDocumentListener(new DocumentListener() {
+            @Override
+            public void insertUpdate(DocumentEvent e) {
+                updateFilter();
+            }
+
+            @Override
+            public void removeUpdate(DocumentEvent e) {
+                updateFilter();
+            }
+
+            @Override
+            public void changedUpdate(DocumentEvent e) {
+                updateFilter();
+            }
+        });
+
+        // ... υπόλοιπος κώδικας ...
+
+
         // Table model with sample data (Country and associated University)
+        table.setBackground(new java.awt.Color(255, 255, 255)); // White background for table cells
+        jScrollPane3.setBackground(new java.awt.Color(255, 255, 255)); // White background for scroll pane
         table.setModel(new javax.swing.table.DefaultTableModel(
                 new Object[][] {
-                        { "1", "Greece", "Athens University" },
-                        { "2", "USA", "Harvard University" },
-                        { "3", "Germany", "University of Berlin" },
-                        { "4", "UK", "Oxford University" },
-                        { "5", "France", "Sorbonne University" },
-                        { "6", "Italy", "University of Rome" },
-                        { "7", "Spain", "University of Madrid" },
-                        { "8", "Australia", "University of Sydney" },
-                        { "9", "Canada", "University of Toronto" },
-                        { "10", "Japan", "University of Tokyo" },
-                        { "1", "Greece", "Athens University" },
-                        { "2", "USA", "Harvard University" },
-                        { "3", "Germany", "University of Berlin" },
-                        { "4", "UK", "Oxford University" },
-                        { "5", "France", "Sorbonne University" },
-                        { "6", "Italy", "University of Rome" },
-                        { "7", "Spain", "University of Madrid" },
-                        { "8", "Australia", "University of Sydney" },
-                        { "9", "Canada", "University of Toronto" },
-                        { "10", "Japan", "University of Tokyo" }
+                        { "1", "Greece", 20 },
+                        { "2", "USA", 5000 },
+                        { "3", "Germany", 400 },
+                        { "4", "UK", 150 },
+                        { "5", "France", 100 },
+                        { "6", "Italy", 80 },
+                        { "7", "Spain", 70 },
+                        { "8", "Australia", 40 },
+                        { "9", "Canada", 100 },
+                        { "10", "Japan", 100 },
+                        { "11", "China", 3000 },
+                        { "12", "India", 1000 },
+                        { "13", "Russia", 600 },
+                        { "14", "Brazil", 250 },
+                        { "15", "Mexico", 100 },
+                        { "16", "South Korea", 400 },
+                        { "17", "Turkey", 200 },
+                        { "18", "Netherlands", 50 },
+                        { "19", "Sweden", 30 },
+                        { "20", "Norway", 10 },
+                        { "21", "Finland", 20 },
+                        { "22", "Belgium", 30 },
+                        { "23", "Switzerland", 20 },
+                        { "24", "South Africa", 50 },
+                        { "25", "Argentina", 40 },
+                        { "26", "Chile", 30 },
+                        { "27", "Egypt", 40 },
+                        { "28", "Saudi Arabia", 30 },
+                        { "29", "UAE", 20 },
+                        { "30", "New Zealand", 8 }
                 },
-                new String[] {
+        new String[] {
                         "No.", "Country", "Universities"
                 }
         ));
+
+        table.addMouseListener(new MouseAdapter() {
+            @Override
+            public void mouseClicked(MouseEvent evt) {
+                if (evt.getClickCount() == 2) { // Έλεγχος αν έγινε διπλό κλικ
+                    int row = table.getSelectedRow();
+                    if (row != -1) { // Έλεγχος ότι επιλέχθηκε γραμμή
+                        String country = table.getValueAt(row, 1).toString(); // Παίρνουμε το όνομα της χώρας
+                        rightScreenPanel.removeAll();
+                        rightScreenPanel.add(new CountryUniversities(country, rightScreenPanel), "CountryUniversities");
+                        rightScreenPanel.revalidate();
+                        rightScreenPanel.repaint();
+                        ((CardLayout) rightScreenPanel.getLayout()).show(rightScreenPanel, "CountryUniversities");
+                    }
+                }
+            }
+        });
+        jScrollPane3.setBackground(new java.awt.Color(255, 255, 255));
+
+
+
 
         // Custom font and renderer for table cells
         DefaultTableCellRenderer centerRenderer = new DefaultTableCellRenderer();
@@ -196,6 +266,14 @@ public class CountryView extends javax.swing.JPanel {
         addCountryButton.setText("Add Country"); // Set button label
         addCountryButton.setToolTipText(""); // Tooltip text (optional)
         addCountryButton.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1)); // No border for button
+        table.getColumnModel().getColumn(0).setPreferredWidth(20); // Στήλη 0 (No.)
+        table.getColumnModel().getColumn(1).setPreferredWidth(300); // Στήλη 1 (Universities)
+
+// Ρύθμιση πλάτους για την κεφαλίδα των στηλών
+        table.getTableHeader().getColumnModel().getColumn(0).setPreferredWidth(50); // Κεφαλίδα της πρώτης στήλης
+        table.getTableHeader().getColumnModel().getColumn(1).setPreferredWidth(400); //
+        table.getTableHeader().getColumnModel().getColumn(2).setPreferredWidth(50); //
+
 
         // Layout for main panel components
         javax.swing.GroupLayout mainPanelLayout = new javax.swing.GroupLayout(mainPanel);
@@ -209,13 +287,13 @@ public class CountryView extends javax.swing.JPanel {
                                 .addGroup(mainPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                         .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, mainPanelLayout.createSequentialGroup()
                                                 .addComponent(jScrollPane3, javax.swing.GroupLayout.PREFERRED_SIZE, 888, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                .addGap(213, 213, 213))
+                                                .addGap(200, 200, 200))
                                         .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, mainPanelLayout.createSequentialGroup()
                                                 .addComponent(outLinedTextField, javax.swing.GroupLayout.PREFERRED_SIZE, 482, javax.swing.GroupLayout.PREFERRED_SIZE)
                                                 .addGap(406, 406, 406))
                                         .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, mainPanelLayout.createSequentialGroup()
-                                                .addComponent(addCountryButton, javax.swing.GroupLayout.PREFERRED_SIZE, 157, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                .addGap(562, 562, 562))
+                                                .addComponent(addCountryButton, javax.swing.GroupLayout.PREFERRED_SIZE, 229, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                .addGap(530, 530, 530))
                                         .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, mainPanelLayout.createSequentialGroup()
                                                 .addComponent(countriesLogo)
                                                 .addGap(542, 542, 542)))
@@ -224,8 +302,9 @@ public class CountryView extends javax.swing.JPanel {
         mainPanelLayout.setVerticalGroup(
                 mainPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                         .addGroup(mainPanelLayout.createSequentialGroup()
-                                .addGap(16, 16, 16)
+                                .addGap(12, 12, 12)
                                 .addComponent(countriesLogo)
+                                .addGap(11, 11, 11)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                                 .addComponent(topDiv, javax.swing.GroupLayout.PREFERRED_SIZE, 10, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
@@ -234,13 +313,30 @@ public class CountryView extends javax.swing.JPanel {
                                 .addComponent(jScrollPane3, javax.swing.GroupLayout.PREFERRED_SIZE, 650, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 41, Short.MAX_VALUE)
                                 .addComponent(bottomDivier, javax.swing.GroupLayout.PREFERRED_SIZE, 13, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(12, 12, 12)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(addCountryButton, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(addCountryButton, javax.swing.GroupLayout.PREFERRED_SIZE, 39, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addGap(40, 40, 40))
         );
 
         // Add the main panel to the CountryView panel
         this.add(mainPanel);
+    }
+
+    private void updateFilter() {
+        String text = outLinedTextField.getText().trim().toLowerCase();
+
+        if (text.isEmpty() || text.equals("search country")) {
+            sorter.setRowFilter(null);
+        } else {
+            sorter.setRowFilter(new RowFilter<>() {
+                @Override
+                public boolean include(Entry<? extends DefaultTableModel, ? extends Integer> entry) {
+                    String country = entry.getStringValue(1).toLowerCase();
+                    return country.startsWith(text);
+                }
+            });
+        }
     }
 
     // Declare components as private variables
@@ -254,5 +350,8 @@ public class CountryView extends javax.swing.JPanel {
     private javax.swing.JTextField outLinedTextField;
     private javax.swing.JTable table;
     private javax.swing.JSeparator topDiv;
+
+
+
 
 }
