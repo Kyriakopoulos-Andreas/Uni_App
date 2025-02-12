@@ -3,6 +3,7 @@ package com.eapproject.PresentationLayer.MainView;
 
 import com.eapproject.PresentationLayer.CountryView.CountryView;
 import com.eapproject.PresentationLayer.InformationView.InformationView;
+import com.eapproject.PresentationLayer.StatisticsView.StatisticsView;
 import com.eapproject.PresentationLayer.UniversityView.UniversityView;
 
 import javax.swing.*;
@@ -426,9 +427,6 @@ public class MainView extends javax.swing.JFrame {
                 layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                         .addComponent(mainPanel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
-
-
-
         pack();
     }// </editor-fold>
 
@@ -499,6 +497,16 @@ public class MainView extends javax.swing.JFrame {
                     activeButton.setBackground(initialColors.get(activeButton));
                 }
                 statisticsPanel.setBackground(new java.awt.Color(139, 89, 61));
+
+                jLabel1.setIcon(null);
+                jLabel1.setPreferredSize(new java.awt.Dimension(0, 0));
+                rightScreenPanel.removeAll();
+                rightScreenPanel.setLayout(new CardLayout());
+                rightScreenPanel.add(new StatisticsView(), "StatisticsView");
+                rightScreenPanel.revalidate();
+                rightScreenPanel.repaint();
+                ((CardLayout) rightScreenPanel.getLayout()).show(rightScreenPanel, "Statistics");
+                countriesPanel.setBackground(new java.awt.Color(139, 89, 61));
                 activeButton = statisticsPanel;
             }
 

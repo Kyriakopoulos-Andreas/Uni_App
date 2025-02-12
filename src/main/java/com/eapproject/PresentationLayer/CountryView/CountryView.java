@@ -168,7 +168,6 @@ public class CountryView extends javax.swing.JPanel {
             }
         });
 
-        // ... υπόλοιπος κώδικας ...
 
 
         // Table model with sample data (Country and associated University)
@@ -263,6 +262,7 @@ public class CountryView extends javax.swing.JPanel {
         // Button to add a country
         addCountryButton.setBackground(new java.awt.Color(223, 109, 35)); // Button background color
         addCountryButton.setForeground(new java.awt.Color(255, 255, 255)); // Button text color
+        addCountryButton.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         addCountryButton.setText("Add Country"); // Set button label
         addCountryButton.setToolTipText(""); // Tooltip text (optional)
         addCountryButton.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1)); // No border for button

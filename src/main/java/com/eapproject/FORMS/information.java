@@ -23,6 +23,8 @@ public class information extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
         mainPanel.setBackground(new java.awt.Color(252, 252, 242));
+        mainPanel.setToolTipText("");
+        mainPanel.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
 
         topSeperator.setBackground(new java.awt.Color(223, 109, 35));
         topSeperator.setForeground(new java.awt.Color(223, 109, 35));

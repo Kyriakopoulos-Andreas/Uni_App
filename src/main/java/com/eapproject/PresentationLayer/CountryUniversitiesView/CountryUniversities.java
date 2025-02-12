@@ -246,6 +246,7 @@ public class CountryUniversities extends javax.swing.JPanel {
         // Button to add a country
         addUniversityButton.setBackground(new java.awt.Color(223, 109, 35)); // Button background color
         addUniversityButton.setForeground(new java.awt.Color(255, 255, 255)); // Button text color
+        addUniversityButton.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         addUniversityButton.setText("Add University"); // Set button label
         addUniversityButton.setToolTipText(""); // Tooltip text (optional)
         addUniversityButton.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1)); // No border for button
