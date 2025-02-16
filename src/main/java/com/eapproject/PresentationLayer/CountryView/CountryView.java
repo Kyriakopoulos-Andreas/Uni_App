@@ -1,22 +1,27 @@
 package com.eapproject.PresentationLayer.CountryView;
 
-import com.eapproject.PresentationLayer.CountryUniversitiesView.CountryUniversities;
+import java.awt.CardLayout;
+import java.awt.event.MouseAdapter;
+import java.awt.event.MouseEvent;
 
-import javax.swing.*;
+import javax.swing.JPanel;
+import javax.swing.RowFilter;
+import javax.swing.SwingConstants;
 import javax.swing.event.DocumentEvent;
 import javax.swing.event.DocumentListener;
 import javax.swing.table.DefaultTableCellRenderer;
 import javax.swing.table.DefaultTableModel;
 import javax.swing.table.TableRowSorter;
-import java.awt.*;
-import java.awt.event.MouseAdapter;
-import java.awt.event.MouseEvent;
+
+import com.eapproject.DataLayer.universitiesRepo;
+import com.eapproject.PresentationLayer.CountryUniversitiesView.CountryUniversities;
 
 public class CountryView extends javax.swing.JPanel {
 
     private final JPanel rightScreenPanel;
     private DefaultTableModel model;
     private TableRowSorter<DefaultTableModel> sorter;
+    private final universitiesRepo repo = new universitiesRepo();
 
     // Constructor for initializing the CountryView panel
     public CountryView(JPanel rightScreenJpanel) {
@@ -174,38 +179,41 @@ public class CountryView extends javax.swing.JPanel {
         table.setBackground(new java.awt.Color(255, 255, 255)); // White background for table cells
         jScrollPane3.setBackground(new java.awt.Color(255, 255, 255)); // White background for scroll pane
         table.setModel(new javax.swing.table.DefaultTableModel(
-                new Object[][] {
-                        { "1", "Greece", 20 },
-                        { "2", "USA", 5000 },
-                        { "3", "Germany", 400 },
-                        { "4", "UK", 150 },
-                        { "5", "France", 100 },
-                        { "6", "Italy", 80 },
-                        { "7", "Spain", 70 },
-                        { "8", "Australia", 40 },
-                        { "9", "Canada", 100 },
-                        { "10", "Japan", 100 },
-                        { "11", "China", 3000 },
-                        { "12", "India", 1000 },
-                        { "13", "Russia", 600 },
-                        { "14", "Brazil", 250 },
-                        { "15", "Mexico", 100 },
-                        { "16", "South Korea", 400 },
-                        { "17", "Turkey", 200 },
-                        { "18", "Netherlands", 50 },
-                        { "19", "Sweden", 30 },
-                        { "20", "Norway", 10 },
-                        { "21", "Finland", 20 },
-                        { "22", "Belgium", 30 },
-                        { "23", "Switzerland", 20 },
-                        { "24", "South Africa", 50 },
-                        { "25", "Argentina", 40 },
-                        { "26", "Chile", 30 },
-                        { "27", "Egypt", 40 },
-                        { "28", "Saudi Arabia", 30 },
-                        { "29", "UAE", 20 },
-                        { "30", "New Zealand", 8 }
-                },
+            repo.getCountries()
+                // new Object[][] {
+                //         repo.getCountries(),
+                //         { "1", "Greece" },
+                //         { "2", "USA", 5000 },
+                //         { "3", "Germany", 400 },
+                //         { "4", "UK", 150 },
+                //         { "5", "France", 100 },
+                //         { "6", "Italy", 80 },
+                //         { "7", "Spain", 70 },
+                //         { "8", "Australia", 40 },
+                //         { "9", "Canada", 100 },
+                //         { "10", "Japan", 100 },
+                //         { "11", "China", 3000 },
+                //         { "12", "India", 1000 },
+                //         { "13", "Russia", 600 },
+                //         { "14", "Brazil", 250 },
+                //         { "15", "Mexico", 100 },
+                //         { "16", "South Korea", 400 },
+                //         { "17", "Turkey", 200 },
+                //         { "18", "Netherlands", 50 },
+                //         { "19", "Sweden", 30 },
+                //         { "20", "Norway", 10 },
+                //         { "21", "Finland", 20 },
+                //         { "22", "Belgium", 30 },
+                //         { "23", "Switzerland", 20 },
+                //         { "24", "South Africa", 50 },
+                //         { "25", "Argentina", 40 },
+                //         { "26", "Chile", 30 },
+                //         { "27", "Egypt", 40 },
+                //         { "28", "Saudi Arabia", 30 },
+                //         { "29", "UAE", 20 },
+                //         { "30", "New Zealand", 8 }
+                // },
+                ,
         new String[] {
                         "No.", "Country", "Universities"
                 }

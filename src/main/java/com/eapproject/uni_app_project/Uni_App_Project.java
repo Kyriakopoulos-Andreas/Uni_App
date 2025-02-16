@@ -1,7 +1,16 @@
 package com.eapproject.uni_app_project;
 
-import com.eapproject.PresentationLayer.MainView.MainView;
+import java.util.List;
+
 import javax.swing.SwingUtilities;
+
+import com.eapproject.DataLayer.DBUtil;
+import com.eapproject.DataLayer.UniversityDAO;
+import com.eapproject.DataLayer.UniversityModel;
+import com.eapproject.DataLayer.universitiesRepo;
+import com.eapproject.PresentationLayer.MainView.MainView;
+
+
 
 /**
  *
@@ -10,6 +19,24 @@ import javax.swing.SwingUtilities;
 public class Uni_App_Project {
 
     public static void main(String[] args) {
+      DBUtil dbinit = DBUtil.getInstance();
+      UniversityDAO DB = UniversityDAO.getInstance();
+      dbinit.initializeDatabase();
+      
+      var repository = new  universitiesRepo();
+        System.out.println(repository.getCountries().toString());
+        List<UniversityModel> list = repository.getUniversities("open");
+        for (UniversityModel uni : list) {
+            System.out.println(uni.getName());
+            DB.insertUniversity(uni);            
+        }
+
+        List<UniversityModel> list2 = DB.getAllUniversities();
+            for (UniversityModel uni : list2) {
+            System.out.println(uni.getName() + "perfect");   
+        }
+
+      
       SwingUtilities.invokeLater(new Runnable() {
             @Override
             public void run() {
@@ -18,6 +45,10 @@ public class Uni_App_Project {
                 main.setSize(new java.awt.Dimension(1500, 1000));
             }
         });
+        dbinit.resetDatabase();
 
     }
+
+        
+
 }
