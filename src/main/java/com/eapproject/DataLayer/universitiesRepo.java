@@ -68,13 +68,12 @@ public class universitiesRepo implements universitiesInterface{
 
 
     @Override
-    public List<UniversityModel> getUniversities(String hint){
-            boolean checkdb = true;//dbDAO.searchUniversities(hint, hint);
-                if (checkdb){
-                    OkHttpClient client = new OkHttpClient.Builder()
-                    .connectTimeout(30, TimeUnit.SECONDS)
-                    .readTimeout(30, TimeUnit.SECONDS)
-                    .build();
+    public UniversityModel getUniversities(String hint){
+
+            OkHttpClient client = new OkHttpClient.Builder()
+            .connectTimeout(30, TimeUnit.SECONDS)
+            .readTimeout(30, TimeUnit.SECONDS)
+            .build();
 
             Request request = new Request.Builder().url("http://universities.hipolabs.com/search?name="+hint).build();
         
@@ -86,9 +85,10 @@ public class universitiesRepo implements universitiesInterface{
                     Type UniversityListType = new TypeToken <List<UniversityModel>>() {}.getType();
                     List<UniversityModel> Universities = gson.fromJson(responseString, UniversityListType);
                        for (UniversityModel university : Universities) {
-                           System.out.println(university.getCountry());
+                           dbDAO.upsertUniversity(university);
                        }
-                    return Universities.subList(0, 10);
+                    //return Universities.subList(0, 10);
+                    return Universities.getFirst();
                 }
 
             }
@@ -96,7 +96,6 @@ public class universitiesRepo implements universitiesInterface{
                 e.printStackTrace();
             }
 
-        }
         return null;
 
     }

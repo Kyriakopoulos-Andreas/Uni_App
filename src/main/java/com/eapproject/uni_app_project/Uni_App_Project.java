@@ -25,11 +25,11 @@ public class Uni_App_Project {
       
       var repository = new  universitiesRepo();
         System.out.println(repository.getCountries().toString());
-        List<UniversityModel> list = repository.getUniversities("open");
-        for (UniversityModel uni : list) {
-            System.out.println(uni.getName());
-            DB.insertUniversity(uni);            
-        }
+        // List<UniversityModel> list = repository.getUniversities("open");
+        // for (UniversityModel uni : list) {
+        //     System.out.println(uni.getName());
+        //     DB.upsertUniversity(uni);            
+        // }
 
         List<UniversityModel> list2 = DB.getAllUniversities();
             for (UniversityModel uni : list2) {

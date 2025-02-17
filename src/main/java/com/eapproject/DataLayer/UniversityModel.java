@@ -227,6 +227,12 @@ public class UniversityModel {
         this.webPages = webPages;
         this.domains = domains;
         this.name = name;
+        this.school = "school";
+        this.department = "department";
+        this.description = "description";
+        this.contact = "contact";
+        this.comments = "comments";
+        this.isModified = false;
     }
 
     public UniversityModel(int id, String name, String country, String alphaTwoCode, String stateProvince,

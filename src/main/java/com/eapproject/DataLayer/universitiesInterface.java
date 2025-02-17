@@ -14,7 +14,7 @@ import java.util.List;
 public interface universitiesInterface {
     
     public Object[][] getCountries();
-    public List<UniversityModel> getUniversities(String hint);
+    public UniversityModel getUniversities(String hint);
     public List<UniversityModel> getUniversities(String hint,String country);
     public void updateUniversity();
     

@@ -180,8 +180,8 @@ public class UniversityDAO {
             ps.setString(2, uni.getCountry());
             ps.setString(3, uni.getAlphaTwoCode());
             ps.setString(4, uni.getStateProvince());
-            ps.setString(5, String.join(",", uni.getDomains()));
-            ps.setString(6, String.join(",", uni.getWebPages()));
+            ps.setString(5, (String.join(",", uni.getDomains()) != null) ? String.join(",", uni.getDomains()) : "");
+            //ps.setString(6, (String.join(",", uni.getWebPages()) != null) ? String.join(",", uni.getWebPages()) : "");
             ps.setString(7, uni.getSchool());
             ps.setString(8, uni.getDepartment());
             ps.setString(9, uni.getDescription());
