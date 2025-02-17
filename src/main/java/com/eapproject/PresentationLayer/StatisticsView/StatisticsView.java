@@ -1,9 +1,11 @@
 package com.eapproject.PresentationLayer.StatisticsView;
 
 
-import javax.swing.*;
+import java.awt.Font;
+
+import javax.swing.GroupLayout;
+import javax.swing.SwingConstants;
 import javax.swing.table.DefaultTableCellRenderer;
-import java.awt.*;
 
 /**
  *
