@@ -31,40 +31,36 @@ public class MainView extends javax.swing.JFrame implements Observer {
         viewModel = new UniversitiesViewModel();
         viewModel.addObserver(this);  // Εγγραφή ως παρατηρητής
         // Δημιουργούμε νέο νήμα για καθυστέρηση πριν καλέσουμε την fetchUniversities
-        new Thread(() -> {
+        //ΤΣΙΠΟΣ - ΕΔΩ ΓΙΝΟΤΑΝ ΔΙΠΛΗ ΚΛΗΣΗ ΤΗΣ fetchUniversities
+        //new Thread(() -> {
 
             // Αφού περάσει η καθυστέρηση, καλούμε την fetchUniversities
-            System.out.println("🔄 Ξεκινά η λήψη δεδομένων...");
-            viewModel.fetchUniversities(); // Ξεκινά την ανάκτηση των δεδομένων
-        }).start();
+        //    System.out.println("🔄 Ξεκινά η λήψη δεδομένων...");
+        //    viewModel.fetchUniversities(); // Ξεκινά την ανάκτηση των δεδομένων
+        //}).start();
     }
 
     @Override
     public void update(Observable o, Object arg) {
         if (o instanceof UniversitiesViewModel) {
             UniversitiesViewModel model = (UniversitiesViewModel) o;
-
-            universities = (ArrayList<University>) model.getUniversities();
-
-
-            if (!universities.isEmpty()) {
-//                System.out.println("✅ Πανεπιστήμια που φορτώθηκαν:");
-//                for (University uni : universities) {
-//                    System.out.println(uni.getName() + " - " + uni.getCountry());
-//                }
-                dataLoaded = true;
-                System.out.println("Test" + dao.getAllUniversities());
-                // Αν ο χρήστης είχε πατήσει το "Countries" πριν φορτωθούν τα δεδομένα, το ανοίγουμε αυτόματα
-                if (pendingCountryView) {
-                    openCountryView();
-                    System.out.println("Test" + dao.getAllUniversities());
-                    pendingCountryView = false; // Μηδενίζουμε το flag
+            // Ενημερώνουμε το UI στο Event Dispatch Thread
+            SwingUtilities.invokeLater(() -> {
+                universities = new ArrayList<>(model.getUniversities());
+                if (!universities.isEmpty()) {
+                    dataLoaded = true;
+                    System.out.println("Test: " + dao.getAllUniversities());
+                    // Αν ο χρήστης είχε πατήσει το "Countries" πριν φορτωθούν τα δεδομένα
+                    if (pendingCountryView) {
+                        openCountryView();
+                        System.out.println("Test: " + dao.getAllUniversities());
+                        pendingCountryView = false;
+                    }
+                } else {
+                    System.out.println("❌ Δεν βρέθηκαν πανεπιστήμια!");
+                    dataLoaded = false;
                 }
-
-            } else {
-                System.out.println("❌ Δεν βρέθηκαν πανεπιστήμια!");
-                dataLoaded = false;  // Αν κάτι πάει λάθος ορίζουμε το flag σε true μόλις τα δεδομένα είναι έτοιμα
-            }
+            });
         }
     }
 

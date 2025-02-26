@@ -18,8 +18,6 @@ public class Repository {
 
     }
 
-;
-
 // Εδω μόλις τελειώσεις με τα test και είναι να βγάλουμε μπροστά στο επόμενο επίπεδο τα data βαλέ άλλη μεταβλητή String ως όρισμα στο function για να περναμε απο εξω το country
 public void getUniversities(final RepositoryCallback callback) {
     Call<List<University>> call = apiService.getUniversities(); // Μπορείς να προσθέσεις το country εδώ, αν θες
@@ -64,7 +62,7 @@ public void getUniversities(final RepositoryCallback callback) {
     private void saveToDb(List<University> universities) {
         new Thread(() -> {
             //database.universityDao().insertAll(universities); // Εδω παίξε μπάλα για την αποθήκευση στην βάση.
-            int insertedCount = 0;
+            //int insertedCount = 0;
             if(!universities.isEmpty()){
                 universities.forEach(dao::upsertUniversity);
             }else{

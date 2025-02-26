@@ -54,3 +54,59 @@ INFO: ℹ️ SQL_CREATE_UNIVERSITY_PATH = resources/sql/create_university.sql
 INFO: ℹ️ SQL_CREATE_UNIVERSITYVIEW_PATH = resources/sql/create_universityview.sql
 Φεβ 26, 2025 4:11:39 Μ.Μ. com.eapproject.DB.DBUtil loadProperties
 INFO: ℹ️ SQL_CREATE_INDEXES_PATH = resources/sql/create_indexes.sql
+Φεβ 26, 2025 8:08:12 Μ.Μ. com.eapproject.DB.DBUtil initializeLogger
+INFO: 📌 Έναρξη καταγραφής του Logger στο logs/DBUtil.log
+Φεβ 26, 2025 8:08:12 Μ.Μ. com.eapproject.DB.DBUtil loadProperties
+INFO: ℹ️ Φορτώθηκε το dbconfig.properties
+Φεβ 26, 2025 8:08:12 Μ.Μ. com.eapproject.DB.DBUtil loadProperties
+INFO: ℹ️ ️️DB_URL = jdbc:derby:UniDB;create=true
+Φεβ 26, 2025 8:08:12 Μ.Μ. com.eapproject.DB.DBUtil loadProperties
+INFO: ℹ️ SQL_CREATE_UNIVERSITY_PATH = resources/sql/create_university.sql
+Φεβ 26, 2025 8:08:12 Μ.Μ. com.eapproject.DB.DBUtil loadProperties
+INFO: ℹ️ SQL_CREATE_UNIVERSITYVIEW_PATH = resources/sql/create_universityview.sql
+Φεβ 26, 2025 8:08:12 Μ.Μ. com.eapproject.DB.DBUtil loadProperties
+INFO: ℹ️ SQL_CREATE_INDEXES_PATH = resources/sql/create_indexes.sql
+Φεβ 26, 2025 8:08:12 Μ.Μ. com.eapproject.DB.DBUtil resetDatabase
+WARNING: ⚠️ Διαγραφή και επαναδημιουργία της Βάσης Δεδομένων...
+Φεβ 26, 2025 8:08:12 Μ.Μ. com.eapproject.DB.DBUtil dropTables
+WARNING: 🗑️ Ο πίνακας UNIVERSITYVIEW διαγράφηκε.
+Φεβ 26, 2025 8:08:12 Μ.Μ. com.eapproject.DB.DBUtil dropTables
+WARNING: 🗑️ Ο πίνακας UNIVERSITY διαγράφηκε.
+Φεβ 26, 2025 8:08:12 Μ.Μ. com.eapproject.DB.DBUtil createTablesAndIndexes
+INFO: ✅ Ο πίνακας UNIVERSITY δημιουργήθηκε.
+Φεβ 26, 2025 8:08:12 Μ.Μ. com.eapproject.DB.DBUtil createTablesAndIndexes
+INFO: ✅ Ο πίνακας UNIVERSITYVIEW δημιουργήθηκε.
+Φεβ 26, 2025 8:08:12 Μ.Μ. com.eapproject.DB.DBUtil createIndexesFromFile
+INFO: ✅ Δημιουργήθηκε index: IDX_UNIVERSITY_NAME
+Φεβ 26, 2025 8:08:12 Μ.Μ. com.eapproject.DB.DBUtil createIndexesFromFile
+INFO: ✅ Δημιουργήθηκε index: IDX_UNIVERSITY_COUNTRY
+Φεβ 26, 2025 8:08:12 Μ.Μ. com.eapproject.DB.DBUtil createIndexesFromFile
+INFO: ✅ Δημιουργήθηκε index: IDX_UNIVERSITY_NAME_COUNTRY
+Φεβ 26, 2025 8:08:12 Μ.Μ. com.eapproject.DB.DBUtil resetDatabase
+INFO: 🔄 Η Βάση Δεδομένων διαγράφηκε και επαναδημιουργήθηκε!
+Φεβ 26, 2025 8:08:53 Μ.Μ. com.eapproject.DB.DBUtil shutdownDatabase
+INFO: ℹ️ Η Βάση Δεδομένων έκλεισε επιτυχώς.
+Φεβ 26, 2025 8:51:31 Μ.Μ. com.eapproject.DB.DBUtil initializeLogger
+INFO: 📌 Έναρξη καταγραφής του Logger στο logs/DBUtil.log
+Φεβ 26, 2025 8:51:31 Μ.Μ. com.eapproject.DB.DBUtil loadProperties
+INFO: ℹ️ Φορτώθηκε το dbconfig.properties
+Φεβ 26, 2025 8:51:31 Μ.Μ. com.eapproject.DB.DBUtil loadProperties
+INFO: ℹ️ ️️DB_URL = jdbc:derby:UniDB;create=true
+Φεβ 26, 2025 8:51:31 Μ.Μ. com.eapproject.DB.DBUtil loadProperties
+INFO: ℹ️ SQL_CREATE_UNIVERSITY_PATH = resources/sql/create_university.sql
+Φεβ 26, 2025 8:51:31 Μ.Μ. com.eapproject.DB.DBUtil loadProperties
+INFO: ℹ️ SQL_CREATE_UNIVERSITYVIEW_PATH = resources/sql/create_universityview.sql
+Φεβ 26, 2025 8:51:31 Μ.Μ. com.eapproject.DB.DBUtil loadProperties
+INFO: ℹ️ SQL_CREATE_INDEXES_PATH = resources/sql/create_indexes.sql
+Φεβ 26, 2025 8:56:05 Μ.Μ. com.eapproject.DB.DBUtil initializeLogger
+INFO: 📌 Έναρξη καταγραφής του Logger στο logs/DBUtil.log
+Φεβ 26, 2025 8:56:05 Μ.Μ. com.eapproject.DB.DBUtil loadProperties
+INFO: ℹ️ Φορτώθηκε το dbconfig.properties
+Φεβ 26, 2025 8:56:05 Μ.Μ. com.eapproject.DB.DBUtil loadProperties
+INFO: ℹ️ ️️DB_URL = jdbc:derby:UniDB;create=true
+Φεβ 26, 2025 8:56:05 Μ.Μ. com.eapproject.DB.DBUtil loadProperties
+INFO: ℹ️ SQL_CREATE_UNIVERSITY_PATH = resources/sql/create_university.sql
+Φεβ 26, 2025 8:56:05 Μ.Μ. com.eapproject.DB.DBUtil loadProperties
+INFO: ℹ️ SQL_CREATE_UNIVERSITYVIEW_PATH = resources/sql/create_universityview.sql
+Φεβ 26, 2025 8:56:05 Μ.Μ. com.eapproject.DB.DBUtil loadProperties
+INFO: ℹ️ SQL_CREATE_INDEXES_PATH = resources/sql/create_indexes.sql
