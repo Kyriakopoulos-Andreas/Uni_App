@@ -39,7 +39,6 @@ public class MainView extends JFrame implements Observer {
 
         viewModel = new UniversitiesViewModel();
         viewModel.addObserver(this);
-        // Η fetchUniversities καλείται μέσα στον constructor του ViewModel, άρα δεν κάνουμε επιπλέον κλήση
     }
 
     @Override
@@ -78,7 +77,6 @@ public class MainView extends JFrame implements Observer {
     }
 
     private void addOutlinedTextFieldEnterListener() {
-        // Χρήση lambda για απλούστερη σύνταξη
         outlinedTextField.addActionListener(evt -> onEnterPressed());
     }
 
@@ -459,7 +457,7 @@ public class MainView extends JFrame implements Observer {
     }
 
     private void OutLinedTextFieldActionPerformed(ActionEvent evt) {
-        // Μπορείτε να προσθέσετε επιπλέον λειτουργικότητα όταν πατιέται το enter στο πεδίο αναζήτησης.
+        // επιπλέον λειτουργικότητα όταν πατιέται το enter στο πεδίο αναζήτησης.
     }
 
     private void rightScreenPanelMouseDragged(MouseEvent evt) {
