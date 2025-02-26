@@ -1,11 +1,12 @@
 package com.eapproject.DataLayer;
 
+import java.util.List;
+
 import com.eapproject.CommonLayer.Source.RepositoryCallback;
+
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
-
-import java.util.List;
 
 public class Repository {
 

@@ -1,0 +1,76 @@
+Feb 16, 2025 11:00:39 PM plh24.uniapp.DBUtil initializeLogger
+INFO: 📌 Έναρξη καταγραφής του Logger στο logs/DBUtil.log
+Feb 16, 2025 11:34:08 PM com.eapproject.DataLayer.DBUtil initializeLogger
+INFO: 📌 Έναρξη καταγραφής του Logger στο logs/DBUtil.log
+Feb 16, 2025 11:36:12 PM com.eapproject.DataLayer.DBUtil initializeLogger
+INFO: 📌 Έναρξη καταγραφής του Logger στο logs/DBUtil.log
+Feb 16, 2025 11:39:04 PM com.eapproject.DataLayer.DBUtil initializeLogger
+INFO: 📌 Έναρξη καταγραφής του Logger στο logs/DBUtil.log
+Feb 16, 2025 11:39:42 PM com.eapproject.DataLayer.DBUtil initializeLogger
+INFO: 📌 Έναρξη καταγραφής του Logger στο logs/DBUtil.log
+Feb 16, 2025 11:42:27 PM com.eapproject.DataLayer.DBUtil initializeLogger
+INFO: 📌 Έναρξη καταγραφής του Logger στο logs/DBUtil.log
+Feb 16, 2025 11:48:50 PM com.eapproject.DataLayer.DBUtil initializeLogger
+INFO: 📌 Έναρξη καταγραφής του Logger στο logs/DBUtil.log
+Feb 16, 2025 11:48:50 PM com.eapproject.DataLayer.DBUtil initializeDatabase
+INFO: 🟢 Έλεγχος & δημιουργία της Βάσης Δεδομένων (αν δεν υπάρχει)...
+Feb 16, 2025 11:48:51 PM com.eapproject.DataLayer.DBUtil createTablesAndIndexes
+SEVERE: ❌ Αποτυχία φόρτωσης αρχείου .sql
+java.nio.file.NoSuchFileException: resources\sql\create_university.sql
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:234)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:379)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:431)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3273)
+	at com.eapproject.DataLayer.DBUtil.loadSQLFromFile(DBUtil.java:374)
+	at com.eapproject.DataLayer.DBUtil.createTablesAndIndexes(DBUtil.java:223)
+	at com.eapproject.DataLayer.DBUtil.initializeDatabase(DBUtil.java:147)
+	at com.eapproject.uni_app_project.Uni_App_Project.main(Uni_App_Project.java:24)
+
+Feb 16, 2025 11:48:51 PM com.eapproject.DataLayer.DBUtil initializeDatabase
+INFO: ✅ Η Βάση Δεδομένων δημιουργήθηκε επιτυχώς!
+Feb 16, 2025 11:50:42 PM com.eapproject.DataLayer.DBUtil initializeLogger
+INFO: 📌 Έναρξη καταγραφής του Logger στο logs/DBUtil.log
+Feb 16, 2025 11:50:42 PM com.eapproject.DataLayer.DBUtil initializeDatabase
+INFO: 🟢 Έλεγχος & δημιουργία της Βάσης Δεδομένων (αν δεν υπάρχει)...
+Feb 16, 2025 11:50:44 PM com.eapproject.DataLayer.DBUtil createTablesAndIndexes
+SEVERE: ❌ Αποτυχία φόρτωσης αρχείου .sql
+java.nio.file.NoSuchFileException: resources\sql\create_university.sql
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:234)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:379)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:431)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3273)
+	at com.eapproject.DataLayer.DBUtil.loadSQLFromFile(DBUtil.java:374)
+	at com.eapproject.DataLayer.DBUtil.createTablesAndIndexes(DBUtil.java:223)
+	at com.eapproject.DataLayer.DBUtil.initializeDatabase(DBUtil.java:147)
+	at com.eapproject.uni_app_project.Uni_App_Project.main(Uni_App_Project.java:24)
+
+Feb 16, 2025 11:50:44 PM com.eapproject.DataLayer.DBUtil initializeDatabase
+INFO: ✅ Η Βάση Δεδομένων δημιουργήθηκε επιτυχώς!
+Feb 16, 2025 11:56:41 PM com.eapproject.DataLayer.DBUtil initializeLogger
+INFO: 📌 Έναρξη καταγραφής του Logger στο logs/DBUtil.log
+Feb 16, 2025 11:56:41 PM com.eapproject.DataLayer.DBUtil initializeDatabase
+INFO: 🟢 Έλεγχος & δημιουργία της Βάσης Δεδομένων (αν δεν υπάρχει)...
+Feb 16, 2025 11:56:43 PM com.eapproject.DataLayer.DBUtil createTablesAndIndexes
+INFO: ✅ Ο πίνακας UNIVERSITY δημιουργήθηκε.
+Feb 16, 2025 11:56:43 PM com.eapproject.DataLayer.DBUtil createTablesAndIndexes
+INFO: ✅ Ο πίνακας UNIVERSITYVIEW δημιουργήθηκε.
+Feb 16, 2025 11:56:43 PM com.eapproject.DataLayer.DBUtil createIndexesFromFile
+INFO: ✅ Δημιουργήθηκε index: IDX_UNIVERSITY_NAME
+Feb 16, 2025 11:56:43 PM com.eapproject.DataLayer.DBUtil createIndexesFromFile
+INFO: ✅ Δημιουργήθηκε index: IDX_UNIVERSITY_COUNTRY
+Feb 16, 2025 11:56:43 PM com.eapproject.DataLayer.DBUtil createIndexesFromFile
+INFO: ✅ Δημιουργήθηκε index: IDX_UNIVERSITY_NAME_COUNTRY
+Feb 16, 2025 11:56:43 PM com.eapproject.DataLayer.DBUtil initializeDatabase
+INFO: ✅ Η Βάση Δεδομένων δημιουργήθηκε επιτυχώς!
+Feb 17, 2025 12:03:14 AM com.eapproject.DataLayer.DBUtil initializeLogger
+INFO: 📌 Έναρξη καταγραφής του Logger στο logs/DBUtil.log
+Feb 17, 2025 12:03:14 AM com.eapproject.DataLayer.DBUtil initializeDatabase
+INFO: 🟢 Έλεγχος & δημιουργία της Βάσης Δεδομένων (αν δεν υπάρχει)...
+Feb 17, 2025 12:03:15 AM com.eapproject.DataLayer.DBUtil initializeDatabase
+INFO: ℹ️ Η Βάση Δεδομένων υπάρχει ήδη.

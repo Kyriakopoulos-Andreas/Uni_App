@@ -8,19 +8,28 @@ package com.eapproject.PresentationLayer.UniversityView;
  *
  * @author kamoz
  */
-import javax.swing.*;
-import java.awt.*;
-import javax.swing.*;
-import javax.swing.event.DocumentEvent;
-import javax.swing.event.DocumentListener;
-import java.awt.*;
+import java.awt.BorderLayout;
+import java.awt.CardLayout;
+import java.awt.Color;
+import java.awt.Component;
+import java.awt.Font;
 import java.awt.event.ActionEvent;
+
+import javax.swing.BorderFactory;
+import javax.swing.GroupLayout;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+import javax.swing.JScrollPane;
+import javax.swing.JTextArea;
+
+import com.eapproject.DataLayer.universitiesRepo;
 
 public class UniversityView extends javax.swing.JPanel {
     private String universityLogo;
     private int spaceY = 40;
     private int spaceYBeforeBottomDivider = 30;
     private int spaceYifFaculties = 40;
+    private universitiesRepo repo = new  universitiesRepo();
 
 
     public UniversityView(String university) {

@@ -1,0 +1,352 @@
+Feb 16, 2025 10:37:01 PM plh24.uniapp.DBUtil initializeLogger
+INFO: 📌 Έναρξη καταγραφής του Logger στο logs/DBUtil.log
+Feb 16, 2025 10:38:41 PM plh24.uniapp.DBUtil initializeLogger
+INFO: 📌 Έναρξη καταγραφής του Logger στο logs/DBUtil.log
+Feb 17, 2025 12:05:19 AM com.eapproject.DataLayer.DBUtil initializeLogger
+INFO: 📌 Έναρξη καταγραφής του Logger στο logs/DBUtil.log
+Feb 17, 2025 12:05:19 AM com.eapproject.DataLayer.DBUtil initializeDatabase
+INFO: 🟢 Έλεγχος & δημιουργία της Βάσης Δεδομένων (αν δεν υπάρχει)...
+Feb 17, 2025 12:05:21 AM com.eapproject.DataLayer.DBUtil initializeDatabase
+INFO: ℹ️ Η Βάση Δεδομένων υπάρχει ήδη.
+Feb 17, 2025 12:09:05 AM com.eapproject.DataLayer.DBUtil initializeLogger
+INFO: 📌 Έναρξη καταγραφής του Logger στο logs/DBUtil.log
+Feb 17, 2025 12:09:05 AM com.eapproject.DataLayer.DBUtil initializeDatabase
+INFO: 🟢 Έλεγχος & δημιουργία της Βάσης Δεδομένων (αν δεν υπάρχει)...
+Feb 17, 2025 12:09:07 AM com.eapproject.DataLayer.DBUtil initializeDatabase
+INFO: ℹ️ Η Βάση Δεδομένων υπάρχει ήδη.
+Feb 17, 2025 12:11:20 AM com.eapproject.DataLayer.DBUtil initializeLogger
+INFO: 📌 Έναρξη καταγραφής του Logger στο logs/DBUtil.log
+Feb 17, 2025 12:11:20 AM com.eapproject.DataLayer.DBUtil initializeDatabase
+INFO: 🟢 Έλεγχος & δημιουργία της Βάσης Δεδομένων (αν δεν υπάρχει)...
+Feb 17, 2025 12:11:21 AM com.eapproject.DataLayer.DBUtil initializeDatabase
+INFO: ℹ️ Η Βάση Δεδομένων υπάρχει ήδη.
+Feb 17, 2025 12:11:22 AM com.eapproject.DataLayer.DBUtil resetDatabase
+WARNING: ⚠️ Διαγραφή και επαναδημιουργία της Βάσης Δεδομένων...
+Feb 17, 2025 12:11:22 AM com.eapproject.DataLayer.DBUtil dropTables
+WARNING: 🗑️ Ο πίνακας UNIVERSITYVIEW διαγράφηκε.
+Feb 17, 2025 12:11:22 AM com.eapproject.DataLayer.DBUtil dropTables
+WARNING: 🗑️ Ο πίνακας UNIVERSITY διαγράφηκε.
+Feb 17, 2025 12:11:23 AM com.eapproject.DataLayer.DBUtil createTablesAndIndexes
+INFO: ✅ Ο πίνακας UNIVERSITY δημιουργήθηκε.
+Feb 17, 2025 12:11:23 AM com.eapproject.DataLayer.DBUtil createTablesAndIndexes
+INFO: ✅ Ο πίνακας UNIVERSITYVIEW δημιουργήθηκε.
+Feb 17, 2025 12:11:23 AM com.eapproject.DataLayer.DBUtil createIndexesFromFile
+INFO: ✅ Δημιουργήθηκε index: IDX_UNIVERSITY_NAME
+Feb 17, 2025 12:11:23 AM com.eapproject.DataLayer.DBUtil createIndexesFromFile
+INFO: ✅ Δημιουργήθηκε index: IDX_UNIVERSITY_COUNTRY
+Feb 17, 2025 12:11:23 AM com.eapproject.DataLayer.DBUtil createIndexesFromFile
+INFO: ✅ Δημιουργήθηκε index: IDX_UNIVERSITY_NAME_COUNTRY
+Feb 17, 2025 12:11:23 AM com.eapproject.DataLayer.DBUtil resetDatabase
+INFO: 🔄 Η Βάση Δεδομένων διαγράφηκε και επαναδημιουργήθηκε!
+Feb 17, 2025 12:13:14 AM com.eapproject.DataLayer.DBUtil initializeLogger
+INFO: 📌 Έναρξη καταγραφής του Logger στο logs/DBUtil.log
+Feb 17, 2025 12:13:14 AM com.eapproject.DataLayer.DBUtil initializeDatabase
+INFO: 🟢 Έλεγχος & δημιουργία της Βάσης Δεδομένων (αν δεν υπάρχει)...
+Feb 17, 2025 12:13:15 AM com.eapproject.DataLayer.DBUtil initializeDatabase
+INFO: ℹ️ Η Βάση Δεδομένων υπάρχει ήδη.
+Feb 17, 2025 12:13:16 AM com.eapproject.DataLayer.DBUtil resetDatabase
+WARNING: ⚠️ Διαγραφή και επαναδημιουργία της Βάσης Δεδομένων...
+Feb 17, 2025 12:13:16 AM com.eapproject.DataLayer.DBUtil dropTables
+WARNING: 🗑️ Ο πίνακας UNIVERSITYVIEW διαγράφηκε.
+Feb 17, 2025 12:13:16 AM com.eapproject.DataLayer.DBUtil dropTables
+WARNING: 🗑️ Ο πίνακας UNIVERSITY διαγράφηκε.
+Feb 17, 2025 12:13:16 AM com.eapproject.DataLayer.DBUtil createTablesAndIndexes
+INFO: ✅ Ο πίνακας UNIVERSITY δημιουργήθηκε.
+Feb 17, 2025 12:13:16 AM com.eapproject.DataLayer.DBUtil createTablesAndIndexes
+INFO: ✅ Ο πίνακας UNIVERSITYVIEW δημιουργήθηκε.
+Feb 17, 2025 12:13:16 AM com.eapproject.DataLayer.DBUtil createIndexesFromFile
+INFO: ✅ Δημιουργήθηκε index: IDX_UNIVERSITY_NAME
+Feb 17, 2025 12:13:16 AM com.eapproject.DataLayer.DBUtil createIndexesFromFile
+INFO: ✅ Δημιουργήθηκε index: IDX_UNIVERSITY_COUNTRY
+Feb 17, 2025 12:13:16 AM com.eapproject.DataLayer.DBUtil createIndexesFromFile
+INFO: ✅ Δημιουργήθηκε index: IDX_UNIVERSITY_NAME_COUNTRY
+Feb 17, 2025 12:13:16 AM com.eapproject.DataLayer.DBUtil resetDatabase
+INFO: 🔄 Η Βάση Δεδομένων διαγράφηκε και επαναδημιουργήθηκε!
+Feb 17, 2025 12:23:52 AM com.eapproject.DataLayer.DBUtil initializeLogger
+INFO: 📌 Έναρξη καταγραφής του Logger στο logs/DBUtil.log
+Feb 17, 2025 12:23:52 AM com.eapproject.DataLayer.DBUtil initializeDatabase
+INFO: 🟢 Έλεγχος & δημιουργία της Βάσης Δεδομένων (αν δεν υπάρχει)...
+Feb 17, 2025 12:23:54 AM com.eapproject.DataLayer.DBUtil initializeDatabase
+INFO: ℹ️ Η Βάση Δεδομένων υπάρχει ήδη.
+Feb 17, 2025 12:23:55 AM com.eapproject.DataLayer.DBUtil resetDatabase
+WARNING: ⚠️ Διαγραφή και επαναδημιουργία της Βάσης Δεδομένων...
+Feb 17, 2025 12:23:55 AM com.eapproject.DataLayer.DBUtil dropTables
+WARNING: 🗑️ Ο πίνακας UNIVERSITYVIEW διαγράφηκε.
+Feb 17, 2025 12:23:55 AM com.eapproject.DataLayer.DBUtil dropTables
+WARNING: 🗑️ Ο πίνακας UNIVERSITY διαγράφηκε.
+Feb 17, 2025 12:23:55 AM com.eapproject.DataLayer.DBUtil createTablesAndIndexes
+INFO: ✅ Ο πίνακας UNIVERSITY δημιουργήθηκε.
+Feb 17, 2025 12:23:55 AM com.eapproject.DataLayer.DBUtil createTablesAndIndexes
+INFO: ✅ Ο πίνακας UNIVERSITYVIEW δημιουργήθηκε.
+Feb 17, 2025 12:23:55 AM com.eapproject.DataLayer.DBUtil createIndexesFromFile
+INFO: ✅ Δημιουργήθηκε index: IDX_UNIVERSITY_NAME
+Feb 17, 2025 12:23:55 AM com.eapproject.DataLayer.DBUtil createIndexesFromFile
+INFO: ✅ Δημιουργήθηκε index: IDX_UNIVERSITY_COUNTRY
+Feb 17, 2025 12:23:55 AM com.eapproject.DataLayer.DBUtil createIndexesFromFile
+INFO: ✅ Δημιουργήθηκε index: IDX_UNIVERSITY_NAME_COUNTRY
+Feb 17, 2025 12:23:55 AM com.eapproject.DataLayer.DBUtil resetDatabase
+INFO: 🔄 Η Βάση Δεδομένων διαγράφηκε και επαναδημιουργήθηκε!
+Feb 17, 2025 12:26:07 AM com.eapproject.DataLayer.DBUtil initializeLogger
+INFO: 📌 Έναρξη καταγραφής του Logger στο logs/DBUtil.log
+Feb 17, 2025 12:26:07 AM com.eapproject.DataLayer.DBUtil initializeDatabase
+INFO: 🟢 Έλεγχος & δημιουργία της Βάσης Δεδομένων (αν δεν υπάρχει)...
+Feb 17, 2025 12:26:08 AM com.eapproject.DataLayer.DBUtil initializeDatabase
+INFO: ℹ️ Η Βάση Δεδομένων υπάρχει ήδη.
+Feb 17, 2025 12:26:09 AM com.eapproject.DataLayer.DBUtil resetDatabase
+WARNING: ⚠️ Διαγραφή και επαναδημιουργία της Βάσης Δεδομένων...
+Feb 17, 2025 12:26:09 AM com.eapproject.DataLayer.DBUtil dropTables
+WARNING: 🗑️ Ο πίνακας UNIVERSITYVIEW διαγράφηκε.
+Feb 17, 2025 12:26:09 AM com.eapproject.DataLayer.DBUtil dropTables
+WARNING: 🗑️ Ο πίνακας UNIVERSITY διαγράφηκε.
+Feb 17, 2025 12:26:09 AM com.eapproject.DataLayer.DBUtil createTablesAndIndexes
+INFO: ✅ Ο πίνακας UNIVERSITY δημιουργήθηκε.
+Feb 17, 2025 12:26:09 AM com.eapproject.DataLayer.DBUtil createTablesAndIndexes
+INFO: ✅ Ο πίνακας UNIVERSITYVIEW δημιουργήθηκε.
+Feb 17, 2025 12:26:10 AM com.eapproject.DataLayer.DBUtil createIndexesFromFile
+INFO: ✅ Δημιουργήθηκε index: IDX_UNIVERSITY_NAME
+Feb 17, 2025 12:26:10 AM com.eapproject.DataLayer.DBUtil createIndexesFromFile
+INFO: ✅ Δημιουργήθηκε index: IDX_UNIVERSITY_COUNTRY
+Feb 17, 2025 12:26:10 AM com.eapproject.DataLayer.DBUtil createIndexesFromFile
+INFO: ✅ Δημιουργήθηκε index: IDX_UNIVERSITY_NAME_COUNTRY
+Feb 17, 2025 12:26:10 AM com.eapproject.DataLayer.DBUtil resetDatabase
+INFO: 🔄 Η Βάση Δεδομένων διαγράφηκε και επαναδημιουργήθηκε!
+Feb 17, 2025 12:28:33 AM com.eapproject.DataLayer.DBUtil initializeLogger
+INFO: 📌 Έναρξη καταγραφής του Logger στο logs/DBUtil.log
+Feb 17, 2025 12:28:33 AM com.eapproject.DataLayer.DBUtil initializeDatabase
+INFO: 🟢 Έλεγχος & δημιουργία της Βάσης Δεδομένων (αν δεν υπάρχει)...
+Feb 17, 2025 12:28:35 AM com.eapproject.DataLayer.DBUtil initializeDatabase
+INFO: ℹ️ Η Βάση Δεδομένων υπάρχει ήδη.
+Feb 17, 2025 12:28:36 AM com.eapproject.DataLayer.DBUtil resetDatabase
+WARNING: ⚠️ Διαγραφή και επαναδημιουργία της Βάσης Δεδομένων...
+Feb 17, 2025 12:28:36 AM com.eapproject.DataLayer.DBUtil dropTables
+WARNING: 🗑️ Ο πίνακας UNIVERSITYVIEW διαγράφηκε.
+Feb 17, 2025 12:28:36 AM com.eapproject.DataLayer.DBUtil dropTables
+WARNING: 🗑️ Ο πίνακας UNIVERSITY διαγράφηκε.
+Feb 17, 2025 12:28:36 AM com.eapproject.DataLayer.DBUtil createTablesAndIndexes
+INFO: ✅ Ο πίνακας UNIVERSITY δημιουργήθηκε.
+Feb 17, 2025 12:28:36 AM com.eapproject.DataLayer.DBUtil createTablesAndIndexes
+INFO: ✅ Ο πίνακας UNIVERSITYVIEW δημιουργήθηκε.
+Feb 17, 2025 12:28:36 AM com.eapproject.DataLayer.DBUtil createIndexesFromFile
+INFO: ✅ Δημιουργήθηκε index: IDX_UNIVERSITY_NAME
+Feb 17, 2025 12:28:36 AM com.eapproject.DataLayer.DBUtil createIndexesFromFile
+INFO: ✅ Δημιουργήθηκε index: IDX_UNIVERSITY_COUNTRY
+Feb 17, 2025 12:28:36 AM com.eapproject.DataLayer.DBUtil createIndexesFromFile
+INFO: ✅ Δημιουργήθηκε index: IDX_UNIVERSITY_NAME_COUNTRY
+Feb 17, 2025 12:28:36 AM com.eapproject.DataLayer.DBUtil resetDatabase
+INFO: 🔄 Η Βάση Δεδομένων διαγράφηκε και επαναδημιουργήθηκε!
+Feb 17, 2025 9:53:50 PM com.eapproject.DataLayer.DBUtil initializeLogger
+INFO: 📌 Έναρξη καταγραφής του Logger στο logs/DBUtil.log
+Feb 17, 2025 9:53:50 PM com.eapproject.DataLayer.DBUtil initializeDatabase
+INFO: 🟢 Έλεγχος & δημιουργία της Βάσης Δεδομένων (αν δεν υπάρχει)...
+Feb 17, 2025 9:53:52 PM com.eapproject.DataLayer.DBUtil initializeDatabase
+INFO: ℹ️ Η Βάση Δεδομένων υπάρχει ήδη.
+Feb 17, 2025 9:53:53 PM com.eapproject.DataLayer.DBUtil resetDatabase
+WARNING: ⚠️ Διαγραφή και επαναδημιουργία της Βάσης Δεδομένων...
+Feb 17, 2025 9:53:53 PM com.eapproject.DataLayer.DBUtil dropTables
+WARNING: 🗑️ Ο πίνακας UNIVERSITYVIEW διαγράφηκε.
+Feb 17, 2025 9:53:53 PM com.eapproject.DataLayer.DBUtil dropTables
+WARNING: 🗑️ Ο πίνακας UNIVERSITY διαγράφηκε.
+Feb 17, 2025 9:53:53 PM com.eapproject.DataLayer.DBUtil createTablesAndIndexes
+INFO: ✅ Ο πίνακας UNIVERSITY δημιουργήθηκε.
+Feb 17, 2025 9:53:53 PM com.eapproject.DataLayer.DBUtil createTablesAndIndexes
+INFO: ✅ Ο πίνακας UNIVERSITYVIEW δημιουργήθηκε.
+Feb 17, 2025 9:53:53 PM com.eapproject.DataLayer.DBUtil createIndexesFromFile
+INFO: ✅ Δημιουργήθηκε index: IDX_UNIVERSITY_NAME
+Feb 17, 2025 9:53:54 PM com.eapproject.DataLayer.DBUtil createIndexesFromFile
+INFO: ✅ Δημιουργήθηκε index: IDX_UNIVERSITY_COUNTRY
+Feb 17, 2025 9:53:54 PM com.eapproject.DataLayer.DBUtil createIndexesFromFile
+INFO: ✅ Δημιουργήθηκε index: IDX_UNIVERSITY_NAME_COUNTRY
+Feb 17, 2025 9:53:54 PM com.eapproject.DataLayer.DBUtil resetDatabase
+INFO: 🔄 Η Βάση Δεδομένων διαγράφηκε και επαναδημιουργήθηκε!
+Feb 17, 2025 9:58:38 PM com.eapproject.DataLayer.DBUtil initializeLogger
+INFO: 📌 Έναρξη καταγραφής του Logger στο logs/DBUtil.log
+Feb 17, 2025 9:58:38 PM com.eapproject.DataLayer.DBUtil initializeDatabase
+INFO: 🟢 Έλεγχος & δημιουργία της Βάσης Δεδομένων (αν δεν υπάρχει)...
+Feb 17, 2025 9:58:39 PM com.eapproject.DataLayer.DBUtil initializeDatabase
+INFO: ℹ️ Η Βάση Δεδομένων υπάρχει ήδη.
+Feb 17, 2025 9:58:40 PM com.eapproject.DataLayer.DBUtil resetDatabase
+WARNING: ⚠️ Διαγραφή και επαναδημιουργία της Βάσης Δεδομένων...
+Feb 17, 2025 9:58:40 PM com.eapproject.DataLayer.DBUtil dropTables
+WARNING: 🗑️ Ο πίνακας UNIVERSITYVIEW διαγράφηκε.
+Feb 17, 2025 9:58:40 PM com.eapproject.DataLayer.DBUtil dropTables
+WARNING: 🗑️ Ο πίνακας UNIVERSITY διαγράφηκε.
+Feb 17, 2025 9:58:40 PM com.eapproject.DataLayer.DBUtil createTablesAndIndexes
+INFO: ✅ Ο πίνακας UNIVERSITY δημιουργήθηκε.
+Feb 17, 2025 9:58:40 PM com.eapproject.DataLayer.DBUtil createTablesAndIndexes
+INFO: ✅ Ο πίνακας UNIVERSITYVIEW δημιουργήθηκε.
+Feb 17, 2025 9:58:41 PM com.eapproject.DataLayer.DBUtil createIndexesFromFile
+INFO: ✅ Δημιουργήθηκε index: IDX_UNIVERSITY_NAME
+Feb 17, 2025 9:58:41 PM com.eapproject.DataLayer.DBUtil createIndexesFromFile
+INFO: ✅ Δημιουργήθηκε index: IDX_UNIVERSITY_COUNTRY
+Feb 17, 2025 9:58:41 PM com.eapproject.DataLayer.DBUtil createIndexesFromFile
+INFO: ✅ Δημιουργήθηκε index: IDX_UNIVERSITY_NAME_COUNTRY
+Feb 17, 2025 9:58:41 PM com.eapproject.DataLayer.DBUtil resetDatabase
+INFO: 🔄 Η Βάση Δεδομένων διαγράφηκε και επαναδημιουργήθηκε!
+Feb 17, 2025 9:59:54 PM com.eapproject.DataLayer.DBUtil initializeLogger
+INFO: 📌 Έναρξη καταγραφής του Logger στο logs/DBUtil.log
+Feb 17, 2025 9:59:54 PM com.eapproject.DataLayer.DBUtil initializeDatabase
+INFO: 🟢 Έλεγχος & δημιουργία της Βάσης Δεδομένων (αν δεν υπάρχει)...
+Feb 17, 2025 9:59:55 PM com.eapproject.DataLayer.DBUtil initializeDatabase
+INFO: ℹ️ Η Βάση Δεδομένων υπάρχει ήδη.
+Feb 17, 2025 10:00:18 PM com.eapproject.DataLayer.DBUtil initializeLogger
+INFO: 📌 Έναρξη καταγραφής του Logger στο logs/DBUtil.log
+Feb 17, 2025 10:00:18 PM com.eapproject.DataLayer.DBUtil initializeDatabase
+INFO: 🟢 Έλεγχος & δημιουργία της Βάσης Δεδομένων (αν δεν υπάρχει)...
+Feb 17, 2025 10:00:19 PM com.eapproject.DataLayer.DBUtil initializeDatabase
+INFO: ℹ️ Η Βάση Δεδομένων υπάρχει ήδη.
+Feb 17, 2025 10:01:06 PM com.eapproject.DataLayer.DBUtil initializeLogger
+INFO: 📌 Έναρξη καταγραφής του Logger στο logs/DBUtil.log
+Feb 17, 2025 10:01:06 PM com.eapproject.DataLayer.DBUtil initializeDatabase
+INFO: 🟢 Έλεγχος & δημιουργία της Βάσης Δεδομένων (αν δεν υπάρχει)...
+Feb 17, 2025 10:01:07 PM com.eapproject.DataLayer.DBUtil initializeDatabase
+INFO: ℹ️ Η Βάση Δεδομένων υπάρχει ήδη.
+Feb 17, 2025 10:03:59 PM com.eapproject.DataLayer.DBUtil initializeLogger
+INFO: 📌 Έναρξη καταγραφής του Logger στο logs/DBUtil.log
+Feb 17, 2025 10:03:59 PM com.eapproject.DataLayer.DBUtil initializeDatabase
+INFO: 🟢 Έλεγχος & δημιουργία της Βάσης Δεδομένων (αν δεν υπάρχει)...
+Feb 17, 2025 10:04:00 PM com.eapproject.DataLayer.DBUtil initializeDatabase
+INFO: ℹ️ Η Βάση Δεδομένων υπάρχει ήδη.
+Feb 17, 2025 10:11:30 PM com.eapproject.DataLayer.DBUtil initializeLogger
+INFO: 📌 Έναρξη καταγραφής του Logger στο logs/DBUtil.log
+Feb 17, 2025 10:11:30 PM com.eapproject.DataLayer.DBUtil initializeDatabase
+INFO: 🟢 Έλεγχος & δημιουργία της Βάσης Δεδομένων (αν δεν υπάρχει)...
+Feb 17, 2025 10:11:31 PM com.eapproject.DataLayer.DBUtil initializeDatabase
+INFO: ℹ️ Η Βάση Δεδομένων υπάρχει ήδη.
+Feb 17, 2025 10:17:07 PM com.eapproject.DataLayer.DBUtil initializeLogger
+INFO: 📌 Έναρξη καταγραφής του Logger στο logs/DBUtil.log
+Feb 17, 2025 10:17:07 PM com.eapproject.DataLayer.DBUtil initializeDatabase
+INFO: 🟢 Έλεγχος & δημιουργία της Βάσης Δεδομένων (αν δεν υπάρχει)...
+Feb 17, 2025 10:17:08 PM com.eapproject.DataLayer.DBUtil initializeDatabase
+INFO: ℹ️ Η Βάση Δεδομένων υπάρχει ήδη.
+Feb 17, 2025 10:17:24 PM com.eapproject.DataLayer.DBUtil initializeLogger
+INFO: 📌 Έναρξη καταγραφής του Logger στο logs/DBUtil.log
+Feb 17, 2025 10:17:24 PM com.eapproject.DataLayer.DBUtil initializeDatabase
+INFO: 🟢 Έλεγχος & δημιουργία της Βάσης Δεδομένων (αν δεν υπάρχει)...
+Feb 17, 2025 10:17:25 PM com.eapproject.DataLayer.DBUtil initializeDatabase
+INFO: ℹ️ Η Βάση Δεδομένων υπάρχει ήδη.
+Feb 17, 2025 10:18:31 PM com.eapproject.DataLayer.DBUtil initializeLogger
+INFO: 📌 Έναρξη καταγραφής του Logger στο logs/DBUtil.log
+Feb 17, 2025 10:18:31 PM com.eapproject.DataLayer.DBUtil initializeDatabase
+INFO: 🟢 Έλεγχος & δημιουργία της Βάσης Δεδομένων (αν δεν υπάρχει)...
+Feb 17, 2025 10:18:32 PM com.eapproject.DataLayer.DBUtil initializeDatabase
+INFO: ℹ️ Η Βάση Δεδομένων υπάρχει ήδη.
+Feb 17, 2025 10:18:33 PM com.eapproject.DataLayer.DBUtil resetDatabase
+WARNING: ⚠️ Διαγραφή και επαναδημιουργία της Βάσης Δεδομένων...
+Feb 17, 2025 10:18:33 PM com.eapproject.DataLayer.DBUtil dropTables
+WARNING: 🗑️ Ο πίνακας UNIVERSITYVIEW διαγράφηκε.
+Feb 17, 2025 10:18:33 PM com.eapproject.DataLayer.DBUtil dropTables
+WARNING: 🗑️ Ο πίνακας UNIVERSITY διαγράφηκε.
+Feb 17, 2025 10:18:33 PM com.eapproject.DataLayer.DBUtil createTablesAndIndexes
+INFO: ✅ Ο πίνακας UNIVERSITY δημιουργήθηκε.
+Feb 17, 2025 10:18:33 PM com.eapproject.DataLayer.DBUtil createTablesAndIndexes
+INFO: ✅ Ο πίνακας UNIVERSITYVIEW δημιουργήθηκε.
+Feb 17, 2025 10:18:33 PM com.eapproject.DataLayer.DBUtil createIndexesFromFile
+INFO: ✅ Δημιουργήθηκε index: IDX_UNIVERSITY_NAME
+Feb 17, 2025 10:18:33 PM com.eapproject.DataLayer.DBUtil createIndexesFromFile
+INFO: ✅ Δημιουργήθηκε index: IDX_UNIVERSITY_COUNTRY
+Feb 17, 2025 10:18:33 PM com.eapproject.DataLayer.DBUtil createIndexesFromFile
+INFO: ✅ Δημιουργήθηκε index: IDX_UNIVERSITY_NAME_COUNTRY
+Feb 17, 2025 10:18:33 PM com.eapproject.DataLayer.DBUtil resetDatabase
+INFO: 🔄 Η Βάση Δεδομένων διαγράφηκε και επαναδημιουργήθηκε!
+Feb 17, 2025 10:19:41 PM com.eapproject.DataLayer.DBUtil initializeLogger
+INFO: 📌 Έναρξη καταγραφής του Logger στο logs/DBUtil.log
+Feb 17, 2025 10:19:41 PM com.eapproject.DataLayer.DBUtil initializeDatabase
+INFO: 🟢 Έλεγχος & δημιουργία της Βάσης Δεδομένων (αν δεν υπάρχει)...
+Feb 17, 2025 10:19:42 PM com.eapproject.DataLayer.DBUtil initializeDatabase
+INFO: ℹ️ Η Βάση Δεδομένων υπάρχει ήδη.
+Feb 17, 2025 10:19:43 PM com.eapproject.DataLayer.DBUtil resetDatabase
+WARNING: ⚠️ Διαγραφή και επαναδημιουργία της Βάσης Δεδομένων...
+Feb 17, 2025 10:19:43 PM com.eapproject.DataLayer.DBUtil dropTables
+WARNING: 🗑️ Ο πίνακας UNIVERSITYVIEW διαγράφηκε.
+Feb 17, 2025 10:19:43 PM com.eapproject.DataLayer.DBUtil dropTables
+WARNING: 🗑️ Ο πίνακας UNIVERSITY διαγράφηκε.
+Feb 17, 2025 10:19:43 PM com.eapproject.DataLayer.DBUtil createTablesAndIndexes
+INFO: ✅ Ο πίνακας UNIVERSITY δημιουργήθηκε.
+Feb 17, 2025 10:19:43 PM com.eapproject.DataLayer.DBUtil createTablesAndIndexes
+INFO: ✅ Ο πίνακας UNIVERSITYVIEW δημιουργήθηκε.
+Feb 17, 2025 10:19:43 PM com.eapproject.DataLayer.DBUtil createIndexesFromFile
+INFO: ✅ Δημιουργήθηκε index: IDX_UNIVERSITY_NAME
+Feb 17, 2025 10:19:44 PM com.eapproject.DataLayer.DBUtil createIndexesFromFile
+INFO: ✅ Δημιουργήθηκε index: IDX_UNIVERSITY_COUNTRY
+Feb 17, 2025 10:19:44 PM com.eapproject.DataLayer.DBUtil createIndexesFromFile
+INFO: ✅ Δημιουργήθηκε index: IDX_UNIVERSITY_NAME_COUNTRY
+Feb 17, 2025 10:19:44 PM com.eapproject.DataLayer.DBUtil resetDatabase
+INFO: 🔄 Η Βάση Δεδομένων διαγράφηκε και επαναδημιουργήθηκε!
+Feb 17, 2025 10:20:07 PM com.eapproject.DataLayer.DBUtil initializeLogger
+INFO: 📌 Έναρξη καταγραφής του Logger στο logs/DBUtil.log
+Feb 17, 2025 10:20:07 PM com.eapproject.DataLayer.DBUtil initializeDatabase
+INFO: 🟢 Έλεγχος & δημιουργία της Βάσης Δεδομένων (αν δεν υπάρχει)...
+Feb 17, 2025 10:20:08 PM com.eapproject.DataLayer.DBUtil initializeDatabase
+INFO: ℹ️ Η Βάση Δεδομένων υπάρχει ήδη.
+Feb 17, 2025 10:20:09 PM com.eapproject.DataLayer.DBUtil resetDatabase
+WARNING: ⚠️ Διαγραφή και επαναδημιουργία της Βάσης Δεδομένων...
+Feb 17, 2025 10:20:09 PM com.eapproject.DataLayer.DBUtil dropTables
+WARNING: 🗑️ Ο πίνακας UNIVERSITYVIEW διαγράφηκε.
+Feb 17, 2025 10:20:09 PM com.eapproject.DataLayer.DBUtil dropTables
+WARNING: 🗑️ Ο πίνακας UNIVERSITY διαγράφηκε.
+Feb 17, 2025 10:20:10 PM com.eapproject.DataLayer.DBUtil createTablesAndIndexes
+INFO: ✅ Ο πίνακας UNIVERSITY δημιουργήθηκε.
+Feb 17, 2025 10:20:10 PM com.eapproject.DataLayer.DBUtil createTablesAndIndexes
+INFO: ✅ Ο πίνακας UNIVERSITYVIEW δημιουργήθηκε.
+Feb 17, 2025 10:20:10 PM com.eapproject.DataLayer.DBUtil createIndexesFromFile
+INFO: ✅ Δημιουργήθηκε index: IDX_UNIVERSITY_NAME
+Feb 17, 2025 10:20:10 PM com.eapproject.DataLayer.DBUtil createIndexesFromFile
+INFO: ✅ Δημιουργήθηκε index: IDX_UNIVERSITY_COUNTRY
+Feb 17, 2025 10:20:10 PM com.eapproject.DataLayer.DBUtil createIndexesFromFile
+INFO: ✅ Δημιουργήθηκε index: IDX_UNIVERSITY_NAME_COUNTRY
+Feb 17, 2025 10:20:10 PM com.eapproject.DataLayer.DBUtil resetDatabase
+INFO: 🔄 Η Βάση Δεδομένων διαγράφηκε και επαναδημιουργήθηκε!
+Feb 17, 2025 10:20:18 PM com.eapproject.DataLayer.DBUtil initializeLogger
+INFO: 📌 Έναρξη καταγραφής του Logger στο logs/DBUtil.log
+Feb 17, 2025 10:20:18 PM com.eapproject.DataLayer.DBUtil initializeDatabase
+INFO: 🟢 Έλεγχος & δημιουργία της Βάσης Δεδομένων (αν δεν υπάρχει)...
+Feb 17, 2025 10:20:20 PM com.eapproject.DataLayer.DBUtil initializeDatabase
+INFO: ℹ️ Η Βάση Δεδομένων υπάρχει ήδη.
+Feb 17, 2025 10:20:21 PM com.eapproject.DataLayer.DBUtil resetDatabase
+WARNING: ⚠️ Διαγραφή και επαναδημιουργία της Βάσης Δεδομένων...
+Feb 17, 2025 10:20:21 PM com.eapproject.DataLayer.DBUtil dropTables
+WARNING: 🗑️ Ο πίνακας UNIVERSITYVIEW διαγράφηκε.
+Feb 17, 2025 10:20:21 PM com.eapproject.DataLayer.DBUtil dropTables
+WARNING: 🗑️ Ο πίνακας UNIVERSITY διαγράφηκε.
+Feb 17, 2025 10:20:21 PM com.eapproject.DataLayer.DBUtil createTablesAndIndexes
+INFO: ✅ Ο πίνακας UNIVERSITY δημιουργήθηκε.
+Feb 17, 2025 10:20:21 PM com.eapproject.DataLayer.DBUtil createTablesAndIndexes
+INFO: ✅ Ο πίνακας UNIVERSITYVIEW δημιουργήθηκε.
+Feb 17, 2025 10:20:21 PM com.eapproject.DataLayer.DBUtil createIndexesFromFile
+INFO: ✅ Δημιουργήθηκε index: IDX_UNIVERSITY_NAME
+Feb 17, 2025 10:20:21 PM com.eapproject.DataLayer.DBUtil createIndexesFromFile
+INFO: ✅ Δημιουργήθηκε index: IDX_UNIVERSITY_COUNTRY
+Feb 17, 2025 10:20:21 PM com.eapproject.DataLayer.DBUtil createIndexesFromFile
+INFO: ✅ Δημιουργήθηκε index: IDX_UNIVERSITY_NAME_COUNTRY
+Feb 17, 2025 10:20:21 PM com.eapproject.DataLayer.DBUtil resetDatabase
+INFO: 🔄 Η Βάση Δεδομένων διαγράφηκε και επαναδημιουργήθηκε!
+Feb 17, 2025 10:30:43 PM com.eapproject.DataLayer.DBUtil initializeLogger
+INFO: 📌 Έναρξη καταγραφής του Logger στο logs/DBUtil.log
+Feb 17, 2025 10:30:43 PM com.eapproject.DataLayer.DBUtil initializeDatabase
+INFO: 🟢 Έλεγχος & δημιουργία της Βάσης Δεδομένων (αν δεν υπάρχει)...
+Feb 17, 2025 10:30:45 PM com.eapproject.DataLayer.DBUtil initializeDatabase
+INFO: ℹ️ Η Βάση Δεδομένων υπάρχει ήδη.
+Feb 17, 2025 10:31:38 PM com.eapproject.DataLayer.DBUtil initializeLogger
+INFO: 📌 Έναρξη καταγραφής του Logger στο logs/DBUtil.log
+Feb 17, 2025 10:31:38 PM com.eapproject.DataLayer.DBUtil initializeDatabase
+INFO: 🟢 Έλεγχος & δημιουργία της Βάσης Δεδομένων (αν δεν υπάρχει)...
+Feb 17, 2025 10:31:40 PM com.eapproject.DataLayer.DBUtil initializeDatabase
+INFO: ℹ️ Η Βάση Δεδομένων υπάρχει ήδη.
+Feb 17, 2025 10:31:41 PM com.eapproject.DataLayer.DBUtil resetDatabase
+WARNING: ⚠️ Διαγραφή και επαναδημιουργία της Βάσης Δεδομένων...
+Feb 17, 2025 10:31:41 PM com.eapproject.DataLayer.DBUtil dropTables
+WARNING: 🗑️ Ο πίνακας UNIVERSITYVIEW διαγράφηκε.
+Feb 17, 2025 10:31:41 PM com.eapproject.DataLayer.DBUtil dropTables
+WARNING: 🗑️ Ο πίνακας UNIVERSITY διαγράφηκε.
+Feb 17, 2025 10:31:41 PM com.eapproject.DataLayer.DBUtil createTablesAndIndexes
+INFO: ✅ Ο πίνακας UNIVERSITY δημιουργήθηκε.
+Feb 17, 2025 10:31:41 PM com.eapproject.DataLayer.DBUtil createTablesAndIndexes
+INFO: ✅ Ο πίνακας UNIVERSITYVIEW δημιουργήθηκε.
+Feb 17, 2025 10:31:41 PM com.eapproject.DataLayer.DBUtil createIndexesFromFile
+INFO: ✅ Δημιουργήθηκε index: IDX_UNIVERSITY_NAME
+Feb 17, 2025 10:31:41 PM com.eapproject.DataLayer.DBUtil createIndexesFromFile
+INFO: ✅ Δημιουργήθηκε index: IDX_UNIVERSITY_COUNTRY
+Feb 17, 2025 10:31:41 PM com.eapproject.DataLayer.DBUtil createIndexesFromFile
+INFO: ✅ Δημιουργήθηκε index: IDX_UNIVERSITY_NAME_COUNTRY
+Feb 17, 2025 10:31:41 PM com.eapproject.DataLayer.DBUtil resetDatabase
+INFO: 🔄 Η Βάση Δεδομένων διαγράφηκε και επαναδημιουργήθηκε!
