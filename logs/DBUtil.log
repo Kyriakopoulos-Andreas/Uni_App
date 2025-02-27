@@ -158,3 +158,15 @@ INFO: ℹ️ SQL_CREATE_UNIVERSITY_PATH = resources/sql/create_university.sql
 INFO: ℹ️ SQL_CREATE_UNIVERSITYVIEW_PATH = resources/sql/create_universityview.sql
 Φεβ 26, 2025 9:35:16 Μ.Μ. com.eapproject.DB.DBUtil loadProperties
 INFO: ℹ️ SQL_CREATE_INDEXES_PATH = resources/sql/create_indexes.sql
+Φεβ 26, 2025 9:40:21 Μ.Μ. com.eapproject.DB.DBUtil initializeLogger
+INFO: 📌 Έναρξη καταγραφής του Logger στο logs/DBUtil.log
+Φεβ 26, 2025 9:40:21 Μ.Μ. com.eapproject.DB.DBUtil loadProperties
+INFO: ℹ️ Φορτώθηκε το dbconfig.properties
+Φεβ 26, 2025 9:40:21 Μ.Μ. com.eapproject.DB.DBUtil loadProperties
+INFO: ℹ️ ️️DB_URL = jdbc:derby:UniDB;create=true
+Φεβ 26, 2025 9:40:21 Μ.Μ. com.eapproject.DB.DBUtil loadProperties
+INFO: ℹ️ SQL_CREATE_UNIVERSITY_PATH = resources/sql/create_university.sql
+Φεβ 26, 2025 9:40:21 Μ.Μ. com.eapproject.DB.DBUtil loadProperties
+INFO: ℹ️ SQL_CREATE_UNIVERSITYVIEW_PATH = resources/sql/create_universityview.sql
+Φεβ 26, 2025 9:40:21 Μ.Μ. com.eapproject.DB.DBUtil loadProperties
+INFO: ℹ️ SQL_CREATE_INDEXES_PATH = resources/sql/create_indexes.sql

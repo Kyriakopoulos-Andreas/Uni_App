@@ -1,24 +1,31 @@
 package com.eapproject.DB;
 
+import com.google.gson.annotations.SerializedName;
+
+import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 import java.util.Objects;
+import java.util.stream.Collectors;
 
 /**
  * Κλάση που αναπαριστά ένα πανεπιστήμιο από τη βάση δεδομένων.
- * 
+ *
  * Περιέχει πεδία για τα χαρακτηριστικά ενός πανεπιστημίου, με ασφαλείς getters και setters,
  * καθώς και μεθόδους equals, hashCode και toString για σωστή συμπεριφορά σε συλλογές.
- * 
+ *
  */
 public class University {
     private int id;
     private String name;
     private String country;
+    @SerializedName("alpha_two_code")
     private String alphaTwoCode;
+    @SerializedName("state-province")
     private String stateProvince;
     private List<String> domains;
-    private String webPages;
+    @SerializedName("web_pages")
+    private List<String> webPages;
     private String school;
     private String department;
     private String description;
@@ -50,7 +57,7 @@ public class University {
      * @param isModified    δείκτης αν έχει τροποποιηθεί τοπικά
      */
     public University(int id, String name, String country, String alphaTwoCode, String stateProvince,
-                      String domains, String webPages, String school, String department,
+                      String domains, List<String> webPages, String school, String department,
                       String description, String contact, String comments, boolean isModified) {
         this.id = id;
         this.name = name;
@@ -72,8 +79,8 @@ public class University {
      *
      * @return το ID
      */
-    public int getId() { 
-        return id; 
+    public int getId() {
+        return id;
     }
 
     /**
@@ -81,8 +88,8 @@ public class University {
      *
      * @param id το νέο ID
      */
-    public void setId(int id) { 
-        this.id = id; 
+    public void setId(int id) {
+        this.id = id;
     }
 
     /**
@@ -90,8 +97,8 @@ public class University {
      *
      * @return το όνομα του πανεπιστημίου
      */
-    public String getName() { 
-        return safeString(name); 
+    public String getName() {
+        return safeString(name);
     }
 
     /**
@@ -99,8 +106,8 @@ public class University {
      *
      * @param name το νέο όνομα
      */
-    public void setName(String name) { 
-        this.name = name; 
+    public void setName(String name) {
+        this.name = name;
     }
 
     /**
@@ -108,8 +115,8 @@ public class University {
      *
      * @return τη χώρα
      */
-    public String getCountry() { 
-        return safeString(country); 
+    public String getCountry() {
+        return safeString(country);
     }
 
     /**
@@ -117,8 +124,8 @@ public class University {
      *
      * @param country η νέα χώρα
      */
-    public void setCountry(String country) { 
-        this.country = country; 
+    public void setCountry(String country) {
+        this.country = country;
     }
 
     /**
@@ -126,8 +133,8 @@ public class University {
      *
      * @return τον κωδικό χώρας
      */
-    public String getAlphaTwoCode() { 
-        return safeString(alphaTwoCode); 
+    public String getAlphaTwoCode() {
+        return safeString(alphaTwoCode);
     }
 
     /**
@@ -135,8 +142,8 @@ public class University {
      *
      * @param alphaTwoCode ο νέος κωδικός
      */
-    public void setAlphaTwoCode(String alphaTwoCode) { 
-        this.alphaTwoCode = alphaTwoCode; 
+    public void setAlphaTwoCode(String alphaTwoCode) {
+        this.alphaTwoCode = alphaTwoCode;
     }
 
     /**
@@ -144,8 +151,8 @@ public class University {
      *
      * @return την περιφέρεια ή πολιτεία
      */
-    public String getStateProvince() { 
-        return safeString(stateProvince); 
+    public String getStateProvince() {
+        return safeString(stateProvince);
     }
 
     /**
@@ -153,8 +160,8 @@ public class University {
      *
      * @param stateProvince η νέα περιφέρεια ή πολιτεία
      */
-    public void setStateProvince(String stateProvince) { 
-        this.stateProvince = stateProvince; 
+    public void setStateProvince(String stateProvince) {
+        this.stateProvince = stateProvince;
     }
 
     /**
@@ -162,8 +169,8 @@ public class University {
      *
      * @return τους ιστότοπους
      */
-    public String getDomains() { 
-        return safeString(String.valueOf(domains));
+    public String getDomains() {
+        return domains != null ? String.join(", ", domains) : "";
     }
 
     /**
@@ -171,7 +178,7 @@ public class University {
      *
      * @param domains οι νέοι ιστότοποι
      */
-    public void setDomains(String domains) { 
+    public void setDomains(String domains) {
         this.domains = Collections.singletonList(domains);
     }
 
@@ -180,8 +187,14 @@ public class University {
      *
      * @return τις ιστοσελίδες
      */
-    public String getWebPages() { 
-        return safeString(webPages); 
+    public List<String> getWebPages() {
+        if (webPages == null) {
+            return new ArrayList<>();
+        }
+
+        return webPages.stream()
+                .map(url -> url.replaceFirst("^https?://", "").replaceAll("/$", ""))
+                .collect(Collectors.toList());
     }
 
     /**
@@ -189,8 +202,8 @@ public class University {
      *
      * @param webPages οι νέες ιστοσελίδες
      */
-    public void setWebPages(String webPages) { 
-        this.webPages = webPages; 
+    public void setWebPages(List<String> webPages) {
+        this.webPages = webPages;
     }
 
     /**
@@ -198,8 +211,8 @@ public class University {
      *
      * @return το όνομα της σχολής
      */
-    public String getSchool() { 
-        return safeString(school); 
+    public String getSchool() {
+        return safeString(school);
     }
 
     /**
@@ -207,8 +220,8 @@ public class University {
      *
      * @param school το νέο όνομα της σχολής
      */
-    public void setSchool(String school) { 
-        this.school = school; 
+    public void setSchool(String school) {
+        this.school = school;
     }
 
     /**
@@ -216,8 +229,8 @@ public class University {
      *
      * @return το όνομα του τμήματος
      */
-    public String getDepartment() { 
-        return safeString(department); 
+    public String getDepartment() {
+        return safeString(department);
     }
 
     /**
@@ -225,8 +238,8 @@ public class University {
      *
      * @param department το νέο όνομα του τμήματος
      */
-    public void setDepartment(String department) { 
-        this.department = department; 
+    public void setDepartment(String department) {
+        this.department = department;
     }
 
     /**
@@ -234,8 +247,8 @@ public class University {
      *
      * @return την περιγραφή
      */
-    public String getDescription() { 
-        return safeString(description); 
+    public String getDescription() {
+        return safeString(description);
     }
 
     /**
@@ -243,8 +256,8 @@ public class University {
      *
      * @param description η νέα περιγραφή
      */
-    public void setDescription(String description) { 
-        this.description = description; 
+    public void setDescription(String description) {
+        this.description = description;
     }
 
     /**
@@ -252,8 +265,8 @@ public class University {
      *
      * @return τα στοιχεία επικοινωνίας
      */
-    public String getContact() { 
-        return safeString(contact); 
+    public String getContact() {
+        return safeString(contact);
     }
 
     /**
@@ -261,8 +274,8 @@ public class University {
      *
      * @param contact τα νέα στοιχεία επικοινωνίας
      */
-    public void setContact(String contact) { 
-        this.contact = contact; 
+    public void setContact(String contact) {
+        this.contact = contact;
     }
 
     /**
@@ -270,8 +283,8 @@ public class University {
      *
      * @return τα σχόλια
      */
-    public String getComments() { 
-        return safeString(comments); 
+    public String getComments() {
+        return safeString(comments);
     }
 
     /**
@@ -279,8 +292,8 @@ public class University {
      *
      * @param comments τα νέα σχόλια
      */
-    public void setComments(String comments) { 
-        this.comments = comments; 
+    public void setComments(String comments) {
+        this.comments = comments;
     }
 
     /**
@@ -288,8 +301,8 @@ public class University {
      *
      * @return true αν έχει τροποποιηθεί, αλλιώς false
      */
-    public boolean isModified() { 
-        return isModified; 
+    public boolean isModified() {
+        return isModified;
     }
 
     /**
@@ -297,8 +310,8 @@ public class University {
      *
      * @param isModified true αν έχει τροποποιηθεί, αλλιώς false
      */
-    public void setModified(boolean isModified) { 
-        this.isModified = isModified; 
+    public void setModified(boolean isModified) {
+        this.isModified = isModified;
     }
 
     /**
@@ -306,8 +319,8 @@ public class University {
      *
      * @return ο μετρητής προβολών
      */
-    public int getViewCount() { 
-        return viewCount; 
+    public int getViewCount() {
+        return viewCount;
     }
 
     /**
@@ -315,8 +328,8 @@ public class University {
      *
      * @param viewCount ο νέος μετρητής προβολών
      */
-    public void setViewCount(int viewCount) { 
-        this.viewCount = viewCount; 
+    public void setViewCount(int viewCount) {
+        this.viewCount = viewCount;
     }
 
     /**

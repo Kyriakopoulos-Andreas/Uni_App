@@ -1,7 +1,8 @@
-
 package com.eapproject.PresentationLayer.CountryUniversitiesView;
 
 
+import com.eapproject.DB.University;
+import com.eapproject.DataLayer.UniversitiesViewModel;
 import com.eapproject.PresentationLayer.UniversityView.UniversityView;
 
 import javax.swing.*;
@@ -13,6 +14,7 @@ import javax.swing.table.TableRowSorter;
 import java.awt.*;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
+import java.util.ArrayList;
 
 public class CountryUniversities extends javax.swing.JPanel {
 
@@ -20,10 +22,14 @@ public class CountryUniversities extends javax.swing.JPanel {
     private JPanel rightScreenPanel;
     private DefaultTableModel model;
     private TableRowSorter<DefaultTableModel> sorter;
+    private ArrayList<University> universities;
+    private UniversitiesViewModel viewModel;
 
-    public CountryUniversities(String countryLogo, JPanel rightScreenPanel) {
+    public CountryUniversities(String countryLogo, JPanel rightScreenPanel, ArrayList<University> universities, UniversitiesViewModel viewModel) {
         this.rightScreenPanel = rightScreenPanel;
         this.countryLogo = countryLogo;
+        this.viewModel = viewModel;
+        this.universities = universities;
         initComponents();
         model = (DefaultTableModel) table.getModel();
         sorter = new TableRowSorter<>(model);
@@ -127,43 +133,17 @@ public class CountryUniversities extends javax.swing.JPanel {
             }
         });
 
-        table.setBackground(new java.awt.Color(252, 252, 242));
-        table.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(223, 109, 35), 2, true));
-        table.setModel(new javax.swing.table.DefaultTableModel(
-                new Object [][] {
-                        { "1", "National and Kapodistrian University of Athens" },
-                        { "2", "Aristotle University of Thessaloniki" },
-                        { "3", "University of Crete" },
-                        { "4", "University of Patras" },
-                        { "5", "Athens University of Economics and Business" },
-                        { "6", "University of Ioannina" },
-                        { "7", "University of Thessaly" },
-                        { "8", "University of Macedonia" },
-                        { "9", "National Technical University of Athens" },
-                        { "10", "Democritus University of Thrace" },
-                        { "11", "University of Piraeus" },
-                        { "12", "University of Aegean" },
-                        { "13", "University of the Aegean" },
-                        { "14", "University of West Macedonia" },
-                        { "15", "University of the Peloponnese" },
-                        { "16", "Harokopio University of Athens" },
-                        { "17", "Hellenic Open University" },
-                        { "18", "Panteion University of Social and Political Sciences" },
-                        { "19", "University of Thessaloniki" },
-                        { "20", "School of Pedagogical and Technological Education (ASPETE)" }
-                },
-        new String [] {
-                        "No.", "Universites"
-                }
-        ) {
-            Class[] types = new Class [] {
-                    java.lang.String.class, java.lang.String.class
-            };
+        Object[][] universitiesData = new Object[universities.size()][2];
+        for (int i = 0; i < universities.size(); i++) {
+            universitiesData[i][0] = String.valueOf(i + 1); // Serial number
+            universitiesData[i][1] = universities.get(i).getName(); // University name
+        }
 
-            public Class getColumnClass(int columnIndex) {
-                return types [columnIndex];
-            }
-        });
+        String[] columnNames = {"No.", "University Name"};
+// Create the table model and set it to the table
+        DefaultTableModel model = new DefaultTableModel(universitiesData, columnNames);
+        table.setModel(model);
+
         table.getTableHeader().setBackground(new java.awt.Color(223, 109, 35)); // Orange header color
         table.getTableHeader().setForeground(new java.awt.Color(255, 255, 255)); // White text for header
         table.getTableHeader().setFont(new java.awt.Font("Segoe UI", java.awt.Font.BOLD, 14)); // Bold font for headers
@@ -174,9 +154,11 @@ public class CountryUniversities extends javax.swing.JPanel {
                 if (evt.getClickCount() == 2) { // Έλεγχος αν έγινε διπλό κλικ
                     int row = table.getSelectedRow();
                     if (row != -1) { // Έλεγχος ότι επιλέχθηκε γραμμή
-                        String university = table.getValueAt(row, 1).toString(); // Παίρνουμε το όνομα της χώρας
+                        String university = table.getValueAt(row, 1).toString();
+                        viewModel.getUniversityFromList(university, universities);
+
                         rightScreenPanel.removeAll();
-                        rightScreenPanel.add(new UniversityView(university), "CountryUniversities");
+                        rightScreenPanel.add(new UniversityView(viewModel.getUniversityFromList(), viewModel), "CountryUniversities");
                         rightScreenPanel.revalidate();
                         rightScreenPanel.repaint();
                         ((CardLayout) rightScreenPanel.getLayout()).show(rightScreenPanel, "CountryUniversities");

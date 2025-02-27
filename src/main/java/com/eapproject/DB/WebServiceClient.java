@@ -8,6 +8,7 @@ import okhttp3.Response;
 import java.io.IOException;
 import java.lang.reflect.Type;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 /**
@@ -64,7 +65,7 @@ public class WebServiceClient {
                 jsonUni.getAlphaTwoCode(),
                 jsonUni.getStateProvince(),
                 (jsonUni.getDomains() != null) ? String.join(",", jsonUni.getDomains()) : "",
-                (jsonUni.getWebPages() != null) ? String.join(",", jsonUni.getWebPages()) : "",
+                Collections.singletonList((jsonUni.getWebPages() != null) ? String.join(",", jsonUni.getWebPages()) : ""),
                 "", // Σχολή (τοπικό πεδίο)
                 "", // Τμήμα (τοπικό πεδίο)
                 "", // Περιγραφή (τοπικό πεδίο)

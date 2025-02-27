@@ -5,6 +5,7 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.sql.*;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 import java.util.logging.*;
 
@@ -56,7 +57,7 @@ public class UniversityDAO {
     }
 
     /**
-     * Αρχικοποιεί τον Logger και τον ρυθμίζει να γράφει τα μηνύματα στο αρχείο 
+     * Αρχικοποιεί τον Logger και τον ρυθμίζει να γράφει τα μηνύματα στο αρχείο
      * <code>logs/UniversityDAO.log</code> χρησιμοποιώντας τον {@code SimpleFormatter}.
      * <p>
      * Αν υπάρχουν ήδη προηγούμενοι handlers, αυτοί αφαιρούνται για να αποφευχθούν διπλές καταγραφές.
@@ -103,12 +104,51 @@ public class UniversityDAO {
                 }
             }
         } catch (SQLException e) {
-            LOGGER.log(Level.SEVERE, "❌️ Σφάλμα κατά την ανάκτηση του πανεπιστημίου με όνομα '" 
+            LOGGER.log(Level.SEVERE, "❌️ Σφάλμα κατά την ανάκτηση του πανεπιστημίου με όνομα '"
                     + name + "' και χώρα '" + country + "'", e);
         }
         return uni;
     }
 
+    public List<University> getUniversitiesFromSpecificCountry(String country) {
+        String sql = "SELECT * FROM UNIVERSITY WHERE COUNTRY = ?";
+        List<University> universities = new ArrayList<>();
+
+        try (Connection conn = DBUtil.getInstance().getConnection();
+             PreparedStatement ps = conn.prepareStatement(sql)) {
+            ps.setString(1, country);
+            try (ResultSet rs = ps.executeQuery()) {
+
+                while (rs.next()) {
+                    University uni = extractUniversity(rs);
+                    universities.add(uni);
+                }
+            }
+        } catch (SQLException e) {
+            LOGGER.log(Level.SEVERE, "❌️ Σφάλμα κατά την ανάκτηση των πανεπιστημίων για τη χώρα '" + country + "'", e);
+        }
+
+        return universities;  // Επιστρέφουμε τη λίστα
+    }
+
+    public University getUniversity(String universityName) {
+        String sql = "SELECT * FROM UNIVERSITY WHERE NAME = ?";
+        University uni = null;
+        try (Connection conn = DBUtil.getInstance().getConnection();
+             PreparedStatement ps = conn.prepareStatement(sql)) {
+            ps.setString(1, universityName);
+            try (ResultSet rs = ps.executeQuery()) {
+                if (rs.next()) {
+                    uni = extractUniversity(rs);
+                }
+            }
+        } catch (SQLException e) {
+            LOGGER.log(Level.SEVERE, "❌️ Σφάλμα κατά την ανάκτηση του πανεπιστημίου με όνομα '"+
+                    universityName + "'", e);
+            System.out.println("Error fetch university" + e.getMessage());
+        }
+        return uni;
+    }
     /**
      * Εισάγει ένα νέο πανεπιστήμιο στη βάση δεδομένων.
      * <p>
@@ -130,7 +170,7 @@ public class UniversityDAO {
             ps.setString(3, uni.getAlphaTwoCode());
             ps.setString(4, uni.getStateProvince());
             ps.setString(5, (uni.getDomains() != null) ? uni.getDomains() : "");
-            ps.setString(6, (uni.getWebPages() != null) ? uni.getWebPages() : "");
+            ps.setString(6, (uni.getWebPages() != null) ? String.valueOf(uni.getWebPages()) : "");
             ps.setString(7, (uni.getSchool() != null) ? uni.getSchool() : "");
             ps.setString(8, (uni.getDepartment() != null) ? uni.getDepartment() : "");
             ps.setString(9, (uni.getDescription() != null) ? uni.getDescription() : "");
@@ -140,6 +180,7 @@ public class UniversityDAO {
             int rows = ps.executeUpdate();
             if (rows > 0) {
                 LOGGER.log(Level.INFO, "✅ Το πανεπιστήμιο προστέθηκε επιτυχώς: {0}", uni.getName());
+                System.out.println("To panepistimio prostethike");
                 return true;
             } else {
                 LOGGER.log(Level.WARNING, "⚠️ Δεν προστέθηκε το πανεπιστήμιο: {0}", uni.getName());
@@ -147,6 +188,7 @@ public class UniversityDAO {
             }
         } catch (SQLException e) {
             LOGGER.log(Level.SEVERE, "❌️ Σφάλμα κατά την εισαγωγή του πανεπιστημίου: " + uni.getName(), e);
+            System.out.println("provlima: " + e.getMessage());
             return false;
         }
     }
@@ -161,8 +203,8 @@ public class UniversityDAO {
      */
     public void updateUniversityUser(University uni) {
         String sql = "UPDATE UNIVERSITY SET NAME=?, COUNTRY=?, ALPHATWOCODE=?, STATEPROVINCE=?, DOMAINS=?, " +
-                     "WEBPAGES=?, SCHOOL=?, DEPARTMENT=?, DESCRIPTION=?, CONTACT=?, COMMENTS=?, ISMODIFIED=? " +
-                     "WHERE ID=?";
+                "WEBPAGES=?, SCHOOL=?, DEPARTMENT=?, DESCRIPTION=?, CONTACT=?, COMMENTS=?, ISMODIFIED=? " +
+                "WHERE NAME= ?";
         try (Connection conn = DBUtil.getInstance().getConnection();
              PreparedStatement ps = conn.prepareStatement(sql)) {
             ps.setString(1, uni.getName());
@@ -170,14 +212,14 @@ public class UniversityDAO {
             ps.setString(3, uni.getAlphaTwoCode());
             ps.setString(4, uni.getStateProvince());
             ps.setString(5, uni.getDomains());
-            ps.setString(6, uni.getWebPages());
+            ps.setString(6, String.join(",", uni.getWebPages()));
             ps.setString(7, uni.getSchool());
             ps.setString(8, uni.getDepartment());
             ps.setString(9, uni.getDescription());
             ps.setString(10, uni.getContact());
             ps.setString(11, uni.getComments());
             ps.setBoolean(12, uni.isModified());
-            ps.setInt(13, uni.getId());
+            ps.setString(13, uni.getName());
             int rows = ps.executeUpdate();
             if (rows > 0) {
                 LOGGER.log(Level.INFO, "✅ Το πανεπιστήμιο ενημερώθηκε: {0}", uni.getName());
@@ -307,7 +349,7 @@ public class UniversityDAO {
                 uni.setAlphaTwoCode(rs.getString("ALPHATWOCODE"));
                 uni.setStateProvince(rs.getString("STATEPROVINCE"));
                 uni.setDomains(rs.getString("DOMAINS"));
-                uni.setWebPages(rs.getString("WEBPAGES"));
+                uni.setWebPages(Collections.singletonList(rs.getString("WEBPAGES")));
                 uni.setSchool(rs.getString("SCHOOL"));
                 uni.setDepartment(rs.getString("DEPARTMENT"));
                 uni.setDescription(rs.getString("DESCRIPTION"));
@@ -358,7 +400,7 @@ public class UniversityDAO {
                 rs.getString("ALPHATWOCODE"),
                 rs.getString("STATEPROVINCE"),
                 rs.getString("DOMAINS"),
-                rs.getString("WEBPAGES"),
+                Collections.singletonList(rs.getString("WEBPAGES")),
                 rs.getString("SCHOOL"),
                 rs.getString("DEPARTMENT"),
                 rs.getString("DESCRIPTION"),
@@ -467,7 +509,7 @@ public class UniversityDAO {
             ps.setString(3, uni.getAlphaTwoCode());
             ps.setString(4, uni.getStateProvince());
             ps.setString(5, uni.getDomains());
-            ps.setString(6, uni.getWebPages());
+            ps.setString(6, String.join(",", uni.getWebPages()));
             ps.setString(7, uni.getSchool());
             ps.setString(8, uni.getDepartment());
             ps.setString(9, uni.getDescription());

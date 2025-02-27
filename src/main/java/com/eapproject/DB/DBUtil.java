@@ -67,8 +67,10 @@ public class DBUtil {
         try (InputStream in = Files.newInputStream(Paths.get("resources/dbconfig.properties"))) {
             props.load(in);
             LOGGER.info("ℹ️ Φορτώθηκε το dbconfig.properties");
+            System.out.println("Utill: Accept ");
         } catch (IOException e) {
             LOGGER.warning("⚠️ Δεν βρέθηκε/φορτώθηκε το dbconfig.properties - χρήση default τιμών.");
+            System.out.println("Utill: CreationFail " + e.getMessage() );
         }
 
         // Default τιμές

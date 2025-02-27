@@ -5,6 +5,8 @@ import javax.swing.border.EmptyBorder;
 import java.awt.*;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
+import java.util.Arrays;
+import java.util.List;
 
 /**
  * Κλάση για την επεξεργασία των στοιχείων ενός πανεπιστημίου.
@@ -160,7 +162,7 @@ public class EditUniversityDialog extends JDialog {
         txtAlphaTwoCode.setText(university.getAlphaTwoCode());
         txtStateProvince.setText(university.getStateProvince());
         txtDomains.setText(university.getDomains());
-        txtWebPages.setText(university.getWebPages());
+        txtWebPages.setText(String.join(", ", university.getWebPages()));
         txtSchool.setText(university.getSchool());
         txtDepartment.setText(university.getDepartment());
         txtDescription.setText(university.getDescription());
@@ -175,7 +177,10 @@ public class EditUniversityDialog extends JDialog {
         university.setAlphaTwoCode(txtAlphaTwoCode.getText().trim());
         university.setStateProvince(txtStateProvince.getText().trim());
         university.setDomains(txtDomains.getText().trim());
-        university.setWebPages(txtWebPages.getText().trim());
+        String text = txtWebPages.getText().trim();
+        String[] webPagesArray = text.split(",");
+        List<String> webPagesList = Arrays.asList(webPagesArray);
+        university.setWebPages(webPagesList);
         university.setSchool(txtSchool.getText().trim());
         university.setDepartment(txtDepartment.getText().trim());
         university.setDescription(txtDescription.getText().trim());

@@ -1,13 +1,9 @@
 package com.eapproject.uni_app_project;
 
-import com.eapproject.CommonLayer.Source.RepositoryCallback;
-import com.eapproject.DataLayer.Repository;
-import com.eapproject.DataLayer.UniversityModel;
-import com.eapproject.PresentationLayer.MainView.MainView;
-import retrofit2.Call;
 
+import com.eapproject.PresentationLayer.MainView.MainView;
 import javax.swing.SwingUtilities;
-import java.util.List;
+
 
 /**
  *

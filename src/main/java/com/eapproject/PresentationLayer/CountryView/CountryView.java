@@ -1,6 +1,7 @@
 package com.eapproject.PresentationLayer.CountryView;
 
 import com.eapproject.DB.University;
+import com.eapproject.DataLayer.UniversitiesViewModel;
 import com.eapproject.PresentationLayer.CountryUniversitiesView.CountryUniversities;
 
 import javax.swing.*;
@@ -18,6 +19,9 @@ import java.util.Map;
 
 public class CountryView extends javax.swing.JPanel {
     private ArrayList<University> universitiesList;
+    private UniversitiesViewModel viewModel;
+    private ArrayList<University> universitiesFromSpecificCountry;
+
 
 
 
@@ -26,8 +30,9 @@ public class CountryView extends javax.swing.JPanel {
     private TableRowSorter<DefaultTableModel> sorter;
 
     // Constructor for initializing the CountryView panel
-    public CountryView(JPanel rightScreenJpanel, ArrayList<University> universities) {
+    public CountryView(JPanel rightScreenJpanel, ArrayList<University> universities, UniversitiesViewModel viewModel) {
         this.rightScreenPanel = rightScreenJpanel;
+        this.viewModel = viewModel;
         this.universitiesList = universities;
         initComponents();
         model = (DefaultTableModel) table.getModel();
@@ -223,9 +228,14 @@ public class CountryView extends javax.swing.JPanel {
                 if (evt.getClickCount() == 2) { // Έλεγχος αν έγινε διπλό κλικ
                     int row = table.getSelectedRow();
                     if (row != -1) { // Έλεγχος ότι επιλέχθηκε γραμμή
-                        String country = table.getValueAt(row, 1).toString(); // Παίρνουμε το όνομα της χώρας
+                        String country = table.getValueAt(row, 1).toString();
+
+                        viewModel.fetchUniversitiesFromSpecificCountry(country, universitiesList);
+                        universitiesFromSpecificCountry = (ArrayList<University>)  viewModel.getUniversitiesFromSpecificCountry();
+                        System.out.println(universitiesFromSpecificCountry);
+
                         rightScreenPanel.removeAll();
-                        rightScreenPanel.add(new CountryUniversities(country, rightScreenPanel), "CountryUniversities");
+                        rightScreenPanel.add(new CountryUniversities(country, rightScreenPanel, universitiesFromSpecificCountry, viewModel), "CountryUniversities");
                         rightScreenPanel.revalidate();
                         rightScreenPanel.repaint();
                         ((CardLayout) rightScreenPanel.getLayout()).show(rightScreenPanel, "CountryUniversities");
