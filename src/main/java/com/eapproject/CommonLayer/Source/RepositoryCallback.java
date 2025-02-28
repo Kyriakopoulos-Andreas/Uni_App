@@ -1,8 +1,6 @@
 package com.eapproject.CommonLayer.Source;
 
-import com.eapproject.DB.University;
-import com.eapproject.DataLayer.UniversityModel;
-import com.eapproject.PresentationLayer.UniversityView.UniversityView;
+import com.eapproject.DataLayer.DB.University;
 
 import java.util.List;
 
