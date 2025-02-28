@@ -3169,3 +3169,47 @@ INFO: ✅Το πανεπιστήμιο ενημερώθηκε: University of Pap
 INFO: 🔄 Το υπάρχον πανεπιστήμιο ενημερώθηκε: University of Papua New Guinea
 Φεβ 28, 2025 2:25:48 Π.Μ. com.eapproject.DataLayer.DB.UniversityDAO increaseViewCount
 INFO: 👁️ Ο μετρητής προβολών αυξήθηκε για το πανεπιστήμιο με ID: 2.401
+Φεβ 28, 2025 8:51:28 Π.Μ. com.eapproject.DataLayer.DB.UniversityDAO initializeLogger
+INFO: 📌 Έναρξη καταγραφής του Logger στο logs/UniversityDAO.log
+Φεβ 28, 2025 8:52:06 Π.Μ. com.eapproject.DataLayer.DB.UniversityDAO insertUniversity
+INFO: ✅ Το πανεπιστήμιο προστέθηκε επιτυχώς: Engineering Institute of Technology
+Φεβ 28, 2025 8:52:06 Π.Μ. com.eapproject.DataLayer.DB.UniversityDAO upsertUniversity
+INFO: ✅ Νέο πανεπιστήμιο εισήχθη: Engineering Institute of Technology
+Φεβ 28, 2025 8:52:06 Π.Μ. com.eapproject.DataLayer.DB.UniversityDAO increaseViewCount
+INFO: 👁️ Ο μετρητής προβολών αυξήθηκε για το πανεπιστήμιο με ID: 4.501
+Φεβ 28, 2025 9:25:15 Π.Μ. com.eapproject.DataLayer.DB.UniversityDAO initializeLogger
+INFO: 📌 Έναρξη καταγραφής του Logger στο logs/UniversityDAO.log
+Φεβ 28, 2025 9:25:48 Π.Μ. com.eapproject.DataLayer.DB.UniversityDAO updateUniversityUser
+INFO: ✅Το πανεπιστήμιο ενημερώθηκε: Chamreun University of Poly Technology
+Φεβ 28, 2025 9:25:48 Π.Μ. com.eapproject.DataLayer.DB.UniversityDAO upsertUniversity
+INFO: 🔄 Το υπάρχον πανεπιστήμιο ενημερώθηκε: Chamreun University of Poly Technology
+Φεβ 28, 2025 9:25:49 Π.Μ. com.eapproject.DataLayer.DB.UniversityDAO increaseViewCount
+INFO: 👁️ Ο μετρητής προβολών αυξήθηκε για το πανεπιστήμιο με ID: 3.102
+Φεβ 28, 2025 9:26:25 Π.Μ. com.eapproject.DataLayer.DB.UniversityDAO initializeLogger
+INFO: 📌 Έναρξη καταγραφής του Logger στο logs/UniversityDAO.log
+Φεβ 28, 2025 9:32:39 Π.Μ. com.eapproject.DataLayer.DB.UniversityDAO initializeLogger
+INFO: 📌 Έναρξη καταγραφής του Logger στο logs/UniversityDAO.log
+Φεβ 28, 2025 9:34:55 Π.Μ. com.eapproject.DataLayer.DB.UniversityDAO initializeLogger
+INFO: 📌 Έναρξη καταγραφής του Logger στο logs/UniversityDAO.log
+Φεβ 28, 2025 9:45:22 Π.Μ. com.eapproject.DataLayer.DB.UniversityDAO initializeLogger
+INFO: 📌 Έναρξη καταγραφής του Logger στο logs/UniversityDAO.log
+Φεβ 28, 2025 9:47:34 Π.Μ. com.eapproject.DataLayer.DB.UniversityDAO initializeLogger
+INFO: 📌 Έναρξη καταγραφής του Logger στο logs/UniversityDAO.log
+Φεβ 28, 2025 9:55:07 Π.Μ. com.eapproject.DataLayer.DB.UniversityDAO initializeLogger
+INFO: 📌 Έναρξη καταγραφής του Logger στο logs/UniversityDAO.log
+Φεβ 28, 2025 9:59:44 Π.Μ. com.eapproject.DataLayer.DB.UniversityDAO updateUniversityUser
+INFO: ✅Το πανεπιστήμιο ενημερώθηκε: University of Zambia
+Φεβ 28, 2025 9:59:44 Π.Μ. com.eapproject.DataLayer.DB.UniversityDAO upsertUniversity
+INFO: 🔄 Το υπάρχον πανεπιστήμιο ενημερώθηκε: University of Zambia
+Φεβ 28, 2025 9:59:45 Π.Μ. com.eapproject.DataLayer.DB.UniversityDAO increaseViewCount
+INFO: 👁️ Ο μετρητής προβολών αυξήθηκε για το πανεπιστήμιο με ID: 3.902
+Φεβ 28, 2025 10:05:23 Π.Μ. com.eapproject.DataLayer.DB.UniversityDAO initializeLogger
+INFO: 📌 Έναρξη καταγραφής του Logger στο logs/UniversityDAO.log
+Φεβ 28, 2025 10:10:27 Π.Μ. com.eapproject.DataLayer.DB.UniversityDAO initializeLogger
+INFO: 📌 Έναρξη καταγραφής του Logger στο logs/UniversityDAO.log
+Φεβ 28, 2025 10:28:42 Π.Μ. com.eapproject.DataLayer.DB.UniversityDAO initializeLogger
+INFO: 📌 Έναρξη καταγραφής του Logger στο logs/UniversityDAO.log
+Φεβ 28, 2025 10:33:59 Π.Μ. com.eapproject.DataLayer.DB.UniversityDAO initializeLogger
+INFO: 📌 Έναρξη καταγραφής του Logger στο logs/UniversityDAO.log
+Φεβ 28, 2025 10:40:19 Π.Μ. com.eapproject.DataLayer.DB.UniversityDAO initializeLogger
+INFO: 📌 Έναρξη καταγραφής του Logger στο logs/UniversityDAO.log
