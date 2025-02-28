@@ -1,11 +1,14 @@
 package com.eapproject.PresentationLayer;
 
 import com.eapproject.DataLayer.DB.University;
+import com.eapproject.DomainLayer.UseCase.PDFExporter;
 import com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel;
 import javax.swing.*;
 import javax.swing.table.DefaultTableCellRenderer;
 import javax.swing.table.DefaultTableModel;
 import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 import java.util.List;
 
 /**
@@ -228,6 +231,27 @@ public class StatisticsView extends JPanel {
         exportButton.setText("Export PDF");
         exportButton.setBorder(null);
 
+        exportButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                try {
+                    // Κλήση της μεθόδου εξαγωγής PDF που επιστρέφει true αν η εξαγωγή ήταν επιτυχής.
+                    boolean success = PDFExporter.exportStatisticsToPDF(stats);
+                    if (success) {
+                        JOptionPane.showMessageDialog(null, "Το PDF εξήχθη επιτυχώς!");
+                    } else {
+                        JOptionPane.showMessageDialog(null, "Δεν υπάρχουν διαθέσιμα στατιστικά για εξαγωγή.");
+                    }
+                } catch (Exception ex) {
+                    // Εμφάνιση μηνύματος σφάλματος σε περίπτωση εξαίρεσης.
+                    JOptionPane.showMessageDialog(null, "Σφάλμα εξαγωγής PDF: " + ex.getMessage(),
+                            "Σφάλμα", JOptionPane.ERROR_MESSAGE);
+                }
+            }
+        });        
+        
+        
+        
         // Δημιουργία layout για το mainPanel χρησιμοποιώντας GroupLayout.
         GroupLayout mainPanelLayout = new GroupLayout(mainPanel);
         mainPanel.setLayout(mainPanelLayout);

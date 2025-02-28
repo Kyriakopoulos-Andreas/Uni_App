@@ -1,0 +1,80 @@
+Φεβ 28, 2025 11:08:45 Π.Μ. com.eapproject.DomainLayer.UseCase.PDFExporter initializeLogger
+INFO: 📌 Έναρξη καταγραφής του Logger στο logs/PDFExporter.log
+Φεβ 28, 2025 11:08:45 Π.Μ. com.eapproject.DomainLayer.UseCase.PDFExporter exportStatisticsToPDF
+INFO: ✅ Το αρχείο Stats_2025-02-28-11-08-45.pdf δημιουργήθηκε με επιτυχία.
+Φεβ 28, 2025 11:12:40 Π.Μ. com.eapproject.DomainLayer.UseCase.PDFExporter exportStatisticsToPDF
+INFO: ✅ Το αρχείο Stats_2025-02-28-11-12-40.pdf δημιουργήθηκε με επιτυχία.
+Φεβ 28, 2025 11:24:46 Π.Μ. com.eapproject.DomainLayer.UseCase.PDFExporter initializeLogger
+INFO: 📌 Έναρξη καταγραφής του Logger στο logs/PDFExporter.log
+Φεβ 28, 2025 11:24:46 Π.Μ. com.eapproject.DomainLayer.UseCase.PDFExporter exportStatisticsToPDF
+INFO: ✅ Το αρχείο Stats_2025-02-28-11-24-46.pdf δημιουργήθηκε με επιτυχία.
+Φεβ 28, 2025 12:09:48 Μ.Μ. com.eapproject.DomainLayer.UseCase.PDFExporter initializeLogger
+INFO: 📌 Έναρξη καταγραφής του Logger στο logs/PDFExporter.log
+Φεβ 28, 2025 12:09:49 Μ.Μ. com.eapproject.DomainLayer.UseCase.PDFExporter exportStatisticsToPDF
+INFO: ✅ Το αρχείο Stats_2025-02-28-12-09-48.pdf δημιουργήθηκε με επιτυχία.
+Φεβ 28, 2025 12:17:14 Μ.Μ. com.eapproject.DomainLayer.UseCase.PDFExporter initializeLogger
+INFO: 📌 Έναρξη καταγραφής του Logger στο logs/PDFExporter.log
+Φεβ 28, 2025 12:17:14 Μ.Μ. com.eapproject.DomainLayer.UseCase.PDFExporter exportStatisticsToPDF
+INFO: ✅ Το αρχείο Stats_2025-02-28-12-17-14.pdf δημιουργήθηκε με επιτυχία.
+Φεβ 28, 2025 12:19:48 Μ.Μ. com.eapproject.DomainLayer.UseCase.PDFExporter initializeLogger
+INFO: 📌 Έναρξη καταγραφής του Logger στο logs/PDFExporter.log
+Φεβ 28, 2025 12:19:48 Μ.Μ. com.eapproject.DomainLayer.UseCase.PDFExporter exportStatisticsToPDF
+INFO: ✅ Το αρχείο Stats_2025-02-28-12-19-48.pdf δημιουργήθηκε με επιτυχία.
+Φεβ 28, 2025 12:31:04 Μ.Μ. com.eapproject.DomainLayer.UseCase.PDFExporter initializeLogger
+INFO: 📌 Έναρξη καταγραφής του Logger στο logs/PDFExporter.log
+Φεβ 28, 2025 12:31:05 Μ.Μ. com.eapproject.DomainLayer.UseCase.PDFExporter exportStatisticsToPDF
+INFO: ✅ Το αρχείο Stats_2025-02-28-12-31-04.pdf δημιουργήθηκε με επιτυχία.
+Φεβ 28, 2025 12:43:35 Μ.Μ. com.eapproject.DomainLayer.UseCase.PDFExporter initializeLogger
+INFO: 📌 Έναρξη καταγραφής του Logger στο logs/PDFExporter.log
+Φεβ 28, 2025 12:43:36 Μ.Μ. com.eapproject.DomainLayer.UseCase.PDFExporter exportStatisticsToPDF
+INFO: ✅ Το αρχείο Stats_2025-02-28-12-43-35.pdf δημιουργήθηκε με επιτυχία.
+Φεβ 28, 2025 12:45:01 Μ.Μ. com.eapproject.DomainLayer.UseCase.PDFExporter initializeLogger
+INFO: 📌 Έναρξη καταγραφής του Logger στο logs/PDFExporter.log
+Φεβ 28, 2025 12:45:01 Μ.Μ. com.eapproject.DomainLayer.UseCase.PDFExporter exportStatisticsToPDF
+INFO: ✅ Το αρχείο Stats_2025-02-28-12-45-01.pdf δημιουργήθηκε με επιτυχία.
+Φεβ 28, 2025 12:59:01 Μ.Μ. com.eapproject.DomainLayer.UseCase.PDFExporter initializeLogger
+INFO: 📌 Έναρξη καταγραφής του Logger στο logs/PDFExporter.log
+Φεβ 28, 2025 12:59:01 Μ.Μ. com.eapproject.DomainLayer.UseCase.PDFExporter exportStatisticsToPDF
+INFO: ✅ Το αρχείο Stats_2025-02-28-12-59-01.pdf δημιουργήθηκε με επιτυχία.
+Φεβ 28, 2025 1:18:00 Μ.Μ. com.eapproject.DomainLayer.UseCase.PDFExporter initializeLogger
+INFO: 📌 Έναρξη καταγραφής του Logger στο logs/PDFExporter.log
+Φεβ 28, 2025 1:18:01 Μ.Μ. com.eapproject.DomainLayer.UseCase.PDFExporter exportStatisticsToPDF
+INFO: ✅ Το αρχείο Stats_2025-02-28-13-18-00.pdf δημιουργήθηκε με επιτυχία.
+Φεβ 28, 2025 1:20:29 Μ.Μ. com.eapproject.DomainLayer.UseCase.PDFExporter initializeLogger
+INFO: 📌 Έναρξη καταγραφής του Logger στο logs/PDFExporter.log
+Φεβ 28, 2025 1:20:29 Μ.Μ. com.eapproject.DomainLayer.UseCase.PDFExporter exportStatisticsToPDF
+INFO: ✅ Το αρχείο Stats_2025-02-28-13-20-29.pdf δημιουργήθηκε με επιτυχία.
+Φεβ 28, 2025 1:22:14 Μ.Μ. com.eapproject.DomainLayer.UseCase.PDFExporter initializeLogger
+INFO: 📌 Έναρξη καταγραφής του Logger στο logs/PDFExporter.log
+Φεβ 28, 2025 1:22:14 Μ.Μ. com.eapproject.DomainLayer.UseCase.PDFExporter exportStatisticsToPDF
+INFO: ✅ Το αρχείο Stats_2025-02-28-13-22-14.pdf δημιουργήθηκε με επιτυχία.
+Φεβ 28, 2025 1:28:46 Μ.Μ. com.eapproject.DomainLayer.UseCase.PDFExporter initializeLogger
+INFO: 📌 Έναρξη καταγραφής του Logger στο logs/PDFExporter.log
+Φεβ 28, 2025 1:28:46 Μ.Μ. com.eapproject.DomainLayer.UseCase.PDFExporter exportStatisticsToPDF
+INFO: ✅ Το αρχείο Stats_2025-02-28-13-28-46.pdf δημιουργήθηκε με επιτυχία.
+Φεβ 28, 2025 1:29:51 Μ.Μ. com.eapproject.DomainLayer.UseCase.PDFExporter initializeLogger
+INFO: 📌 Έναρξη καταγραφής του Logger στο logs/PDFExporter.log
+Φεβ 28, 2025 1:29:51 Μ.Μ. com.eapproject.DomainLayer.UseCase.PDFExporter exportStatisticsToPDF
+INFO: ✅ Το αρχείο Stats_2025-02-28-13-29-51.pdf δημιουργήθηκε με επιτυχία.
+Φεβ 28, 2025 1:43:50 Μ.Μ. com.eapproject.DomainLayer.UseCase.PDFExporter initializeLogger
+INFO: 📌 Έναρξη καταγραφής του Logger στο logs/PDFExporter.log
+Φεβ 28, 2025 1:43:51 Μ.Μ. com.eapproject.DomainLayer.UseCase.PDFExporter exportStatisticsToPDF
+INFO: ✅ Το αρχείο Stats_2025-02-28-13-43-50.pdf δημιουργήθηκε με επιτυχία.
+Φεβ 28, 2025 1:50:28 Μ.Μ. com.eapproject.DomainLayer.UseCase.PDFExporter initializeLogger
+INFO: 📌 Έναρξη καταγραφής του Logger στο logs/PDFExporter.log
+Φεβ 28, 2025 1:50:28 Μ.Μ. com.eapproject.DomainLayer.UseCase.PDFExporter exportStatisticsToPDF
+INFO: ✅ Το αρχείο Stats_2025-02-28-13-50-28.pdf δημιουργήθηκε με επιτυχία.
+Φεβ 28, 2025 2:00:29 Μ.Μ. com.eapproject.DomainLayer.UseCase.PDFExporter initializeLogger
+INFO: 📌 Έναρξη καταγραφής του Logger στο logs/PDFExporter.log
+Φεβ 28, 2025 2:00:29 Μ.Μ. com.eapproject.DomainLayer.UseCase.PDFExporter exportStatisticsToPDF
+INFO: ✅ Το αρχείο Stats_2025-02-28-14-00-29.pdf δημιουργήθηκε με επιτυχία.
+Φεβ 28, 2025 2:11:02 Μ.Μ. com.eapproject.DomainLayer.UseCase.PDFExporter initializeLogger
+INFO: 📌 Έναρξη καταγραφής του Logger στο logs/PDFExporter.log
+Φεβ 28, 2025 2:17:51 Μ.Μ. com.eapproject.DomainLayer.UseCase.PDFExporter initializeLogger
+INFO: 📌 Έναρξη καταγραφής του Logger στο logs/PDFExporter.log
+Φεβ 28, 2025 2:17:52 Μ.Μ. com.eapproject.DomainLayer.UseCase.PDFExporter exportStatisticsToPDF
+INFO: ✅ Το αρχείο Stats_2025-02-28-14-17-51.pdf δημιουργήθηκε με επιτυχία.
+Φεβ 28, 2025 2:24:54 Μ.Μ. com.eapproject.DomainLayer.UseCase.PDFExporter initializeLogger
+INFO: 📌 Έναρξη καταγραφής του Logger στο logs/PDFExporter.log
+Φεβ 28, 2025 2:24:54 Μ.Μ. com.eapproject.DomainLayer.UseCase.PDFExporter exportStatisticsToPDF
+INFO: ✅ Το αρχείο Stats_2025-02-28-14-24-54.pdf δημιουργήθηκε με επιτυχία.

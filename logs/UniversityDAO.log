@@ -3213,3 +3213,169 @@ INFO: 📌 Έναρξη καταγραφής του Logger στο logs/Universit
 INFO: 📌 Έναρξη καταγραφής του Logger στο logs/UniversityDAO.log
 Φεβ 28, 2025 10:40:19 Π.Μ. com.eapproject.DataLayer.DB.UniversityDAO initializeLogger
 INFO: 📌 Έναρξη καταγραφής του Logger στο logs/UniversityDAO.log
+Φεβ 28, 2025 11:08:33 Π.Μ. com.eapproject.DataLayer.DB.UniversityDAO initializeLogger
+INFO: 📌 Έναρξη καταγραφής του Logger στο logs/UniversityDAO.log
+Φεβ 28, 2025 11:11:19 Π.Μ. com.eapproject.DataLayer.DB.UniversityDAO insertUniversity
+INFO: ✅ Το πανεπιστήμιο προστέθηκε επιτυχώς: Aegean University
+Φεβ 28, 2025 11:11:19 Π.Μ. com.eapproject.DataLayer.DB.UniversityDAO upsertUniversity
+INFO: ✅ Νέο πανεπιστήμιο εισήχθη: Aegean University
+Φεβ 28, 2025 11:11:20 Π.Μ. com.eapproject.DataLayer.DB.UniversityDAO increaseViewCount
+INFO: 👁️ Ο μετρητής προβολών αυξήθηκε για το πανεπιστήμιο με ID: 4.601
+Φεβ 28, 2025 11:11:35 Π.Μ. com.eapproject.DataLayer.DB.UniversityDAO updateUniversityUser
+INFO: ✅Το πανεπιστήμιο ενημερώθηκε: Aegean University
+Φεβ 28, 2025 11:11:35 Π.Μ. com.eapproject.DataLayer.DB.UniversityDAO upsertUniversity
+INFO: 🔄 Το υπάρχον πανεπιστήμιο ενημερώθηκε: Aegean University
+Φεβ 28, 2025 11:11:35 Π.Μ. com.eapproject.DataLayer.DB.UniversityDAO increaseViewCount
+INFO: 👁️ Ο μετρητής προβολών αυξήθηκε για το πανεπιστήμιο με ID: 4.601
+Φεβ 28, 2025 11:11:36 Π.Μ. com.eapproject.DataLayer.DB.UniversityDAO updateUniversityUser
+INFO: ✅Το πανεπιστήμιο ενημερώθηκε: Aegean University
+Φεβ 28, 2025 11:11:36 Π.Μ. com.eapproject.DataLayer.DB.UniversityDAO upsertUniversity
+INFO: 🔄 Το υπάρχον πανεπιστήμιο ενημερώθηκε: Aegean University
+Φεβ 28, 2025 11:11:36 Π.Μ. com.eapproject.DataLayer.DB.UniversityDAO increaseViewCount
+INFO: 👁️ Ο μετρητής προβολών αυξήθηκε για το πανεπιστήμιο με ID: 4.601
+Φεβ 28, 2025 11:11:37 Π.Μ. com.eapproject.DataLayer.DB.UniversityDAO updateUniversityUser
+INFO: ✅Το πανεπιστήμιο ενημερώθηκε: Aegean University
+Φεβ 28, 2025 11:11:37 Π.Μ. com.eapproject.DataLayer.DB.UniversityDAO upsertUniversity
+INFO: 🔄 Το υπάρχον πανεπιστήμιο ενημερώθηκε: Aegean University
+Φεβ 28, 2025 11:11:37 Π.Μ. com.eapproject.DataLayer.DB.UniversityDAO updateUniversityUser
+INFO: ✅Το πανεπιστήμιο ενημερώθηκε: Aegean University
+Φεβ 28, 2025 11:11:37 Π.Μ. com.eapproject.DataLayer.DB.UniversityDAO upsertUniversity
+INFO: 🔄 Το υπάρχον πανεπιστήμιο ενημερώθηκε: Aegean University
+Φεβ 28, 2025 11:11:37 Π.Μ. com.eapproject.DataLayer.DB.UniversityDAO increaseViewCount
+INFO: 👁️ Ο μετρητής προβολών αυξήθηκε για το πανεπιστήμιο με ID: 4.601
+Φεβ 28, 2025 11:11:38 Π.Μ. com.eapproject.DataLayer.DB.UniversityDAO increaseViewCount
+INFO: 👁️ Ο μετρητής προβολών αυξήθηκε για το πανεπιστήμιο με ID: 4.601
+Φεβ 28, 2025 11:11:38 Π.Μ. com.eapproject.DataLayer.DB.UniversityDAO updateUniversityUser
+INFO: ✅Το πανεπιστήμιο ενημερώθηκε: Aegean University
+Φεβ 28, 2025 11:11:38 Π.Μ. com.eapproject.DataLayer.DB.UniversityDAO upsertUniversity
+INFO: 🔄 Το υπάρχον πανεπιστήμιο ενημερώθηκε: Aegean University
+Φεβ 28, 2025 11:11:38 Π.Μ. com.eapproject.DataLayer.DB.UniversityDAO updateUniversityUser
+INFO: ✅Το πανεπιστήμιο ενημερώθηκε: Aegean University
+Φεβ 28, 2025 11:11:38 Π.Μ. com.eapproject.DataLayer.DB.UniversityDAO upsertUniversity
+INFO: 🔄 Το υπάρχον πανεπιστήμιο ενημερώθηκε: Aegean University
+Φεβ 28, 2025 11:11:38 Π.Μ. com.eapproject.DataLayer.DB.UniversityDAO increaseViewCount
+INFO: 👁️ Ο μετρητής προβολών αυξήθηκε για το πανεπιστήμιο με ID: 4.601
+Φεβ 28, 2025 11:11:39 Π.Μ. com.eapproject.DataLayer.DB.UniversityDAO updateUniversityUser
+INFO: ✅Το πανεπιστήμιο ενημερώθηκε: Aegean University
+Φεβ 28, 2025 11:11:39 Π.Μ. com.eapproject.DataLayer.DB.UniversityDAO upsertUniversity
+INFO: 🔄 Το υπάρχον πανεπιστήμιο ενημερώθηκε: Aegean University
+Φεβ 28, 2025 11:11:39 Π.Μ. com.eapproject.DataLayer.DB.UniversityDAO increaseViewCount
+INFO: 👁️ Ο μετρητής προβολών αυξήθηκε για το πανεπιστήμιο με ID: 4.601
+Φεβ 28, 2025 11:11:39 Π.Μ. com.eapproject.DataLayer.DB.UniversityDAO updateUniversityUser
+INFO: ✅Το πανεπιστήμιο ενημερώθηκε: Aegean University
+Φεβ 28, 2025 11:11:39 Π.Μ. com.eapproject.DataLayer.DB.UniversityDAO increaseViewCount
+INFO: 👁️ Ο μετρητής προβολών αυξήθηκε για το πανεπιστήμιο με ID: 4.601
+Φεβ 28, 2025 11:11:39 Π.Μ. com.eapproject.DataLayer.DB.UniversityDAO upsertUniversity
+INFO: 🔄 Το υπάρχον πανεπιστήμιο ενημερώθηκε: Aegean University
+Φεβ 28, 2025 11:11:40 Π.Μ. com.eapproject.DataLayer.DB.UniversityDAO updateUniversityUser
+INFO: ✅Το πανεπιστήμιο ενημερώθηκε: Aegean University
+Φεβ 28, 2025 11:11:40 Π.Μ. com.eapproject.DataLayer.DB.UniversityDAO increaseViewCount
+INFO: 👁️ Ο μετρητής προβολών αυξήθηκε για το πανεπιστήμιο με ID: 4.601
+Φεβ 28, 2025 11:11:40 Π.Μ. com.eapproject.DataLayer.DB.UniversityDAO upsertUniversity
+INFO: 🔄 Το υπάρχον πανεπιστήμιο ενημερώθηκε: Aegean University
+Φεβ 28, 2025 11:11:40 Π.Μ. com.eapproject.DataLayer.DB.UniversityDAO increaseViewCount
+INFO: 👁️ Ο μετρητής προβολών αυξήθηκε για το πανεπιστήμιο με ID: 4.601
+Φεβ 28, 2025 11:11:41 Π.Μ. com.eapproject.DataLayer.DB.UniversityDAO updateUniversityUser
+INFO: ✅Το πανεπιστήμιο ενημερώθηκε: Aegean University
+Φεβ 28, 2025 11:11:41 Π.Μ. com.eapproject.DataLayer.DB.UniversityDAO upsertUniversity
+INFO: 🔄 Το υπάρχον πανεπιστήμιο ενημερώθηκε: Aegean University
+Φεβ 28, 2025 11:11:41 Π.Μ. com.eapproject.DataLayer.DB.UniversityDAO updateUniversityUser
+INFO: ✅Το πανεπιστήμιο ενημερώθηκε: Aegean University
+Φεβ 28, 2025 11:11:41 Π.Μ. com.eapproject.DataLayer.DB.UniversityDAO upsertUniversity
+INFO: 🔄 Το υπάρχον πανεπιστήμιο ενημερώθηκε: Aegean University
+Φεβ 28, 2025 11:11:41 Π.Μ. com.eapproject.DataLayer.DB.UniversityDAO increaseViewCount
+INFO: 👁️ Ο μετρητής προβολών αυξήθηκε για το πανεπιστήμιο με ID: 4.601
+Φεβ 28, 2025 11:11:41 Π.Μ. com.eapproject.DataLayer.DB.UniversityDAO updateUniversityUser
+INFO: ✅Το πανεπιστήμιο ενημερώθηκε: Aegean University
+Φεβ 28, 2025 11:11:41 Π.Μ. com.eapproject.DataLayer.DB.UniversityDAO upsertUniversity
+INFO: 🔄 Το υπάρχον πανεπιστήμιο ενημερώθηκε: Aegean University
+Φεβ 28, 2025 11:11:42 Π.Μ. com.eapproject.DataLayer.DB.UniversityDAO updateUniversityUser
+INFO: ✅Το πανεπιστήμιο ενημερώθηκε: Aegean University
+Φεβ 28, 2025 11:11:42 Π.Μ. com.eapproject.DataLayer.DB.UniversityDAO upsertUniversity
+INFO: 🔄 Το υπάρχον πανεπιστήμιο ενημερώθηκε: Aegean University
+Φεβ 28, 2025 11:11:42 Π.Μ. com.eapproject.DataLayer.DB.UniversityDAO updateUniversityUser
+INFO: ✅Το πανεπιστήμιο ενημερώθηκε: Aegean University
+Φεβ 28, 2025 11:11:42 Π.Μ. com.eapproject.DataLayer.DB.UniversityDAO upsertUniversity
+INFO: 🔄 Το υπάρχον πανεπιστήμιο ενημερώθηκε: Aegean University
+Φεβ 28, 2025 11:11:42 Π.Μ. com.eapproject.DataLayer.DB.UniversityDAO updateUniversityUser
+INFO: ✅Το πανεπιστήμιο ενημερώθηκε: Aegean University
+Φεβ 28, 2025 11:11:42 Π.Μ. com.eapproject.DataLayer.DB.UniversityDAO upsertUniversity
+INFO: 🔄 Το υπάρχον πανεπιστήμιο ενημερώθηκε: Aegean University
+Φεβ 28, 2025 11:11:42 Π.Μ. com.eapproject.DataLayer.DB.UniversityDAO increaseViewCount
+INFO: 👁️ Ο μετρητής προβολών αυξήθηκε για το πανεπιστήμιο με ID: 4.601
+Φεβ 28, 2025 11:11:42 Π.Μ. com.eapproject.DataLayer.DB.UniversityDAO increaseViewCount
+INFO: 👁️ Ο μετρητής προβολών αυξήθηκε για το πανεπιστήμιο με ID: 4.601
+Φεβ 28, 2025 11:11:42 Π.Μ. com.eapproject.DataLayer.DB.UniversityDAO updateUniversityUser
+INFO: ✅Το πανεπιστήμιο ενημερώθηκε: Aegean University
+Φεβ 28, 2025 11:11:42 Π.Μ. com.eapproject.DataLayer.DB.UniversityDAO upsertUniversity
+INFO: 🔄 Το υπάρχον πανεπιστήμιο ενημερώθηκε: Aegean University
+Φεβ 28, 2025 11:11:42 Π.Μ. com.eapproject.DataLayer.DB.UniversityDAO increaseViewCount
+INFO: 👁️ Ο μετρητής προβολών αυξήθηκε για το πανεπιστήμιο με ID: 4.601
+Φεβ 28, 2025 11:11:42 Π.Μ. com.eapproject.DataLayer.DB.UniversityDAO increaseViewCount
+INFO: 👁️ Ο μετρητής προβολών αυξήθηκε για το πανεπιστήμιο με ID: 4.601
+Φεβ 28, 2025 11:11:43 Π.Μ. com.eapproject.DataLayer.DB.UniversityDAO increaseViewCount
+INFO: 👁️ Ο μετρητής προβολών αυξήθηκε για το πανεπιστήμιο με ID: 4.601
+Φεβ 28, 2025 11:11:43 Π.Μ. com.eapproject.DataLayer.DB.UniversityDAO updateUniversityUser
+INFO: ✅Το πανεπιστήμιο ενημερώθηκε: Aegean University
+Φεβ 28, 2025 11:11:43 Π.Μ. com.eapproject.DataLayer.DB.UniversityDAO increaseViewCount
+INFO: 👁️ Ο μετρητής προβολών αυξήθηκε για το πανεπιστήμιο με ID: 4.601
+Φεβ 28, 2025 11:11:43 Π.Μ. com.eapproject.DataLayer.DB.UniversityDAO upsertUniversity
+INFO: 🔄 Το υπάρχον πανεπιστήμιο ενημερώθηκε: Aegean University
+Φεβ 28, 2025 11:11:43 Π.Μ. com.eapproject.DataLayer.DB.UniversityDAO updateUniversityUser
+INFO: ✅Το πανεπιστήμιο ενημερώθηκε: Aegean University
+Φεβ 28, 2025 11:11:43 Π.Μ. com.eapproject.DataLayer.DB.UniversityDAO upsertUniversity
+INFO: 🔄 Το υπάρχον πανεπιστήμιο ενημερώθηκε: Aegean University
+Φεβ 28, 2025 11:11:43 Π.Μ. com.eapproject.DataLayer.DB.UniversityDAO updateUniversityUser
+INFO: ✅Το πανεπιστήμιο ενημερώθηκε: Aegean University
+Φεβ 28, 2025 11:11:43 Π.Μ. com.eapproject.DataLayer.DB.UniversityDAO upsertUniversity
+INFO: 🔄 Το υπάρχον πανεπιστήμιο ενημερώθηκε: Aegean University
+Φεβ 28, 2025 11:11:43 Π.Μ. com.eapproject.DataLayer.DB.UniversityDAO increaseViewCount
+INFO: 👁️ Ο μετρητής προβολών αυξήθηκε για το πανεπιστήμιο με ID: 4.601
+Φεβ 28, 2025 11:11:43 Π.Μ. com.eapproject.DataLayer.DB.UniversityDAO increaseViewCount
+INFO: 👁️ Ο μετρητής προβολών αυξήθηκε για το πανεπιστήμιο με ID: 4.601
+Φεβ 28, 2025 11:11:43 Π.Μ. com.eapproject.DataLayer.DB.UniversityDAO increaseViewCount
+INFO: 👁️ Ο μετρητής προβολών αυξήθηκε για το πανεπιστήμιο με ID: 4.601
+Φεβ 28, 2025 11:24:38 Π.Μ. com.eapproject.DataLayer.DB.UniversityDAO initializeLogger
+INFO: 📌 Έναρξη καταγραφής του Logger στο logs/UniversityDAO.log
+Φεβ 28, 2025 12:09:39 Μ.Μ. com.eapproject.DataLayer.DB.UniversityDAO initializeLogger
+INFO: 📌 Έναρξη καταγραφής του Logger στο logs/UniversityDAO.log
+Φεβ 28, 2025 12:17:05 Μ.Μ. com.eapproject.DataLayer.DB.UniversityDAO initializeLogger
+INFO: 📌 Έναρξη καταγραφής του Logger στο logs/UniversityDAO.log
+Φεβ 28, 2025 12:19:42 Μ.Μ. com.eapproject.DataLayer.DB.UniversityDAO initializeLogger
+INFO: 📌 Έναρξη καταγραφής του Logger στο logs/UniversityDAO.log
+Φεβ 28, 2025 12:24:43 Μ.Μ. com.eapproject.DataLayer.DB.UniversityDAO insertUniversity
+INFO: ✅ Το πανεπιστήμιο προστέθηκε επιτυχώς: Kazak State University of Agriculture
+Φεβ 28, 2025 12:24:43 Μ.Μ. com.eapproject.DataLayer.DB.UniversityDAO upsertUniversity
+INFO: ✅ Νέο πανεπιστήμιο εισήχθη: Kazak State University of Agriculture
+Φεβ 28, 2025 12:24:44 Μ.Μ. com.eapproject.DataLayer.DB.UniversityDAO increaseViewCount
+INFO: 👁️ Ο μετρητής προβολών αυξήθηκε για το πανεπιστήμιο με ID: 4.701
+Φεβ 28, 2025 12:30:58 Μ.Μ. com.eapproject.DataLayer.DB.UniversityDAO initializeLogger
+INFO: 📌 Έναρξη καταγραφής του Logger στο logs/UniversityDAO.log
+Φεβ 28, 2025 12:43:30 Μ.Μ. com.eapproject.DataLayer.DB.UniversityDAO initializeLogger
+INFO: 📌 Έναρξη καταγραφής του Logger στο logs/UniversityDAO.log
+Φεβ 28, 2025 12:44:57 Μ.Μ. com.eapproject.DataLayer.DB.UniversityDAO initializeLogger
+INFO: 📌 Έναρξη καταγραφής του Logger στο logs/UniversityDAO.log
+Φεβ 28, 2025 12:58:56 Μ.Μ. com.eapproject.DataLayer.DB.UniversityDAO initializeLogger
+INFO: 📌 Έναρξη καταγραφής του Logger στο logs/UniversityDAO.log
+Φεβ 28, 2025 1:17:55 Μ.Μ. com.eapproject.DataLayer.DB.UniversityDAO initializeLogger
+INFO: 📌 Έναρξη καταγραφής του Logger στο logs/UniversityDAO.log
+Φεβ 28, 2025 1:20:24 Μ.Μ. com.eapproject.DataLayer.DB.UniversityDAO initializeLogger
+INFO: 📌 Έναρξη καταγραφής του Logger στο logs/UniversityDAO.log
+Φεβ 28, 2025 1:22:09 Μ.Μ. com.eapproject.DataLayer.DB.UniversityDAO initializeLogger
+INFO: 📌 Έναρξη καταγραφής του Logger στο logs/UniversityDAO.log
+Φεβ 28, 2025 1:28:41 Μ.Μ. com.eapproject.DataLayer.DB.UniversityDAO initializeLogger
+INFO: 📌 Έναρξη καταγραφής του Logger στο logs/UniversityDAO.log
+Φεβ 28, 2025 1:29:46 Μ.Μ. com.eapproject.DataLayer.DB.UniversityDAO initializeLogger
+INFO: 📌 Έναρξη καταγραφής του Logger στο logs/UniversityDAO.log
+Φεβ 28, 2025 1:43:45 Μ.Μ. com.eapproject.DataLayer.DB.UniversityDAO initializeLogger
+INFO: 📌 Έναρξη καταγραφής του Logger στο logs/UniversityDAO.log
+Φεβ 28, 2025 1:50:23 Μ.Μ. com.eapproject.DataLayer.DB.UniversityDAO initializeLogger
+INFO: 📌 Έναρξη καταγραφής του Logger στο logs/UniversityDAO.log
+Φεβ 28, 2025 2:00:23 Μ.Μ. com.eapproject.DataLayer.DB.UniversityDAO initializeLogger
+INFO: 📌 Έναρξη καταγραφής του Logger στο logs/UniversityDAO.log
+Φεβ 28, 2025 2:10:56 Μ.Μ. com.eapproject.DataLayer.DB.UniversityDAO initializeLogger
+INFO: 📌 Έναρξη καταγραφής του Logger στο logs/UniversityDAO.log
+Φεβ 28, 2025 2:17:45 Μ.Μ. com.eapproject.DataLayer.DB.UniversityDAO initializeLogger
+INFO: 📌 Έναρξη καταγραφής του Logger στο logs/UniversityDAO.log
+Φεβ 28, 2025 2:24:47 Μ.Μ. com.eapproject.DataLayer.DB.UniversityDAO initializeLogger
+INFO: 📌 Έναρξη καταγραφής του Logger στο logs/UniversityDAO.log
