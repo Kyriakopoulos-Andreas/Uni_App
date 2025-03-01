@@ -16,3 +16,13 @@ INFO: ✅ Νέο πανεπιστήμιο εισήχθη: Kazak American Univers
 INFO: 👁️ Ο μετρητής προβολών αυξήθηκε για το πανεπιστήμιο με ID: 5.101
 Μαρ 01, 2025 5:44:29 Μ.Μ. com.eapproject.DataLayer.DB.UniversityDAO initializeLogger
 INFO: 📌 Έναρξη καταγραφής του Logger στο logs/UniversityDAO.log
+Μαρ 01, 2025 5:55:20 Μ.Μ. com.eapproject.DataLayer.DB.UniversityDAO initializeLogger
+INFO: 📌 Έναρξη καταγραφής του Logger στο logs/UniversityDAO.log
+Μαρ 01, 2025 5:55:34 Μ.Μ. com.eapproject.DataLayer.DB.UniversityDAO updateUniversityUser
+INFO: ✅Το πανεπιστήμιο ενημερώθηκε: The College of The Bahamas
+Μαρ 01, 2025 5:55:34 Μ.Μ. com.eapproject.DataLayer.DB.UniversityDAO upsertUniversity
+INFO: 🔄 Το υπάρχον πανεπιστήμιο ενημερώθηκε: The College of The Bahamas
+Μαρ 01, 2025 5:55:35 Μ.Μ. com.eapproject.DataLayer.DB.UniversityDAO increaseViewCount
+INFO: 👁️ Ο μετρητής προβολών αυξήθηκε για το πανεπιστήμιο με ID: 2.201
+Μαρ 01, 2025 5:55:41 Μ.Μ. com.eapproject.DataLayer.DB.UniversityDAO updateUniversityUser
+INFO: ✅Το πανεπιστήμιο ενημερώθηκε: The College of The Bahamas

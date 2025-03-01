@@ -10,3 +10,7 @@ INFO: ℹ️ Η εφαρμογή ξεκίνησε επιτυχώς.
 INFO: 📌 Έναρξη καταγραφής του Logger στο logs/Uni_App_Project.log
 Μαρ 01, 2025 5:44:31 Μ.Μ. com.eapproject.uni_app_project.Uni_App_Project lambda$main$0
 INFO: ℹ️ Η εφαρμογή ξεκίνησε επιτυχώς.
+Μαρ 01, 2025 5:55:19 Μ.Μ. com.eapproject.uni_app_project.Uni_App_Project initializeLogger
+INFO: 📌 Έναρξη καταγραφής του Logger στο logs/Uni_App_Project.log
+Μαρ 01, 2025 5:55:21 Μ.Μ. com.eapproject.uni_app_project.Uni_App_Project lambda$main$0
+INFO: ℹ️ Η εφαρμογή ξεκίνησε επιτυχώς.

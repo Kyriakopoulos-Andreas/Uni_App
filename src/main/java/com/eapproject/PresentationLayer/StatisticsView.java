@@ -37,7 +37,7 @@ import java.util.logging.SimpleFormatter;
  *   <li>Font στα δεδομένα: "Arial", bold, 16pt με καφέ σκούρο χρώμα (Color(139,89,61)).</li>
  *   <li>Στήλες "No." και "Views": κεντρική στοίχιση, "University Name": αριστερή στοίχιση.</li>
  * </ul>
- * </p>
+ * 
  *
  * <p>
  * <strong>Παράδειγμα Χρήσης:</strong>
@@ -47,7 +47,7 @@ import java.util.logging.SimpleFormatter;
  *     StatisticsView statisticsView = new StatisticsView(stats, viewModel);
  *     // Προσθέτουμε το statisticsView στο κύριο παράθυρο της εφαρμογής.
  * </pre>
- * </p>
+ * 
  */
 public class StatisticsView extends JPanel {
 

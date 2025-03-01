@@ -126,3 +126,37 @@ INFO: ℹ️ Επανακτήθηκαν στατιστικά για 45 πανε�
 INFO: 📌 Έναρξη καταγραφής του Logger στο logs/UniversitiesViewModel.log
 Μαρ 01, 2025 5:44:32 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel$1 onSuccess
 INFO: ℹ️ Επανακτήθηκαν 10163 πανεπιστήμια.
+Μαρ 01, 2025 5:55:21 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel initializeLogger
+INFO: 📌 Έναρξη καταγραφής του Logger στο logs/UniversitiesViewModel.log
+Μαρ 01, 2025 5:55:23 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel$1 onSuccess
+INFO: ℹ️ Επανακτήθηκαν 10163 πανεπιστήμια.
+Μαρ 01, 2025 5:55:24 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel$2 onSuccess
+INFO: ℹ️ Επανακτήθηκαν στατιστικά για 45 πανεπιστήμια.
+Μαρ 01, 2025 5:55:24 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel$2 onSuccess
+INFO: ℹ️ Επανακτήθηκαν στατιστικά για 45 πανεπιστήμια.
+Μαρ 01, 2025 5:55:26 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: University of the Virgin Islands
+Μαρ 01, 2025 5:55:28 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel$2 onSuccess
+INFO: ℹ️ Επανακτήθηκαν στατιστικά για 45 πανεπιστήμια.
+Μαρ 01, 2025 5:55:32 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: The College of The Bahamas
+Μαρ 01, 2025 5:55:34 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel getUniversityFromList
+INFO: ℹ️ Βρέθηκε το πανεπιστήμιο: The College of The Bahamas
+Μαρ 01, 2025 5:55:41 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel checkIfCountryUpdateIsAvailable
+INFO: 🔎 Έλεγχος διαθεσιμότητας για χώρα: Bahamas
+Μαρ 01, 2025 5:55:41 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel checkIfCountryUpdateIsAvailable
+INFO: ℹ️ Διαθεσιμότητα ενημέρωσης χώρας: true
+Μαρ 01, 2025 5:55:41 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel updateExtendUniversity
+INFO: UpdateCountry: Bahamas
+Μαρ 01, 2025 5:55:41 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel updateExtendUniversity
+INFO: Before Saving - State: Unknown
+Μαρ 01, 2025 5:55:41 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel updateExtendUniversity
+INFO: Before Saving - Alpha: BS
+Μαρ 01, 2025 5:55:41 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel updateExtendUniversity
+INFO: Before Saving - Faculties: 
+Μαρ 01, 2025 5:55:41 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel updateExtendUniversity
+INFO: Before Saving - Contact: Unknown
+Μαρ 01, 2025 5:55:41 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel updateExtendUniversity
+INFO: Before Saving - WebPages: [www.cob.edu.bs]
+Μαρ 01, 2025 5:55:41 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel updateExtendUniversity
+INFO: ℹ️ Ενημέρωση επιτυχής για The College of The Bahamas
