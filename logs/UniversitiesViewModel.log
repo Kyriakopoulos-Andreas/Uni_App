@@ -1,0 +1,494 @@
+Μαρ 01, 2025 2:00:09 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel initializeLogger
+INFO: 📌 Έναρξη καταγραφής του Logger στο logs/UniversitiesViewModel.log
+Μαρ 01, 2025 2:00:10 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel$1 onSuccess
+INFO: ℹ️ Επανακτήθηκαν 10163 πανεπιστήμια.
+Μαρ 01, 2025 2:00:13 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel$2 onSuccess
+INFO: ℹ️ Επανακτήθηκαν στατιστικά για 41 πανεπιστήμια.
+Μαρ 01, 2025 2:00:14 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel$2 onSuccess
+INFO: ℹ️ Επανακτήθηκαν στατιστικά για 41 πανεπιστήμια.
+Μαρ 01, 2025 2:00:17 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Universidad del Istmo
+Μαρ 01, 2025 2:00:17 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Floret Global University
+Μαρ 01, 2025 2:00:17 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Instituto de Enseñanza Superior Oteima
+Μαρ 01, 2025 2:00:17 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Universidad Tecnológica Oteima
+Μαρ 01, 2025 2:00:17 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Universidad de Cartago
+Μαρ 01, 2025 2:00:17 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Universidad Especializada de Las Americas
+Μαρ 01, 2025 2:00:17 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Universidad del Istmo
+Μαρ 01, 2025 2:00:17 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Universidad Latinoamericana de Ciencia y Tecnologia, Panamá
+Μαρ 01, 2025 2:00:17 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Universidad Latina de Panamá
+Μαρ 01, 2025 2:00:17 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Universidad Autonoma de Chiriqui
+Μαρ 01, 2025 2:00:17 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Universidad Abierta y a Distancia de Panama
+Μαρ 01, 2025 2:00:17 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Universidad Interamericana de Educacion a Distancia de Panama
+Μαρ 01, 2025 2:00:17 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Universidad de Panamá
+Μαρ 01, 2025 2:00:17 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Universidad Católica Santa María La Antigua
+Μαρ 01, 2025 2:00:17 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Universidad Tecnológica de Panamá
+Μαρ 01, 2025 2:00:17 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Victoria International University
+Μαρ 01, 2025 2:00:17 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: West Coast University (WCU)
+Μαρ 01, 2025 2:00:19 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel getUniversityFromList
+INFO: ℹ️ Βρέθηκε το πανεπιστήμιο: Universidad Especializada de Las Americas
+Μαρ 01, 2025 3:40:59 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel initializeLogger
+INFO: 📌 Έναρξη καταγραφής του Logger στο logs/UniversitiesViewModel.log
+Μαρ 01, 2025 3:41:00 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel$1 onSuccess
+INFO: ℹ️ Επανακτήθηκαν 10163 πανεπιστήμια.
+Μαρ 01, 2025 3:41:07 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel$2 onSuccess
+INFO: ℹ️ Επανακτήθηκαν στατιστικά για 41 πανεπιστήμια.
+Μαρ 01, 2025 3:41:08 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel$2 onSuccess
+INFO: ℹ️ Επανακτήθηκαν στατιστικά για 41 πανεπιστήμια.
+Μαρ 01, 2025 3:41:17 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Angkor University
+Μαρ 01, 2025 3:41:17 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Build Bright University
+Μαρ 01, 2025 3:41:17 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Chamreun University of Poly Technology
+Μαρ 01, 2025 3:41:17 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Cambodia University of Specialties
+Μαρ 01, 2025 3:41:17 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: National Institute of Education
+Μαρ 01, 2025 3:41:17 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: International University
+Μαρ 01, 2025 3:41:17 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Cambodian Mekong University
+Μαρ 01, 2025 3:41:17 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Norton University
+Μαρ 01, 2025 3:41:17 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: National University of Management
+Μαρ 01, 2025 3:41:17 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Pannnasatra University of Cambodia
+Μαρ 01, 2025 3:41:17 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Royal University of Agriculture
+Μαρ 01, 2025 3:41:17 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Royal University of Fine Arts
+Μαρ 01, 2025 3:41:17 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Royal University of Law and Economics
+Μαρ 01, 2025 3:41:17 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Royal University of Phnom Penh
+Μαρ 01, 2025 3:41:17 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Svey Reong University
+Μαρ 01, 2025 3:41:17 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: University of Cambodia
+Μαρ 01, 2025 3:41:17 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: University of Health and Science
+Μαρ 01, 2025 3:41:17 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: University of Technology Phnom Penh
+Μαρ 01, 2025 3:41:17 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Western University
+Μαρ 01, 2025 3:41:17 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Zaman University
+Μαρ 01, 2025 3:41:31 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel$2 onSuccess
+INFO: ℹ️ Επανακτήθηκαν στατιστικά για 41 πανεπιστήμια.
+Μαρ 01, 2025 3:41:33 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Universidad Americana
+Μαρ 01, 2025 3:41:33 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Universidad Columbia del Paraguay
+Μαρ 01, 2025 3:41:33 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Universidad Autónoma de Asunción
+Μαρ 01, 2025 3:41:33 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Universidad Americana
+Μαρ 01, 2025 3:41:33 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Universidad Autónoma del Paraguay
+Μαρ 01, 2025 3:41:33 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Universidad Comunera
+Μαρ 01, 2025 3:41:33 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Universidad del Cono Sur de las Américas
+Μαρ 01, 2025 3:41:33 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Universidad Metropolitana de Asunción
+Μαρ 01, 2025 3:41:33 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Universidad Nacional de Asunción
+Μαρ 01, 2025 3:41:33 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Universidad Nacional del Este
+Μαρ 01, 2025 3:41:33 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Universidad de la Integración de las Americas (UNIDAD)
+Μαρ 01, 2025 3:41:33 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Universidad del Norte
+Μαρ 01, 2025 3:41:33 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Universidad Privada del Este
+Μαρ 01, 2025 3:41:33 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Universidad San Carlos
+Μαρ 01, 2025 3:48:47 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel initializeLogger
+INFO: 📌 Έναρξη καταγραφής του Logger στο logs/UniversitiesViewModel.log
+Μαρ 01, 2025 3:48:48 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel$1 onSuccess
+INFO: ℹ️ Επανακτήθηκαν 10163 πανεπιστήμια.
+Μαρ 01, 2025 3:48:49 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel$2 onSuccess
+INFO: ℹ️ Επανακτήθηκαν στατιστικά για 41 πανεπιστήμια.
+Μαρ 01, 2025 3:48:50 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel$2 onSuccess
+INFO: ℹ️ Επανακτήθηκαν στατιστικά για 41 πανεπιστήμια.
+Μαρ 01, 2025 3:48:55 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Cavendish University
+Μαρ 01, 2025 3:48:55 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Copperbelt University
+Μαρ 01, 2025 3:48:55 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Mulungushi University
+Μαρ 01, 2025 3:48:55 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Rusangu University
+Μαρ 01, 2025 3:48:55 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: University of Lusaka
+Μαρ 01, 2025 3:48:55 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Zambian Open University
+Μαρ 01, 2025 3:51:03 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel initializeLogger
+INFO: 📌 Έναρξη καταγραφής του Logger στο logs/UniversitiesViewModel.log
+Μαρ 01, 2025 3:51:04 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel$1 onSuccess
+INFO: ℹ️ Επανακτήθηκαν 10163 πανεπιστήμια.
+Μαρ 01, 2025 3:51:04 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel$2 onSuccess
+INFO: ℹ️ Επανακτήθηκαν στατιστικά για 41 πανεπιστήμια.
+Μαρ 01, 2025 3:51:05 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel$2 onSuccess
+INFO: ℹ️ Επανακτήθηκαν στατιστικά για 41 πανεπιστήμια.
+Μαρ 01, 2025 3:51:10 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Universidad Atlantida Argentina
+Μαρ 01, 2025 3:51:10 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Universidad Austral Buenos Aires
+Μαρ 01, 2025 3:51:10 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Universidad CAECE, Buenos Aires
+Μαρ 01, 2025 3:51:10 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Instituto Universitario CEMA
+Μαρ 01, 2025 3:51:10 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Instituto de Enseñanza Superior del Ejército
+Μαρ 01, 2025 3:51:10 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Instituto Universitario de Estudios Navales y Marítimos
+Μαρ 01, 2025 3:51:10 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Instituto Tecnológico de Buenos Aires
+Μαρ 01, 2025 3:51:10 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Instituto Universitario Aeronáutico
+Μαρ 01, 2025 3:51:10 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Instituto Universitario de Ciencias de la Salud - Buenos Aires
+Μαρ 01, 2025 3:51:10 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Instituto Universitario Nacional del Arte
+Μαρ 01, 2025 3:51:10 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Universidad Argentina "John F. Kennedy"
+Μαρ 01, 2025 3:51:10 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Universidad Maimónides
+Μαρ 01, 2025 3:51:10 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Universidad Nacional de Mar del Plata
+Μαρ 01, 2025 3:51:10 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Universidad de Palermo
+Μαρ 01, 2025 3:51:10 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Universidad del Salvador
+Μαρ 01, 2025 3:51:10 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Universidad Argentina de la Empresa
+Μαρ 01, 2025 3:51:10 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Universidad Autónoma de Entre Ríos
+Μαρ 01, 2025 3:51:10 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Universidad Adventista del Plata
+Μαρ 01, 2025 3:51:10 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Universidad de Buenos Aires
+Μαρ 01, 2025 3:51:10 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Universidad de Belgrano
+Μαρ 01, 2025 3:51:10 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Universidad Blas Pascal
+Μαρ 01, 2025 3:51:10 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Universidad Católica Argentina Santa Maria de los Buenos Aires
+Μαρ 01, 2025 3:51:10 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Universidad Católica de La Plata
+Μαρ 01, 2025 3:51:10 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Universidad Católica de Salta
+Μαρ 01, 2025 3:51:10 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Universidad Católica de Córdoba
+Μαρ 01, 2025 3:51:10 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Universidad Católica de Cuyo
+Μαρ 01, 2025 3:51:10 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Universidad del Centro Educativo Latinoamericano Rosario
+Μαρ 01, 2025 3:51:10 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Universidad de Ciencias Empresariales y Sociales
+Μαρ 01, 2025 3:51:10 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Universidad Champagnat
+Μαρ 01, 2025 3:51:10 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Universidad del Cine - Buenos Aires
+Μαρ 01, 2025 3:51:10 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Universidad de Congreso
+Μαρ 01, 2025 3:51:10 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Universidad de la Cuenca del Plata
+Μαρ 01, 2025 3:51:10 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Universidad Católica de Santiago del Estero
+Μαρ 01, 2025 3:51:10 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Universidad Católica de Santa Fé
+Μαρ 01, 2025 3:51:10 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Universidad de Concepción del Uruguay
+Μαρ 01, 2025 3:51:10 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Universidad del Aconcagua
+Μαρ 01, 2025 3:51:10 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Universidad de la Marina Mercante
+Μαρ 01, 2025 3:51:10 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Universidad de San Andres
+Μαρ 01, 2025 3:51:10 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Universidad Empresarial Siglio 21
+Μαρ 01, 2025 3:51:10 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Universidad de la Fraternidad de Agrupaciones Santo Tomas de Aquino (FASTA)
+Μαρ 01, 2025 3:51:10 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Universidad de Flores - Buenos Aires
+Μαρ 01, 2025 3:51:10 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Universidad "Juan Agustín Maza"
+Μαρ 01, 2025 3:51:10 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Universidad de Mendoza
+Μαρ 01, 2025 3:51:10 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Universidad del Museo Social Argentino
+Μαρ 01, 2025 3:51:10 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Universidad Nacional de Misiones
+Μαρ 01, 2025 3:51:10 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Universidad Nacional de Catamarca
+Μαρ 01, 2025 3:51:10 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Universidad Nacional de Córdoba
+Μαρ 01, 2025 3:51:10 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Universidad Nacional del Comahue
+Μαρ 01, 2025 3:51:10 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Universidad Nacional de Cuyo
+Μαρ 01, 2025 3:51:10 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Universidad Nacional de Entre Ríos
+Μαρ 01, 2025 3:51:10 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Universidad Nacional de Formosa
+Μαρ 01, 2025 3:51:10 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Universidad Nacional de General Sarmiento
+Μαρ 01, 2025 3:51:10 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Universidad de Bologna - Representación en Buenos Aires
+Μαρ 01, 2025 3:51:10 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Universidad Nacional del Centro de la Provincia de Buenos Aires
+Μαρ 01, 2025 3:51:10 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Universidad de Morón
+Μαρ 01, 2025 3:51:10 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Universidad Notarial Argentina
+Μαρ 01, 2025 3:51:10 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Instituto Universitario de la Policia Federal
+Μαρ 01, 2025 3:51:10 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Universidad Nacional de Jujuy
+Μαρ 01, 2025 3:51:10 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Universidad Nacional de Lanus
+Μαρ 01, 2025 3:51:10 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Universidad Nacional de La Matanza
+Μαρ 01, 2025 3:51:10 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Universidad Nacional de La Rioja
+Μαρ 01, 2025 3:51:10 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Universidad Nacional del Litoral
+Μαρ 01, 2025 3:51:10 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Universidad Nacional de La Pampa
+Μαρ 01, 2025 3:51:10 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Universidad Nacional de La Plata
+Μαρ 01, 2025 3:51:10 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Universidad Nacional de Luján
+Μαρ 01, 2025 3:51:10 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Universidad Nacional de Lomas de Zamora
+Μαρ 01, 2025 3:51:10 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Universidad Nacional del Nordeste
+Μαρ 01, 2025 3:51:10 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Universidad Nacional del Noroeste de la Provincia de Buenos Aires
+Μαρ 01, 2025 3:51:10 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Universidad Nacional de la Patagonia Austral
+Μαρ 01, 2025 3:51:10 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Universidad Nacional de la Patagonia "San Juan Bosco"
+Μαρ 01, 2025 3:51:10 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Universidad Nacional de Quilmes
+Μαρ 01, 2025 3:51:10 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Universidad Nacional de Río Cuarto
+Μαρ 01, 2025 3:51:10 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Universidad Nacional de Rosario
+Μαρ 01, 2025 3:51:10 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Universidad Nacional de Salta
+Μαρ 01, 2025 3:51:10 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Universidad Nacional de General San Martín
+Μαρ 01, 2025 3:51:10 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Universidad Nacional del Sur
+Μαρ 01, 2025 3:51:10 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Universidad Nacional de Santiago del Estero
+Μαρ 01, 2025 3:51:10 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Universidad Nacional de San Juan
+Μαρ 01, 2025 3:51:10 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Universidad Nacional de San Luis
+Μαρ 01, 2025 3:51:10 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Universidad del Norte "Santo Tomás de Aquino"
+Μαρ 01, 2025 3:51:10 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Universidad Nacional de Tucumán
+Μαρ 01, 2025 3:51:10 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Universidad Nacional de Tres de Febrero
+Μαρ 01, 2025 3:51:10 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Universidad Torcuato di Tella
+Μαρ 01, 2025 3:51:10 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Universidad Tecnológica Nacional
+Μαρ 01, 2025 3:51:10 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Universidad Abierta Interamericana
+Μαρ 01, 2025 3:51:10 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Universidad Nacional de Villa María
+Μαρ 01, 2025 3:52:27 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel initializeLogger
+INFO: 📌 Έναρξη καταγραφής του Logger στο logs/UniversitiesViewModel.log
+Μαρ 01, 2025 3:52:29 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel$1 onSuccess
+INFO: ℹ️ Επανακτήθηκαν 10163 πανεπιστήμια.
+Μαρ 01, 2025 3:52:30 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel$2 onSuccess
+INFO: ℹ️ Επανακτήθηκαν στατιστικά για 41 πανεπιστήμια.
+Μαρ 01, 2025 3:52:30 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel$2 onSuccess
+INFO: ℹ️ Επανακτήθηκαν στατιστικά για 41 πανεπιστήμια.
+Μαρ 01, 2025 3:52:34 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: African Virtual University
+Μαρ 01, 2025 3:52:34 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Dares Salaam Institute of Technology
+Μαρ 01, 2025 3:52:34 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Hubert Kairuki Memorial University
+Μαρ 01, 2025 3:52:34 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Institute of Accountancy Arusha
+Μαρ 01, 2025 3:52:34 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Institute of Finance Management
+Μαρ 01, 2025 3:52:34 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: International Medical & Technological University
+Μαρ 01, 2025 3:52:34 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Kilimanjaro Christian Medical College
+Μαρ 01, 2025 3:52:34 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Mount Meru University
+Μαρ 01, 2025 3:52:34 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Mwalimu Nyerere Memorial Academy
+Μαρ 01, 2025 3:52:34 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Moshi University College of Cooperative and Business Studies
+Μαρ 01, 2025 3:52:34 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Muhimbili University of Health and Allied Sciences (MUHAS)
+Μαρ 01, 2025 3:52:34 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Mzumbe University (Chuo Kikuu Mzumbe)
+Μαρ 01, 2025 3:52:34 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Open University of Tanzania
+Μαρ 01, 2025 3:52:34 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: St. Augustine University of Tanzania
+Μαρ 01, 2025 3:52:34 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Sebatian Kolowa University College
+Μαρ 01, 2025 3:52:34 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: St. Joseph Group of Institutes
+Μαρ 01, 2025 3:52:34 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Sokoine University of Agriculture
+Μαρ 01, 2025 3:52:34 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Tumaini University - Iringa University College
+Μαρ 01, 2025 3:52:34 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: University of Dodoma
+Μαρ 01, 2025 3:52:34 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: University of Dar Es Salaam
+Μαρ 01, 2025 3:52:37 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel getUniversityFromList
+INFO: ℹ️ Βρέθηκε το πανεπιστήμιο: Mount Meru University
+Μαρ 01, 2025 4:08:00 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel initializeLogger
+INFO: 📌 Έναρξη καταγραφής του Logger στο logs/UniversitiesViewModel.log
+Μαρ 01, 2025 4:08:01 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel$1 onSuccess
+INFO: ℹ️ Επανακτήθηκαν 10163 πανεπιστήμια.
+Μαρ 01, 2025 4:08:04 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Universidad Americana
+Μαρ 01, 2025 4:08:04 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Universidad Columbia del Paraguay
+Μαρ 01, 2025 4:08:04 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Universidad Autónoma de Asunción
+Μαρ 01, 2025 4:08:04 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Universidad Americana
+Μαρ 01, 2025 4:08:04 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Universidad Autónoma del Paraguay
+Μαρ 01, 2025 4:08:04 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Universidad Comunera
+Μαρ 01, 2025 4:08:04 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Universidad del Cono Sur de las Américas
+Μαρ 01, 2025 4:08:04 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Universidad Metropolitana de Asunción
+Μαρ 01, 2025 4:08:04 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Universidad Nacional de Asunción
+Μαρ 01, 2025 4:08:04 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Universidad Nacional del Este
+Μαρ 01, 2025 4:08:04 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Universidad de la Integración de las Americas (UNIDAD)
+Μαρ 01, 2025 4:08:04 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Universidad del Norte
+Μαρ 01, 2025 4:08:04 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Universidad Privada del Este
+Μαρ 01, 2025 4:08:04 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Universidad San Carlos
+Μαρ 01, 2025 4:08:06 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel getUniversityFromList
+INFO: ℹ️ Βρέθηκε το πανεπιστήμιο: Universidad Autónoma del Paraguay
+Μαρ 01, 2025 4:08:07 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel$2 onSuccess
+INFO: ℹ️ Επανακτήθηκαν στατιστικά για 42 πανεπιστήμια.
+Μαρ 01, 2025 4:08:08 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel$2 onSuccess
+INFO: ℹ️ Επανακτήθηκαν στατιστικά για 42 πανεπιστήμια.
+Μαρ 01, 2025 4:17:16 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel initializeLogger
+INFO: 📌 Έναρξη καταγραφής του Logger στο logs/UniversitiesViewModel.log
+Μαρ 01, 2025 4:17:17 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel$1 onSuccess
+INFO: ℹ️ Επανακτήθηκαν 10163 πανεπιστήμια.
+Μαρ 01, 2025 4:17:19 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel$2 onSuccess
+INFO: ℹ️ Επανακτήθηκαν στατιστικά για 42 πανεπιστήμια.
+Μαρ 01, 2025 4:17:19 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel$2 onSuccess
+INFO: ℹ️ Επανακτήθηκαν στατιστικά για 42 πανεπιστήμια.
+Μαρ 01, 2025 4:17:23 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Universidad Americana
+Μαρ 01, 2025 4:17:23 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Universidad Columbia del Paraguay
+Μαρ 01, 2025 4:17:23 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Universidad Autónoma de Asunción
+Μαρ 01, 2025 4:17:23 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Universidad Americana
+Μαρ 01, 2025 4:17:23 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Universidad Autónoma del Paraguay
+Μαρ 01, 2025 4:17:23 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Universidad Comunera
+Μαρ 01, 2025 4:17:23 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Universidad del Cono Sur de las Américas
+Μαρ 01, 2025 4:17:23 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Universidad Metropolitana de Asunción
+Μαρ 01, 2025 4:17:23 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Universidad Nacional de Asunción
+Μαρ 01, 2025 4:17:23 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Universidad Nacional del Este
+Μαρ 01, 2025 4:17:23 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Universidad de la Integración de las Americas (UNIDAD)
+Μαρ 01, 2025 4:17:23 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Universidad del Norte
+Μαρ 01, 2025 4:17:23 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Universidad Privada del Este
+Μαρ 01, 2025 4:17:23 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Universidad San Carlos
+Μαρ 01, 2025 4:17:25 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel getUniversityFromList
+INFO: ℹ️ Βρέθηκε το πανεπιστήμιο: Universidad Autónoma de Asunción
+Μαρ 01, 2025 4:17:29 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: University of Goroka
+Μαρ 01, 2025 4:38:40 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel initializeLogger
+INFO: 📌 Έναρξη καταγραφής του Logger στο logs/UniversitiesViewModel.log
+Μαρ 01, 2025 4:38:42 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel$1 onSuccess
+INFO: ℹ️ Επανακτήθηκαν 10163 πανεπιστήμια.
+Μαρ 01, 2025 4:38:53 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Universidad del Istmo
+Μαρ 01, 2025 4:38:53 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Floret Global University
+Μαρ 01, 2025 4:38:53 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Instituto de Enseñanza Superior Oteima
+Μαρ 01, 2025 4:38:53 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Universidad Tecnológica Oteima
+Μαρ 01, 2025 4:38:53 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Universidad de Cartago
+Μαρ 01, 2025 4:38:53 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Universidad Especializada de Las Americas
+Μαρ 01, 2025 4:38:53 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Universidad del Istmo
+Μαρ 01, 2025 4:38:53 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Universidad Latinoamericana de Ciencia y Tecnologia, Panamá
+Μαρ 01, 2025 4:38:53 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Universidad Latina de Panamá
+Μαρ 01, 2025 4:38:53 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Universidad Autonoma de Chiriqui
+Μαρ 01, 2025 4:38:53 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Universidad Abierta y a Distancia de Panama
+Μαρ 01, 2025 4:38:53 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Universidad Interamericana de Educacion a Distancia de Panama
+Μαρ 01, 2025 4:38:53 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Universidad de Panamá
+Μαρ 01, 2025 4:38:53 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Universidad Católica Santa María La Antigua
+Μαρ 01, 2025 4:38:53 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Universidad Tecnológica de Panamá
+Μαρ 01, 2025 4:38:53 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: Victoria International University
+Μαρ 01, 2025 4:38:53 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel lambda$fetchUniversitiesFromSpecificCountry$2
+INFO: Uni: West Coast University (WCU)
+Μαρ 01, 2025 4:38:55 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel getUniversityFromList
+INFO: ℹ️ Βρέθηκε το πανεπιστήμιο: Instituto de Enseñanza Superior Oteima
+Μαρ 01, 2025 4:38:57 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel$2 onSuccess
+INFO: ℹ️ Επανακτήθηκαν στατιστικά για 44 πανεπιστήμια.
+Μαρ 01, 2025 4:38:57 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel$2 onSuccess
+INFO: ℹ️ Επανακτήθηκαν στατιστικά για 44 πανεπιστήμια.
