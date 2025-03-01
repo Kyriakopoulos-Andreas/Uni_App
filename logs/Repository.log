@@ -1,0 +1,76 @@
+Μαρ 01, 2025 4:50:22 Μ.Μ. com.eapproject.DataLayer.Repo.Repository initializeLogger
+INFO: 📌 Έναρξη καταγραφής του Logger στο logs/Repository.log
+Μαρ 01, 2025 4:50:22 Μ.Μ. com.eapproject.DataLayer.Repo.Repository <init>
+INFO: 📌 Repository initialized.
+Μαρ 01, 2025 4:50:22 Μ.Μ. com.eapproject.DataLayer.Repo.Repository getUniversities
+INFO: 🔎 Fetching universities from API...
+Μαρ 01, 2025 4:50:23 Μ.Μ. com.eapproject.DataLayer.Repo.Repository getAllUniversitiesFromDb
+INFO: 🔎 Fetching all universities from DB...
+Μαρ 01, 2025 4:50:24 Μ.Μ. com.eapproject.DataLayer.Repo.Repository getAllUniversitiesFromDb
+INFO: ✅ Successfully fetched 52 universities from DB.
+Μαρ 01, 2025 4:50:24 Μ.Μ. com.eapproject.DataLayer.Repo.Repository$1 onResponse
+INFO: ✅ Universities fetched successfully from API. Size: 10163
+Μαρ 01, 2025 4:50:24 Μ.Μ. com.eapproject.DataLayer.Repo.Repository fetchStatsAsync
+INFO: 🔎 Fetching stats (popular universities) from DB asynchronously...
+Μαρ 01, 2025 4:50:25 Μ.Μ. com.eapproject.DataLayer.Repo.Repository lambda$fetchStatsAsync$2
+INFO: ✅ Fetched 44 popular universities from DB.
+Μαρ 01, 2025 4:50:25 Μ.Μ. com.eapproject.DataLayer.Repo.Repository fetchStatsAsync
+INFO: 🔎 Fetching stats (popular universities) from DB asynchronously...
+Μαρ 01, 2025 4:50:25 Μ.Μ. com.eapproject.DataLayer.Repo.Repository lambda$fetchStatsAsync$2
+INFO: ✅ Fetched 44 popular universities from DB.
+Μαρ 01, 2025 4:50:32 Μ.Μ. com.eapproject.DataLayer.Repo.Repository saveOrUpdateToDB
+INFO: 💾 Saving or updating university in DB: Mount Meru University
+Μαρ 01, 2025 4:50:32 Μ.Μ. com.eapproject.DataLayer.Repo.Repository lambda$saveOrUpdateToDB$0
+INFO: 🔎 Found university in DB for view increment: Mount Meru University
+Μαρ 01, 2025 4:50:32 Μ.Μ. com.eapproject.DataLayer.Repo.Repository lambda$saveOrUpdateToDB$0
+INFO: ✅ University saved: Mount Meru University
+Μαρ 01, 2025 4:50:35 Μ.Μ. com.eapproject.DataLayer.Repo.Repository fetchStatsAsync
+INFO: 🔎 Fetching stats (popular universities) from DB asynchronously...
+Μαρ 01, 2025 4:50:35 Μ.Μ. com.eapproject.DataLayer.Repo.Repository lambda$fetchStatsAsync$2
+INFO: ✅ Fetched 44 popular universities from DB.
+Μαρ 01, 2025 5:34:30 Μ.Μ. com.eapproject.DataLayer.Repo.Repository initializeLogger
+INFO: 📌 Έναρξη καταγραφής του Logger στο logs/Repository.log
+Μαρ 01, 2025 5:34:30 Μ.Μ. com.eapproject.DataLayer.Repo.Repository <init>
+INFO: 📌 Repository initialized.
+Μαρ 01, 2025 5:34:30 Μ.Μ. com.eapproject.DataLayer.Repo.Repository getUniversities
+INFO: 🔎 Fetching universities from API...
+Μαρ 01, 2025 5:34:31 Μ.Μ. com.eapproject.DataLayer.Repo.Repository getAllUniversitiesFromDb
+INFO: 🔎 Fetching all universities from DB...
+Μαρ 01, 2025 5:34:32 Μ.Μ. com.eapproject.DataLayer.Repo.Repository getAllUniversitiesFromDb
+INFO: ✅ Successfully fetched 52 universities from DB.
+Μαρ 01, 2025 5:34:32 Μ.Μ. com.eapproject.DataLayer.Repo.Repository$1 onResponse
+INFO: ✅ Universities fetched successfully from API. Size: 10163
+Μαρ 01, 2025 5:34:58 Μ.Μ. com.eapproject.DataLayer.Repo.Repository saveOrUpdateToDB
+INFO: 💾 Saving or updating university in DB: Kazak American University
+Μαρ 01, 2025 5:34:58 Μ.Μ. com.eapproject.DataLayer.Repo.Repository lambda$saveOrUpdateToDB$0
+INFO: 🔎 Found university in DB for view increment: Kazak American University
+Μαρ 01, 2025 5:34:58 Μ.Μ. com.eapproject.DataLayer.Repo.Repository lambda$saveOrUpdateToDB$0
+INFO: ✅ University saved: Kazak American University
+Μαρ 01, 2025 5:35:02 Μ.Μ. com.eapproject.DataLayer.Repo.Repository fetchStatsAsync
+INFO: 🔎 Fetching stats (popular universities) from DB asynchronously...
+Μαρ 01, 2025 5:35:02 Μ.Μ. com.eapproject.DataLayer.Repo.Repository lambda$fetchStatsAsync$2
+INFO: ✅ Fetched 45 popular universities from DB.
+Μαρ 01, 2025 5:35:02 Μ.Μ. com.eapproject.DataLayer.Repo.Repository fetchStatsAsync
+INFO: 🔎 Fetching stats (popular universities) from DB asynchronously...
+Μαρ 01, 2025 5:35:02 Μ.Μ. com.eapproject.DataLayer.Repo.Repository lambda$fetchStatsAsync$2
+INFO: ✅ Fetched 45 popular universities from DB.
+Μαρ 01, 2025 5:35:09 Μ.Μ. com.eapproject.DataLayer.Repo.Repository fetchStatsAsync
+INFO: 🔎 Fetching stats (popular universities) from DB asynchronously...
+Μαρ 01, 2025 5:35:09 Μ.Μ. com.eapproject.DataLayer.Repo.Repository lambda$fetchStatsAsync$2
+INFO: ✅ Fetched 45 popular universities from DB.
+Μαρ 01, 2025 5:35:44 Μ.Μ. com.eapproject.DataLayer.Repo.Repository fetchStatsAsync
+INFO: 🔎 Fetching stats (popular universities) from DB asynchronously...
+Μαρ 01, 2025 5:35:44 Μ.Μ. com.eapproject.DataLayer.Repo.Repository lambda$fetchStatsAsync$2
+INFO: ✅ Fetched 45 popular universities from DB.
+Μαρ 01, 2025 5:44:30 Μ.Μ. com.eapproject.DataLayer.Repo.Repository initializeLogger
+INFO: 📌 Έναρξη καταγραφής του Logger στο logs/Repository.log
+Μαρ 01, 2025 5:44:31 Μ.Μ. com.eapproject.DataLayer.Repo.Repository <init>
+INFO: 📌 Repository initialized.
+Μαρ 01, 2025 5:44:31 Μ.Μ. com.eapproject.DataLayer.Repo.Repository getUniversities
+INFO: 🔎 Fetching universities from API...
+Μαρ 01, 2025 5:44:31 Μ.Μ. com.eapproject.DataLayer.Repo.Repository getAllUniversitiesFromDb
+INFO: 🔎 Fetching all universities from DB...
+Μαρ 01, 2025 5:44:32 Μ.Μ. com.eapproject.DataLayer.Repo.Repository getAllUniversitiesFromDb
+INFO: ✅ Successfully fetched 53 universities from DB.
+Μαρ 01, 2025 5:44:32 Μ.Μ. com.eapproject.DataLayer.Repo.Repository$1 onResponse
+INFO: ✅ Universities fetched successfully from API. Size: 10163

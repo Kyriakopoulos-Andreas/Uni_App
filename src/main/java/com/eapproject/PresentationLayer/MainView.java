@@ -182,6 +182,12 @@ public class MainView extends JFrame implements Observer {
         // Αναζήτηση πανεπιστημίου στη λίστα βάσει του κειμένου αναζήτησης
         viewModel.getUniversityFromList(searchText, universities);
         University uni = viewModel.getUniversityFromList();
+        
+        // ΔΙΟΡΘΩΣΗ: Έλεγχος αν η αναζήτηση δεν επέστρεψε πανεπιστήμιο (uni == null).
+        if (uni == null) {
+            return; // Τερματίζουμε εδώ για να αποφύγουμε το NullPointerException
+        }
+
         if (!uni.getName().isEmpty()) {
             // Καθαρίζουμε το panel και επαναφέρουμε το layout για να εμφανίσουμε το UniversityView.
             jLabel1.setIcon(null);
