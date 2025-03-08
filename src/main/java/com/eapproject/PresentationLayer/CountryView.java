@@ -323,7 +323,7 @@ public class CountryView extends JPanel {
                         LOGGER.info("Διπλό κλικ στη χώρα: " + country + " - Πανεπιστήμια: " + universitiesFromSpecificCountry);
                         // Ενημέρωση του δεξιού panel για εμφάνιση των πανεπιστημίων της χώρας
                         rightScreenPanel.removeAll();
-                        rightScreenPanel.add(new CountryUniversities(country, rightScreenPanel, universitiesFromSpecificCountry, viewModel, universitiesList), "CountryUniversities");
+                        rightScreenPanel.add(new CountryUniversitiesView(country, rightScreenPanel, universitiesFromSpecificCountry, viewModel, universitiesList), "CountryUniversities");
                         rightScreenPanel.revalidate();
                         rightScreenPanel.repaint();
                         ((CardLayout) rightScreenPanel.getLayout()).show(rightScreenPanel, "CountryUniversities");

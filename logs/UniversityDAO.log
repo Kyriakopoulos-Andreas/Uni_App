@@ -1,0 +1,70 @@
+Μαρ 09, 2025 12:26:34 Π.Μ. com.eapproject.DataLayer.DB.UniversityDAO initializeLogger
+INFO: 📌 Έναρξη καταγραφής του Logger στο logs/UniversityDAO.log
+Μαρ 09, 2025 12:26:50 Π.Μ. com.eapproject.DataLayer.DB.UniversityDAO updateUniversityUser
+INFO: ✅Το πανεπιστήμιο ενημερώθηκε: Université de Bamako
+Μαρ 09, 2025 12:26:50 Π.Μ. com.eapproject.DataLayer.DB.UniversityDAO upsertUniversity
+INFO: 🔄 Το υπάρχον πανεπιστήμιο ενημερώθηκε: Université de Bamako
+Μαρ 09, 2025 12:26:50 Π.Μ. com.eapproject.DataLayer.DB.UniversityDAO increaseViewCount
+INFO: 👁️ Ο μετρητής προβολών αυξήθηκε για το πανεπιστήμιο με ID: 101
+Μαρ 09, 2025 12:26:53 Π.Μ. com.eapproject.DataLayer.DB.UniversityDAO updateUniversityUser
+INFO: ✅Το πανεπιστήμιο ενημερώθηκε: Université des Antilles
+Μαρ 09, 2025 12:26:53 Π.Μ. com.eapproject.DataLayer.DB.UniversityDAO upsertUniversity
+INFO: 🔄 Το υπάρχον πανεπιστήμιο ενημερώθηκε: Université des Antilles
+Μαρ 09, 2025 12:26:53 Π.Μ. com.eapproject.DataLayer.DB.UniversityDAO increaseViewCount
+INFO: 👁️ Ο μετρητής προβολών αυξήθηκε για το πανεπιστήμιο με ID: 401
+Μαρ 09, 2025 12:26:55 Π.Μ. com.eapproject.DataLayer.DB.UniversityDAO insertUniversity
+INFO: ✅ Το πανεπιστήμιο προστέθηκε επιτυχώς: Lilongwe University of Agriculture and Natural Resources
+Μαρ 09, 2025 12:26:55 Π.Μ. com.eapproject.DataLayer.DB.UniversityDAO upsertUniversity
+INFO: ✅ Νέο πανεπιστήμιο εισήχθη: Lilongwe University of Agriculture and Natural Resources
+Μαρ 09, 2025 12:26:56 Π.Μ. com.eapproject.DataLayer.DB.UniversityDAO increaseViewCount
+INFO: 👁️ Ο μετρητής προβολών αυξήθηκε για το πανεπιστήμιο με ID: 1.201
+Μαρ 09, 2025 12:26:58 Π.Μ. com.eapproject.DataLayer.DB.UniversityDAO updateUniversityUser
+INFO: ✅Το πανεπιστήμιο ενημερώθηκε: Malawi University of Science and Technology
+Μαρ 09, 2025 12:26:58 Π.Μ. com.eapproject.DataLayer.DB.UniversityDAO upsertUniversity
+INFO: 🔄 Το υπάρχον πανεπιστήμιο ενημερώθηκε: Malawi University of Science and Technology
+Μαρ 09, 2025 12:26:59 Π.Μ. com.eapproject.DataLayer.DB.UniversityDAO increaseViewCount
+INFO: 👁️ Ο μετρητής προβολών αυξήθηκε για το πανεπιστήμιο με ID: 402
+Μαρ 09, 2025 12:27:09 Π.Μ. com.eapproject.DataLayer.DB.UniversityDAO updateUniversityUser
+INFO: ✅Το πανεπιστήμιο ενημερώθηκε: Universität Liechtenstein
+Μαρ 09, 2025 12:27:09 Π.Μ. com.eapproject.DataLayer.DB.UniversityDAO upsertUniversity
+INFO: 🔄 Το υπάρχον πανεπιστήμιο ενημερώθηκε: Universität Liechtenstein
+Μαρ 09, 2025 12:27:09 Π.Μ. com.eapproject.DataLayer.DB.UniversityDAO increaseViewCount
+INFO: 👁️ Ο μετρητής προβολών αυξήθηκε για το πανεπιστήμιο με ID: 3
+Μαρ 09, 2025 12:27:12 Π.Μ. com.eapproject.DataLayer.DB.UniversityDAO insertUniversity
+INFO: ✅ Το πανεπιστήμιο προστέθηκε επιτυχώς: Cyprus College
+Μαρ 09, 2025 12:27:12 Π.Μ. com.eapproject.DataLayer.DB.UniversityDAO upsertUniversity
+INFO: ✅ Νέο πανεπιστήμιο εισήχθη: Cyprus College
+Μαρ 09, 2025 12:27:12 Π.Μ. com.eapproject.DataLayer.DB.UniversityDAO increaseViewCount
+INFO: 👁️ Ο μετρητής προβολών αυξήθηκε για το πανεπιστήμιο με ID: 1.202
+Μαρ 09, 2025 12:27:15 Π.Μ. com.eapproject.DataLayer.DB.UniversityDAO insertUniversity
+INFO: ✅ Το πανεπιστήμιο προστέθηκε επιτυχώς: Gotland University College
+Μαρ 09, 2025 12:27:15 Π.Μ. com.eapproject.DataLayer.DB.UniversityDAO upsertUniversity
+INFO: ✅ Νέο πανεπιστήμιο εισήχθη: Gotland University College
+Μαρ 09, 2025 12:27:15 Π.Μ. com.eapproject.DataLayer.DB.UniversityDAO increaseViewCount
+INFO: 👁️ Ο μετρητής προβολών αυξήθηκε για το πανεπιστήμιο με ID: 1.203
+Μαρ 09, 2025 12:27:20 Π.Μ. com.eapproject.DataLayer.DB.UniversityDAO insertUniversity
+INFO: ✅ Το πανεπιστήμιο προστέθηκε επιτυχώς: Universidad Metropolitana de Asunción
+Μαρ 09, 2025 12:27:20 Π.Μ. com.eapproject.DataLayer.DB.UniversityDAO upsertUniversity
+INFO: ✅ Νέο πανεπιστήμιο εισήχθη: Universidad Metropolitana de Asunción
+Μαρ 09, 2025 12:27:21 Π.Μ. com.eapproject.DataLayer.DB.UniversityDAO increaseViewCount
+INFO: 👁️ Ο μετρητής προβολών αυξήθηκε για το πανεπιστήμιο με ID: 1.204
+Μαρ 09, 2025 12:27:27 Π.Μ. com.eapproject.DataLayer.DB.UniversityDAO insertUniversity
+INFO: ✅ Το πανεπιστήμιο προστέθηκε επιτυχώς: American College of Greece
+Μαρ 09, 2025 12:27:27 Π.Μ. com.eapproject.DataLayer.DB.UniversityDAO upsertUniversity
+INFO: ✅ Νέο πανεπιστήμιο εισήχθη: American College of Greece
+Μαρ 09, 2025 12:27:28 Π.Μ. com.eapproject.DataLayer.DB.UniversityDAO increaseViewCount
+INFO: 👁️ Ο μετρητής προβολών αυξήθηκε για το πανεπιστήμιο με ID: 1.205
+Μαρ 09, 2025 12:27:29 Π.Μ. com.eapproject.DataLayer.DB.UniversityDAO updateUniversityUser
+INFO: ✅Το πανεπιστήμιο ενημερώθηκε: American College of Greece
+Μαρ 09, 2025 12:27:34 Π.Μ. com.eapproject.DataLayer.DB.UniversityDAO updateUniversityUser
+INFO: ✅Το πανεπιστήμιο ενημερώθηκε: American College of Greece
+Μαρ 09, 2025 12:27:34 Π.Μ. com.eapproject.DataLayer.DB.UniversityDAO upsertUniversity
+INFO: 🔄 Το υπάρχον πανεπιστήμιο ενημερώθηκε: American College of Greece
+Μαρ 09, 2025 12:27:34 Π.Μ. com.eapproject.DataLayer.DB.UniversityDAO increaseViewCount
+INFO: 👁️ Ο μετρητής προβολών αυξήθηκε για το πανεπιστήμιο με ID: 1.205
+Μαρ 09, 2025 12:27:37 Π.Μ. com.eapproject.DataLayer.DB.UniversityDAO insertUniversity
+INFO: ✅ Το πανεπιστήμιο προστέθηκε επιτυχώς: Medical University of Sofia
+Μαρ 09, 2025 12:27:37 Π.Μ. com.eapproject.DataLayer.DB.UniversityDAO upsertUniversity
+INFO: ✅ Νέο πανεπιστήμιο εισήχθη: Medical University of Sofia
+Μαρ 09, 2025 12:27:38 Π.Μ. com.eapproject.DataLayer.DB.UniversityDAO increaseViewCount
+INFO: 👁️ Ο μετρητής προβολών αυξήθηκε για το πανεπιστήμιο με ID: 1.206

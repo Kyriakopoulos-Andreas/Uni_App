@@ -1,0 +1,86 @@
+Μαρ 09, 2025 12:26:35 Π.Μ. com.eapproject.DataLayer.Repo.Repository initializeLogger
+INFO: 📌 Έναρξη καταγραφής του Logger στο logs/Repository.log
+Μαρ 09, 2025 12:26:36 Π.Μ. com.eapproject.DataLayer.Repo.Repository <init>
+INFO: 📌 Repository initialized.
+Μαρ 09, 2025 12:26:36 Π.Μ. com.eapproject.DataLayer.Repo.Repository getUniversities
+INFO: 🔎 Fetching universities from API...
+Μαρ 09, 2025 12:26:36 Π.Μ. com.eapproject.DataLayer.Repo.Repository getAllUniversitiesFromDb
+INFO: 🔎 Fetching all universities from DB...
+Μαρ 09, 2025 12:26:37 Π.Μ. com.eapproject.DataLayer.Repo.Repository getAllUniversitiesFromDb
+INFO: ✅ Successfully fetched 28 universities from DB.
+Μαρ 09, 2025 12:26:37 Π.Μ. com.eapproject.DataLayer.Repo.Repository$1 onResponse
+INFO: ✅ Universities fetched successfully from API. Size: 10165
+Μαρ 09, 2025 12:26:50 Π.Μ. com.eapproject.DataLayer.Repo.Repository saveOrUpdateToDB
+INFO: 💾 Saving or updating university in DB: Université de Bamako
+Μαρ 09, 2025 12:26:50 Π.Μ. com.eapproject.DataLayer.Repo.Repository lambda$saveOrUpdateToDB$0
+INFO: 🔎 Found university in DB for view increment: Université de Bamako
+Μαρ 09, 2025 12:26:50 Π.Μ. com.eapproject.DataLayer.Repo.Repository lambda$saveOrUpdateToDB$0
+INFO: ✅ University saved: Université de Bamako
+Μαρ 09, 2025 12:26:53 Π.Μ. com.eapproject.DataLayer.Repo.Repository saveOrUpdateToDB
+INFO: 💾 Saving or updating university in DB: Université des Antilles
+Μαρ 09, 2025 12:26:53 Π.Μ. com.eapproject.DataLayer.Repo.Repository lambda$saveOrUpdateToDB$0
+INFO: 🔎 Found university in DB for view increment: Université des Antilles
+Μαρ 09, 2025 12:26:53 Π.Μ. com.eapproject.DataLayer.Repo.Repository lambda$saveOrUpdateToDB$0
+INFO: ✅ University saved: Université des Antilles
+Μαρ 09, 2025 12:26:55 Π.Μ. com.eapproject.DataLayer.Repo.Repository saveOrUpdateToDB
+INFO: 💾 Saving or updating university in DB: Lilongwe University of Agriculture and Natural Resources
+Μαρ 09, 2025 12:26:56 Π.Μ. com.eapproject.DataLayer.Repo.Repository lambda$saveOrUpdateToDB$0
+INFO: 🔎 Found university in DB for view increment: Lilongwe University of Agriculture and Natural Resources
+Μαρ 09, 2025 12:26:56 Π.Μ. com.eapproject.DataLayer.Repo.Repository lambda$saveOrUpdateToDB$0
+INFO: ✅ University saved: Lilongwe University of Agriculture and Natural Resources
+Μαρ 09, 2025 12:26:58 Π.Μ. com.eapproject.DataLayer.Repo.Repository saveOrUpdateToDB
+INFO: 💾 Saving or updating university in DB: Malawi University of Science and Technology
+Μαρ 09, 2025 12:26:59 Π.Μ. com.eapproject.DataLayer.Repo.Repository lambda$saveOrUpdateToDB$0
+INFO: 🔎 Found university in DB for view increment: Malawi University of Science and Technology
+Μαρ 09, 2025 12:26:59 Π.Μ. com.eapproject.DataLayer.Repo.Repository lambda$saveOrUpdateToDB$0
+INFO: ✅ University saved: Malawi University of Science and Technology
+Μαρ 09, 2025 12:27:00 Π.Μ. com.eapproject.DataLayer.Repo.Repository fetchStatsAsync
+INFO: 🔎 Fetching stats (popular universities) from DB asynchronously...
+Μαρ 09, 2025 12:27:00 Π.Μ. com.eapproject.DataLayer.Repo.Repository lambda$fetchStatsAsync$2
+INFO: ✅ Fetched 29 popular universities from DB.
+Μαρ 09, 2025 12:27:09 Π.Μ. com.eapproject.DataLayer.Repo.Repository saveOrUpdateToDB
+INFO: 💾 Saving or updating university in DB: Universität Liechtenstein
+Μαρ 09, 2025 12:27:09 Π.Μ. com.eapproject.DataLayer.Repo.Repository lambda$saveOrUpdateToDB$0
+INFO: 🔎 Found university in DB for view increment: Universität Liechtenstein
+Μαρ 09, 2025 12:27:09 Π.Μ. com.eapproject.DataLayer.Repo.Repository lambda$saveOrUpdateToDB$0
+INFO: ✅ University saved: Universität Liechtenstein
+Μαρ 09, 2025 12:27:12 Π.Μ. com.eapproject.DataLayer.Repo.Repository saveOrUpdateToDB
+INFO: 💾 Saving or updating university in DB: Cyprus College
+Μαρ 09, 2025 12:27:12 Π.Μ. com.eapproject.DataLayer.Repo.Repository lambda$saveOrUpdateToDB$0
+INFO: 🔎 Found university in DB for view increment: Cyprus College
+Μαρ 09, 2025 12:27:12 Π.Μ. com.eapproject.DataLayer.Repo.Repository lambda$saveOrUpdateToDB$0
+INFO: ✅ University saved: Cyprus College
+Μαρ 09, 2025 12:27:15 Π.Μ. com.eapproject.DataLayer.Repo.Repository saveOrUpdateToDB
+INFO: 💾 Saving or updating university in DB: Gotland University College
+Μαρ 09, 2025 12:27:15 Π.Μ. com.eapproject.DataLayer.Repo.Repository lambda$saveOrUpdateToDB$0
+INFO: 🔎 Found university in DB for view increment: Gotland University College
+Μαρ 09, 2025 12:27:15 Π.Μ. com.eapproject.DataLayer.Repo.Repository lambda$saveOrUpdateToDB$0
+INFO: ✅ University saved: Gotland University College
+Μαρ 09, 2025 12:27:20 Π.Μ. com.eapproject.DataLayer.Repo.Repository saveOrUpdateToDB
+INFO: 💾 Saving or updating university in DB: Universidad Metropolitana de Asunción
+Μαρ 09, 2025 12:27:21 Π.Μ. com.eapproject.DataLayer.Repo.Repository lambda$saveOrUpdateToDB$0
+INFO: 🔎 Found university in DB for view increment: Universidad Metropolitana de Asunción
+Μαρ 09, 2025 12:27:21 Π.Μ. com.eapproject.DataLayer.Repo.Repository lambda$saveOrUpdateToDB$0
+INFO: ✅ University saved: Universidad Metropolitana de Asunción
+Μαρ 09, 2025 12:27:27 Π.Μ. com.eapproject.DataLayer.Repo.Repository saveOrUpdateToDB
+INFO: 💾 Saving or updating university in DB: American College of Greece
+Μαρ 09, 2025 12:27:28 Π.Μ. com.eapproject.DataLayer.Repo.Repository lambda$saveOrUpdateToDB$0
+INFO: 🔎 Found university in DB for view increment: American College of Greece
+Μαρ 09, 2025 12:27:28 Π.Μ. com.eapproject.DataLayer.Repo.Repository lambda$saveOrUpdateToDB$0
+INFO: ✅ University saved: American College of Greece
+Μαρ 09, 2025 12:27:29 Π.Μ. com.eapproject.DataLayer.Repo.Repository updateExtendUniversity
+INFO: 🔧 Updating extended data for university: American College of Greece
+Μαρ 09, 2025 12:27:29 Π.Μ. com.eapproject.DataLayer.Repo.Repository updateExtendUniversity
+INFO: ✅ Extended data updated for: American College of Greece
+Μαρ 09, 2025 12:27:34 Π.Μ. com.eapproject.DataLayer.Repo.Repository saveOrUpdateToDB
+INFO: 💾 Saving or updating university in DB: American College of Greece
+Μαρ 09, 2025 12:27:34 Π.Μ. com.eapproject.DataLayer.Repo.Repository lambda$saveOrUpdateToDB$0
+INFO: 🔎 Found university in DB for view increment: American College of Greece
+Μαρ 09, 2025 12:27:34 Π.Μ. com.eapproject.DataLayer.Repo.Repository lambda$saveOrUpdateToDB$0
+INFO: ✅ University saved: American College of Greece
+Μαρ 09, 2025 12:27:37 Π.Μ. com.eapproject.DataLayer.Repo.Repository saveOrUpdateToDB
+INFO: 💾 Saving or updating university in DB: Medical University of Sofia
+Μαρ 09, 2025 12:27:38 Π.Μ. com.eapproject.DataLayer.Repo.Repository lambda$saveOrUpdateToDB$0
+INFO: 🔎 Found university in DB for view increment: Medical University of Sofia
+Μαρ 09, 2025 12:27:38 Π.Μ. com.eapproject.DataLayer.Repo.Repository lambda$saveOrUpdateToDB$0
+INFO: ✅ University saved: Medical University of Sofia

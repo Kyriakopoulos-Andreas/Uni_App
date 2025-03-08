@@ -23,10 +23,10 @@ import java.util.logging.*;
  * αναλυτικών στοιχείων του επιλεγμένου πανεπιστημίου.
  * </p>
  */
-public class CountryUniversities extends JPanel {
+public class CountryUniversitiesView extends JPanel {
 
     // Σταθερό Logger για την καταγραφή συμβάντων, με μηνύματα σε μορφή emoji
-    private static final Logger LOGGER = Logger.getLogger(CountryUniversities.class.getName());
+    private static final Logger LOGGER = Logger.getLogger(CountryUniversitiesView.class.getName());
 
     // Μεταβλητές για τη διαχείριση του UI και των δεδομένων
     private String countryLogo;                      // Το όνομα ή λογότυπο της χώρας
@@ -57,10 +57,10 @@ public class CountryUniversities extends JPanel {
      * @param viewModel             Το ViewModel που διαχειρίζεται τη λογική για τα πανεπιστήμια.
      * @param allUniversities       Η πλήρης λίστα πανεπιστημίων που χρησιμοποιείται στην εφαρμογή.
      */
-    public CountryUniversities(String countryLogo, JPanel rightScreenPanel,
-                               ArrayList<University> universities,
-                               UniversitiesViewModel viewModel,
-                               List<University> allUniversities) {
+    public CountryUniversitiesView(String countryLogo, JPanel rightScreenPanel,
+                                   ArrayList<University> universities,
+                                   UniversitiesViewModel viewModel,
+                                   List<University> allUniversities) {
         // Ενημέρωση των πεδίων της κλάσης
         this.rightScreenPanel = rightScreenPanel;
         this.allUniversities = allUniversities;
