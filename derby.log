@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Sat Mar 08 23:41:42 EET 2025:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.16.1.1 - (1901046): instance a816c00e-0195-77b4-f461-00000a1dcb70 
+on database directory C:\Users\kamoz.ODINPC\Desktop\Uni_App-Uni_App\UniDB with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@76ed5528 
+Loaded from file:/C:/Users/kamoz.ODINPC/.m2/repository/org/apache/derby/derby/10.16.1.1/derby-10.16.1.1.jar
+java.vendor=Oracle Corporation
+java.runtime.version=22.0.2+9-70
+user.dir=C:\Users\kamoz.ODINPC\Desktop\Uni_App-Uni_App
+os.name=Windows 11
+os.arch=amd64
+os.version=10.0
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
