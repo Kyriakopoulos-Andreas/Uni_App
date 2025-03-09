@@ -1,48 +1,92 @@
-Μαρ 01, 2025 4:50:23 Μ.Μ. com.eapproject.DataLayer.DB.DBUtil initializeLogger
+Μαρ 08, 2025 6:27:57 Μ.Μ. com.eapproject.DataLayer.DB.DBUtil initializeLogger
 INFO: 📌 Έναρξη καταγραφής του Logger στο logs/DBUtil.log
-Μαρ 01, 2025 4:50:23 Μ.Μ. com.eapproject.DataLayer.DB.DBUtil loadProperties
+Μαρ 08, 2025 6:27:57 Μ.Μ. com.eapproject.DataLayer.DB.DBUtil loadProperties
 INFO: ℹ️ Φορτώθηκε το dbconfig.properties
-Μαρ 01, 2025 4:50:23 Μ.Μ. com.eapproject.DataLayer.DB.DBUtil loadProperties
+Μαρ 08, 2025 6:27:57 Μ.Μ. com.eapproject.DataLayer.DB.DBUtil loadProperties
 INFO: ℹ️ ️️DB_URL = jdbc:derby:UniDB;create=true
-Μαρ 01, 2025 4:50:23 Μ.Μ. com.eapproject.DataLayer.DB.DBUtil loadProperties
+Μαρ 08, 2025 6:27:57 Μ.Μ. com.eapproject.DataLayer.DB.DBUtil loadProperties
 INFO: ℹ️ SQL_CREATE_UNIVERSITY_PATH = resources/sql/create_university.sql
-Μαρ 01, 2025 4:50:23 Μ.Μ. com.eapproject.DataLayer.DB.DBUtil loadProperties
+Μαρ 08, 2025 6:27:57 Μ.Μ. com.eapproject.DataLayer.DB.DBUtil loadProperties
 INFO: ℹ️ SQL_CREATE_UNIVERSITYVIEW_PATH = resources/sql/create_universityview.sql
-Μαρ 01, 2025 4:50:23 Μ.Μ. com.eapproject.DataLayer.DB.DBUtil loadProperties
+Μαρ 08, 2025 6:27:57 Μ.Μ. com.eapproject.DataLayer.DB.DBUtil loadProperties
 INFO: ℹ️ SQL_CREATE_INDEXES_PATH = resources/sql/create_indexes.sql
-Μαρ 01, 2025 5:34:31 Μ.Μ. com.eapproject.DataLayer.DB.DBUtil initializeLogger
+Μαρ 08, 2025 7:52:33 Μ.Μ. com.eapproject.DataLayer.DB.DBUtil initializeLogger
 INFO: 📌 Έναρξη καταγραφής του Logger στο logs/DBUtil.log
-Μαρ 01, 2025 5:34:31 Μ.Μ. com.eapproject.DataLayer.DB.DBUtil loadProperties
+Μαρ 08, 2025 7:52:33 Μ.Μ. com.eapproject.DataLayer.DB.DBUtil loadProperties
 INFO: ℹ️ Φορτώθηκε το dbconfig.properties
-Μαρ 01, 2025 5:34:31 Μ.Μ. com.eapproject.DataLayer.DB.DBUtil loadProperties
+Μαρ 08, 2025 7:52:33 Μ.Μ. com.eapproject.DataLayer.DB.DBUtil loadProperties
 INFO: ℹ️ ️️DB_URL = jdbc:derby:UniDB;create=true
-Μαρ 01, 2025 5:34:31 Μ.Μ. com.eapproject.DataLayer.DB.DBUtil loadProperties
+Μαρ 08, 2025 7:52:33 Μ.Μ. com.eapproject.DataLayer.DB.DBUtil loadProperties
 INFO: ℹ️ SQL_CREATE_UNIVERSITY_PATH = resources/sql/create_university.sql
-Μαρ 01, 2025 5:34:31 Μ.Μ. com.eapproject.DataLayer.DB.DBUtil loadProperties
+Μαρ 08, 2025 7:52:33 Μ.Μ. com.eapproject.DataLayer.DB.DBUtil loadProperties
 INFO: ℹ️ SQL_CREATE_UNIVERSITYVIEW_PATH = resources/sql/create_universityview.sql
-Μαρ 01, 2025 5:34:31 Μ.Μ. com.eapproject.DataLayer.DB.DBUtil loadProperties
+Μαρ 08, 2025 7:52:33 Μ.Μ. com.eapproject.DataLayer.DB.DBUtil loadProperties
 INFO: ℹ️ SQL_CREATE_INDEXES_PATH = resources/sql/create_indexes.sql
-Μαρ 01, 2025 5:44:31 Μ.Μ. com.eapproject.DataLayer.DB.DBUtil initializeLogger
+Μαρ 08, 2025 7:53:01 Μ.Μ. com.eapproject.DataLayer.DB.DBUtil initializeLogger
 INFO: 📌 Έναρξη καταγραφής του Logger στο logs/DBUtil.log
-Μαρ 01, 2025 5:44:31 Μ.Μ. com.eapproject.DataLayer.DB.DBUtil loadProperties
+Μαρ 08, 2025 7:53:01 Μ.Μ. com.eapproject.DataLayer.DB.DBUtil loadProperties
 INFO: ℹ️ Φορτώθηκε το dbconfig.properties
-Μαρ 01, 2025 5:44:31 Μ.Μ. com.eapproject.DataLayer.DB.DBUtil loadProperties
+Μαρ 08, 2025 7:53:01 Μ.Μ. com.eapproject.DataLayer.DB.DBUtil loadProperties
 INFO: ℹ️ ️️DB_URL = jdbc:derby:UniDB;create=true
-Μαρ 01, 2025 5:44:31 Μ.Μ. com.eapproject.DataLayer.DB.DBUtil loadProperties
+Μαρ 08, 2025 7:53:01 Μ.Μ. com.eapproject.DataLayer.DB.DBUtil loadProperties
 INFO: ℹ️ SQL_CREATE_UNIVERSITY_PATH = resources/sql/create_university.sql
-Μαρ 01, 2025 5:44:31 Μ.Μ. com.eapproject.DataLayer.DB.DBUtil loadProperties
+Μαρ 08, 2025 7:53:01 Μ.Μ. com.eapproject.DataLayer.DB.DBUtil loadProperties
 INFO: ℹ️ SQL_CREATE_UNIVERSITYVIEW_PATH = resources/sql/create_universityview.sql
-Μαρ 01, 2025 5:44:31 Μ.Μ. com.eapproject.DataLayer.DB.DBUtil loadProperties
+Μαρ 08, 2025 7:53:01 Μ.Μ. com.eapproject.DataLayer.DB.DBUtil loadProperties
 INFO: ℹ️ SQL_CREATE_INDEXES_PATH = resources/sql/create_indexes.sql
-Μαρ 01, 2025 5:55:22 Μ.Μ. com.eapproject.DataLayer.DB.DBUtil initializeLogger
+Μαρ 08, 2025 7:53:01 Μ.Μ. com.eapproject.DataLayer.DB.DBUtil resetDatabase
+WARNING: ⚠️ Διαγραφή και επαναδημιουργία της Βάσης Δεδομένων...
+Μαρ 08, 2025 7:53:02 Μ.Μ. com.eapproject.DataLayer.DB.DBUtil dropTables
+WARNING: 🗑️ Ο πίνακας UNIVERSITYVIEW διαγράφηκε.
+Μαρ 08, 2025 7:53:02 Μ.Μ. com.eapproject.DataLayer.DB.DBUtil dropTables
+WARNING: 🗑️ Ο πίνακας UNIVERSITY διαγράφηκε.
+Μαρ 08, 2025 7:53:02 Μ.Μ. com.eapproject.DataLayer.DB.DBUtil createTablesAndIndexes
+INFO: ✅ Ο πίνακας UNIVERSITY δημιουργήθηκε.
+Μαρ 08, 2025 7:53:02 Μ.Μ. com.eapproject.DataLayer.DB.DBUtil createTablesAndIndexes
+INFO: ✅ Ο πίνακας UNIVERSITYVIEW δημιουργήθηκε.
+Μαρ 08, 2025 7:53:02 Μ.Μ. com.eapproject.DataLayer.DB.DBUtil createIndexesFromFile
+INFO: ✅ Δημιουργήθηκε index: IDX_UNIVERSITY_NAME
+Μαρ 08, 2025 7:53:02 Μ.Μ. com.eapproject.DataLayer.DB.DBUtil createIndexesFromFile
+INFO: ✅ Δημιουργήθηκε index: IDX_UNIVERSITY_COUNTRY
+Μαρ 08, 2025 7:53:02 Μ.Μ. com.eapproject.DataLayer.DB.DBUtil createIndexesFromFile
+INFO: ✅ Δημιουργήθηκε index: IDX_UNIVERSITY_NAME_COUNTRY
+Μαρ 08, 2025 7:53:02 Μ.Μ. com.eapproject.DataLayer.DB.DBUtil resetDatabase
+INFO: 🔄 Η Βάση Δεδομένων διαγράφηκε και επαναδημιουργήθηκε!
+Μαρ 08, 2025 7:53:07 Μ.Μ. com.eapproject.DataLayer.DB.DBUtil shutdownDatabase
+INFO: ℹ️ Η Βάση Δεδομένων έκλεισε επιτυχώς.
+Μαρ 08, 2025 7:53:18 Μ.Μ. com.eapproject.DataLayer.DB.DBUtil initializeLogger
 INFO: 📌 Έναρξη καταγραφής του Logger στο logs/DBUtil.log
-Μαρ 01, 2025 5:55:22 Μ.Μ. com.eapproject.DataLayer.DB.DBUtil loadProperties
+Μαρ 08, 2025 7:53:18 Μ.Μ. com.eapproject.DataLayer.DB.DBUtil loadProperties
 INFO: ℹ️ Φορτώθηκε το dbconfig.properties
-Μαρ 01, 2025 5:55:22 Μ.Μ. com.eapproject.DataLayer.DB.DBUtil loadProperties
+Μαρ 08, 2025 7:53:18 Μ.Μ. com.eapproject.DataLayer.DB.DBUtil loadProperties
 INFO: ℹ️ ️️DB_URL = jdbc:derby:UniDB;create=true
-Μαρ 01, 2025 5:55:22 Μ.Μ. com.eapproject.DataLayer.DB.DBUtil loadProperties
+Μαρ 08, 2025 7:53:18 Μ.Μ. com.eapproject.DataLayer.DB.DBUtil loadProperties
 INFO: ℹ️ SQL_CREATE_UNIVERSITY_PATH = resources/sql/create_university.sql
-Μαρ 01, 2025 5:55:22 Μ.Μ. com.eapproject.DataLayer.DB.DBUtil loadProperties
+Μαρ 08, 2025 7:53:18 Μ.Μ. com.eapproject.DataLayer.DB.DBUtil loadProperties
 INFO: ℹ️ SQL_CREATE_UNIVERSITYVIEW_PATH = resources/sql/create_universityview.sql
-Μαρ 01, 2025 5:55:22 Μ.Μ. com.eapproject.DataLayer.DB.DBUtil loadProperties
+Μαρ 08, 2025 7:53:18 Μ.Μ. com.eapproject.DataLayer.DB.DBUtil loadProperties
+INFO: ℹ️ SQL_CREATE_INDEXES_PATH = resources/sql/create_indexes.sql
+Μαρ 08, 2025 8:13:36 Μ.Μ. com.eapproject.DataLayer.DB.DBUtil initializeLogger
+INFO: 📌 Έναρξη καταγραφής του Logger στο logs/DBUtil.log
+Μαρ 08, 2025 8:13:36 Μ.Μ. com.eapproject.DataLayer.DB.DBUtil loadProperties
+INFO: ℹ️ Φορτώθηκε το dbconfig.properties
+Μαρ 08, 2025 8:13:36 Μ.Μ. com.eapproject.DataLayer.DB.DBUtil loadProperties
+INFO: ℹ️ ️️DB_URL = jdbc:derby:UniDB;create=true
+Μαρ 08, 2025 8:13:36 Μ.Μ. com.eapproject.DataLayer.DB.DBUtil loadProperties
+INFO: ℹ️ SQL_CREATE_UNIVERSITY_PATH = resources/sql/create_university.sql
+Μαρ 08, 2025 8:13:36 Μ.Μ. com.eapproject.DataLayer.DB.DBUtil loadProperties
+INFO: ℹ️ SQL_CREATE_UNIVERSITYVIEW_PATH = resources/sql/create_universityview.sql
+Μαρ 08, 2025 8:13:36 Μ.Μ. com.eapproject.DataLayer.DB.DBUtil loadProperties
+INFO: ℹ️ SQL_CREATE_INDEXES_PATH = resources/sql/create_indexes.sql
+Μαρ 09, 2025 1:27:13 Μ.Μ. com.eapproject.DataLayer.DB.DBUtil initializeLogger
+INFO: 📌 Έναρξη καταγραφής του Logger στο logs/DBUtil.log
+Μαρ 09, 2025 1:27:13 Μ.Μ. com.eapproject.DataLayer.DB.DBUtil loadProperties
+INFO: ℹ️ Φορτώθηκε το dbconfig.properties
+Μαρ 09, 2025 1:27:13 Μ.Μ. com.eapproject.DataLayer.DB.DBUtil loadProperties
+INFO: ℹ️ ️️DB_URL = jdbc:derby:UniDB;create=true
+Μαρ 09, 2025 1:27:13 Μ.Μ. com.eapproject.DataLayer.DB.DBUtil loadProperties
+INFO: ℹ️ SQL_CREATE_UNIVERSITY_PATH = resources/sql/create_university.sql
+Μαρ 09, 2025 1:27:13 Μ.Μ. com.eapproject.DataLayer.DB.DBUtil loadProperties
+INFO: ℹ️ SQL_CREATE_UNIVERSITYVIEW_PATH = resources/sql/create_universityview.sql
+Μαρ 09, 2025 1:27:13 Μ.Μ. com.eapproject.DataLayer.DB.DBUtil loadProperties
 INFO: ℹ️ SQL_CREATE_INDEXES_PATH = resources/sql/create_indexes.sql

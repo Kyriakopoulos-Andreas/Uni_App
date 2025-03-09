@@ -1,18 +1,30 @@
-Μαρ 01, 2025 5:34:30 Μ.Μ. com.eapproject.DataLayer.ApiService.RetrofitClient initializeLogger
+Μαρ 08, 2025 6:27:56 Μ.Μ. com.eapproject.DataLayer.ApiService.RetrofitClient initializeLogger
 INFO: 📌 Έναρξη καταγραφής του Logger στο logs/RetrofitClient.log
-Μαρ 01, 2025 5:34:30 Μ.Μ. com.eapproject.DataLayer.ApiService.RetrofitClient getApiService
+Μαρ 08, 2025 6:27:56 Μ.Μ. com.eapproject.DataLayer.ApiService.RetrofitClient getApiService
 INFO: 🔧 Δημιουργία νέου Retrofit instance με BASE_URL: https://raw.githubusercontent.com/
-Μαρ 01, 2025 5:34:30 Μ.Μ. com.eapproject.DataLayer.ApiService.RetrofitClient getApiService
+Μαρ 08, 2025 6:27:57 Μ.Μ. com.eapproject.DataLayer.ApiService.RetrofitClient getApiService
 INFO: ✅ Δημιουργήθηκε επιτυχώς το Retrofit instance.
-Μαρ 01, 2025 5:44:30 Μ.Μ. com.eapproject.DataLayer.ApiService.RetrofitClient initializeLogger
+Μαρ 08, 2025 7:52:32 Μ.Μ. com.eapproject.DataLayer.ApiService.RetrofitClient initializeLogger
 INFO: 📌 Έναρξη καταγραφής του Logger στο logs/RetrofitClient.log
-Μαρ 01, 2025 5:44:30 Μ.Μ. com.eapproject.DataLayer.ApiService.RetrofitClient getApiService
+Μαρ 08, 2025 7:52:32 Μ.Μ. com.eapproject.DataLayer.ApiService.RetrofitClient getApiService
 INFO: 🔧 Δημιουργία νέου Retrofit instance με BASE_URL: https://raw.githubusercontent.com/
-Μαρ 01, 2025 5:44:31 Μ.Μ. com.eapproject.DataLayer.ApiService.RetrofitClient getApiService
+Μαρ 08, 2025 7:52:32 Μ.Μ. com.eapproject.DataLayer.ApiService.RetrofitClient getApiService
 INFO: ✅ Δημιουργήθηκε επιτυχώς το Retrofit instance.
-Μαρ 01, 2025 5:55:21 Μ.Μ. com.eapproject.DataLayer.ApiService.RetrofitClient initializeLogger
+Μαρ 08, 2025 7:53:17 Μ.Μ. com.eapproject.DataLayer.ApiService.RetrofitClient initializeLogger
 INFO: 📌 Έναρξη καταγραφής του Logger στο logs/RetrofitClient.log
-Μαρ 01, 2025 5:55:21 Μ.Μ. com.eapproject.DataLayer.ApiService.RetrofitClient getApiService
+Μαρ 08, 2025 7:53:17 Μ.Μ. com.eapproject.DataLayer.ApiService.RetrofitClient getApiService
 INFO: 🔧 Δημιουργία νέου Retrofit instance με BASE_URL: https://raw.githubusercontent.com/
-Μαρ 01, 2025 5:55:21 Μ.Μ. com.eapproject.DataLayer.ApiService.RetrofitClient getApiService
+Μαρ 08, 2025 7:53:17 Μ.Μ. com.eapproject.DataLayer.ApiService.RetrofitClient getApiService
+INFO: ✅ Δημιουργήθηκε επιτυχώς το Retrofit instance.
+Μαρ 08, 2025 8:13:35 Μ.Μ. com.eapproject.DataLayer.ApiService.RetrofitClient initializeLogger
+INFO: 📌 Έναρξη καταγραφής του Logger στο logs/RetrofitClient.log
+Μαρ 08, 2025 8:13:35 Μ.Μ. com.eapproject.DataLayer.ApiService.RetrofitClient getApiService
+INFO: 🔧 Δημιουργία νέου Retrofit instance με BASE_URL: https://raw.githubusercontent.com/
+Μαρ 08, 2025 8:13:36 Μ.Μ. com.eapproject.DataLayer.ApiService.RetrofitClient getApiService
+INFO: ✅ Δημιουργήθηκε επιτυχώς το Retrofit instance.
+Μαρ 09, 2025 1:27:12 Μ.Μ. com.eapproject.DataLayer.ApiService.RetrofitClient initializeLogger
+INFO: 📌 Έναρξη καταγραφής του Logger στο logs/RetrofitClient.log
+Μαρ 09, 2025 1:27:12 Μ.Μ. com.eapproject.DataLayer.ApiService.RetrofitClient getApiService
+INFO: 🔧 Δημιουργία νέου Retrofit instance με BASE_URL: https://raw.githubusercontent.com/
+Μαρ 09, 2025 1:27:12 Μ.Μ. com.eapproject.DataLayer.ApiService.RetrofitClient getApiService
 INFO: ✅ Δημιουργήθηκε επιτυχώς το Retrofit instance.

@@ -27,8 +27,8 @@ public class Uni_App_Project {
      */
     public static void main(String[] args) {
         // Αρχικοποίηση του Logger για την κλάση main
-        initializeLogger();
-
+        initializeLogger();      
+        
         // Εκκίνηση του MainView στο Event Dispatch Thread
         SwingUtilities.invokeLater(() -> {
             try {
