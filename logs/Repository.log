@@ -1,86 +1,186 @@
-Μαρ 09, 2025 12:26:35 Π.Μ. com.eapproject.DataLayer.Repo.Repository initializeLogger
+Μαρ 10, 2025 11:07:57 Π.Μ. com.eapproject.DataLayer.Repo.Repository initializeLogger
 INFO: 📌 Έναρξη καταγραφής του Logger στο logs/Repository.log
-Μαρ 09, 2025 12:26:36 Π.Μ. com.eapproject.DataLayer.Repo.Repository <init>
+Μαρ 10, 2025 11:07:57 Π.Μ. com.eapproject.DataLayer.Repo.Repository <init>
 INFO: 📌 Repository initialized.
-Μαρ 09, 2025 12:26:36 Π.Μ. com.eapproject.DataLayer.Repo.Repository getUniversities
+Μαρ 10, 2025 11:07:57 Π.Μ. com.eapproject.DataLayer.Repo.Repository getUniversities
 INFO: 🔎 Fetching universities from API...
-Μαρ 09, 2025 12:26:36 Π.Μ. com.eapproject.DataLayer.Repo.Repository getAllUniversitiesFromDb
+Μαρ 10, 2025 11:07:58 Π.Μ. com.eapproject.DataLayer.Repo.Repository getAllUniversitiesFromDb
 INFO: 🔎 Fetching all universities from DB...
-Μαρ 09, 2025 12:26:37 Π.Μ. com.eapproject.DataLayer.Repo.Repository getAllUniversitiesFromDb
-INFO: ✅ Successfully fetched 28 universities from DB.
-Μαρ 09, 2025 12:26:37 Π.Μ. com.eapproject.DataLayer.Repo.Repository$1 onResponse
+Μαρ 10, 2025 11:07:59 Π.Μ. com.eapproject.DataLayer.Repo.Repository getAllUniversitiesFromDb
+INFO: ✅ Successfully fetched 34 universities from DB.
+Μαρ 10, 2025 11:07:59 Π.Μ. com.eapproject.DataLayer.Repo.Repository$1 onResponse
 INFO: ✅ Universities fetched successfully from API. Size: 10165
-Μαρ 09, 2025 12:26:50 Π.Μ. com.eapproject.DataLayer.Repo.Repository saveOrUpdateToDB
-INFO: 💾 Saving or updating university in DB: Université de Bamako
-Μαρ 09, 2025 12:26:50 Π.Μ. com.eapproject.DataLayer.Repo.Repository lambda$saveOrUpdateToDB$0
-INFO: 🔎 Found university in DB for view increment: Université de Bamako
-Μαρ 09, 2025 12:26:50 Π.Μ. com.eapproject.DataLayer.Repo.Repository lambda$saveOrUpdateToDB$0
-INFO: ✅ University saved: Université de Bamako
-Μαρ 09, 2025 12:26:53 Π.Μ. com.eapproject.DataLayer.Repo.Repository saveOrUpdateToDB
-INFO: 💾 Saving or updating university in DB: Université des Antilles
-Μαρ 09, 2025 12:26:53 Π.Μ. com.eapproject.DataLayer.Repo.Repository lambda$saveOrUpdateToDB$0
-INFO: 🔎 Found university in DB for view increment: Université des Antilles
-Μαρ 09, 2025 12:26:53 Π.Μ. com.eapproject.DataLayer.Repo.Repository lambda$saveOrUpdateToDB$0
-INFO: ✅ University saved: Université des Antilles
-Μαρ 09, 2025 12:26:55 Π.Μ. com.eapproject.DataLayer.Repo.Repository saveOrUpdateToDB
-INFO: 💾 Saving or updating university in DB: Lilongwe University of Agriculture and Natural Resources
-Μαρ 09, 2025 12:26:56 Π.Μ. com.eapproject.DataLayer.Repo.Repository lambda$saveOrUpdateToDB$0
-INFO: 🔎 Found university in DB for view increment: Lilongwe University of Agriculture and Natural Resources
-Μαρ 09, 2025 12:26:56 Π.Μ. com.eapproject.DataLayer.Repo.Repository lambda$saveOrUpdateToDB$0
-INFO: ✅ University saved: Lilongwe University of Agriculture and Natural Resources
-Μαρ 09, 2025 12:26:58 Π.Μ. com.eapproject.DataLayer.Repo.Repository saveOrUpdateToDB
-INFO: 💾 Saving or updating university in DB: Malawi University of Science and Technology
-Μαρ 09, 2025 12:26:59 Π.Μ. com.eapproject.DataLayer.Repo.Repository lambda$saveOrUpdateToDB$0
-INFO: 🔎 Found university in DB for view increment: Malawi University of Science and Technology
-Μαρ 09, 2025 12:26:59 Π.Μ. com.eapproject.DataLayer.Repo.Repository lambda$saveOrUpdateToDB$0
-INFO: ✅ University saved: Malawi University of Science and Technology
-Μαρ 09, 2025 12:27:00 Π.Μ. com.eapproject.DataLayer.Repo.Repository fetchStatsAsync
+Μαρ 10, 2025 11:08:04 Π.Μ. com.eapproject.DataLayer.Repo.Repository saveOrUpdateToDB
+INFO: 💾 Saving or updating university in DB: Aktau State University
+Μαρ 10, 2025 11:08:04 Π.Μ. com.eapproject.DataLayer.Repo.Repository lambda$saveOrUpdateToDB$0
+INFO: 🔎 Found university in DB for view increment: Aktau State University
+Μαρ 10, 2025 11:08:04 Π.Μ. com.eapproject.DataLayer.Repo.Repository lambda$saveOrUpdateToDB$0
+INFO: ✅ University saved: Aktau State University
+Μαρ 10, 2025 11:08:06 Π.Μ. com.eapproject.DataLayer.Repo.Repository updateExtendUniversity
+INFO: 🔧 Updating extended data for university: Aktau State University
+Μαρ 10, 2025 11:08:06 Π.Μ. com.eapproject.DataLayer.Repo.Repository updateExtendUniversity
+INFO: ✅ Extended data updated for: Aktau State University
+Μαρ 10, 2025 11:08:10 Π.Μ. com.eapproject.DataLayer.Repo.Repository saveOrUpdateToDB
+INFO: 💾 Saving or updating university in DB: The College of The Bahamas
+Μαρ 10, 2025 11:08:11 Π.Μ. com.eapproject.DataLayer.Repo.Repository lambda$saveOrUpdateToDB$0
+INFO: 🔎 Found university in DB for view increment: The College of The Bahamas
+Μαρ 10, 2025 11:08:11 Π.Μ. com.eapproject.DataLayer.Repo.Repository lambda$saveOrUpdateToDB$0
+INFO: ✅ University saved: The College of The Bahamas
+Μαρ 10, 2025 11:08:12 Π.Μ. com.eapproject.DataLayer.Repo.Repository updateExtendUniversity
+INFO: 🔧 Updating extended data for university: The College of The Bahamas
+Μαρ 10, 2025 11:08:12 Π.Μ. com.eapproject.DataLayer.Repo.Repository updateExtendUniversity
+INFO: ✅ Extended data updated for: The College of The Bahamas
+Μαρ 10, 2025 11:08:13 Π.Μ. com.eapproject.DataLayer.Repo.Repository updateExtendUniversity
+INFO: 🔧 Updating extended data for university: The College of The Bahamas
+Μαρ 10, 2025 11:08:13 Π.Μ. com.eapproject.DataLayer.Repo.Repository updateExtendUniversity
+INFO: ✅ Extended data updated for: The College of The Bahamas
+Μαρ 10, 2025 11:08:18 Π.Μ. com.eapproject.DataLayer.Repo.Repository saveOrUpdateToDB
+INFO: 💾 Saving or updating university in DB: Divine Word University
+Μαρ 10, 2025 11:08:19 Π.Μ. com.eapproject.DataLayer.Repo.Repository lambda$saveOrUpdateToDB$0
+INFO: 🔎 Found university in DB for view increment: Divine Word University
+Μαρ 10, 2025 11:08:19 Π.Μ. com.eapproject.DataLayer.Repo.Repository lambda$saveOrUpdateToDB$0
+INFO: ✅ University saved: Divine Word University
+Μαρ 10, 2025 11:08:20 Π.Μ. com.eapproject.DataLayer.Repo.Repository updateExtendUniversity
+INFO: 🔧 Updating extended data for university: Divine Word University
+Μαρ 10, 2025 11:08:20 Π.Μ. com.eapproject.DataLayer.Repo.Repository updateExtendUniversity
+INFO: ✅ Extended data updated for: Divine Word University
+Μαρ 10, 2025 11:08:24 Π.Μ. com.eapproject.DataLayer.Repo.Repository saveOrUpdateToDB
+INFO: 💾 Saving or updating university in DB: Divine Word University
+Μαρ 10, 2025 11:08:24 Π.Μ. com.eapproject.DataLayer.Repo.Repository lambda$saveOrUpdateToDB$0
+INFO: 🔎 Found university in DB for view increment: Divine Word University
+Μαρ 10, 2025 11:08:24 Π.Μ. com.eapproject.DataLayer.Repo.Repository lambda$saveOrUpdateToDB$0
+INFO: ✅ University saved: Divine Word University
+Μαρ 10, 2025 11:08:25 Π.Μ. com.eapproject.DataLayer.Repo.Repository updateExtendUniversity
+INFO: 🔧 Updating extended data for university: Divine Word University
+Μαρ 10, 2025 11:08:25 Π.Μ. com.eapproject.DataLayer.Repo.Repository updateExtendUniversity
+INFO: ✅ Extended data updated for: Divine Word University
+Μαρ 10, 2025 11:08:27 Π.Μ. com.eapproject.DataLayer.Repo.Repository fetchStatsAsync
 INFO: 🔎 Fetching stats (popular universities) from DB asynchronously...
-Μαρ 09, 2025 12:27:00 Π.Μ. com.eapproject.DataLayer.Repo.Repository lambda$fetchStatsAsync$2
-INFO: ✅ Fetched 29 popular universities from DB.
-Μαρ 09, 2025 12:27:09 Π.Μ. com.eapproject.DataLayer.Repo.Repository saveOrUpdateToDB
-INFO: 💾 Saving or updating university in DB: Universität Liechtenstein
-Μαρ 09, 2025 12:27:09 Π.Μ. com.eapproject.DataLayer.Repo.Repository lambda$saveOrUpdateToDB$0
-INFO: 🔎 Found university in DB for view increment: Universität Liechtenstein
-Μαρ 09, 2025 12:27:09 Π.Μ. com.eapproject.DataLayer.Repo.Repository lambda$saveOrUpdateToDB$0
-INFO: ✅ University saved: Universität Liechtenstein
-Μαρ 09, 2025 12:27:12 Π.Μ. com.eapproject.DataLayer.Repo.Repository saveOrUpdateToDB
-INFO: 💾 Saving or updating university in DB: Cyprus College
-Μαρ 09, 2025 12:27:12 Π.Μ. com.eapproject.DataLayer.Repo.Repository lambda$saveOrUpdateToDB$0
-INFO: 🔎 Found university in DB for view increment: Cyprus College
-Μαρ 09, 2025 12:27:12 Π.Μ. com.eapproject.DataLayer.Repo.Repository lambda$saveOrUpdateToDB$0
-INFO: ✅ University saved: Cyprus College
-Μαρ 09, 2025 12:27:15 Π.Μ. com.eapproject.DataLayer.Repo.Repository saveOrUpdateToDB
-INFO: 💾 Saving or updating university in DB: Gotland University College
-Μαρ 09, 2025 12:27:15 Π.Μ. com.eapproject.DataLayer.Repo.Repository lambda$saveOrUpdateToDB$0
-INFO: 🔎 Found university in DB for view increment: Gotland University College
-Μαρ 09, 2025 12:27:15 Π.Μ. com.eapproject.DataLayer.Repo.Repository lambda$saveOrUpdateToDB$0
-INFO: ✅ University saved: Gotland University College
-Μαρ 09, 2025 12:27:20 Π.Μ. com.eapproject.DataLayer.Repo.Repository saveOrUpdateToDB
-INFO: 💾 Saving or updating university in DB: Universidad Metropolitana de Asunción
-Μαρ 09, 2025 12:27:21 Π.Μ. com.eapproject.DataLayer.Repo.Repository lambda$saveOrUpdateToDB$0
-INFO: 🔎 Found university in DB for view increment: Universidad Metropolitana de Asunción
-Μαρ 09, 2025 12:27:21 Π.Μ. com.eapproject.DataLayer.Repo.Repository lambda$saveOrUpdateToDB$0
-INFO: ✅ University saved: Universidad Metropolitana de Asunción
-Μαρ 09, 2025 12:27:27 Π.Μ. com.eapproject.DataLayer.Repo.Repository saveOrUpdateToDB
-INFO: 💾 Saving or updating university in DB: American College of Greece
-Μαρ 09, 2025 12:27:28 Π.Μ. com.eapproject.DataLayer.Repo.Repository lambda$saveOrUpdateToDB$0
-INFO: 🔎 Found university in DB for view increment: American College of Greece
-Μαρ 09, 2025 12:27:28 Π.Μ. com.eapproject.DataLayer.Repo.Repository lambda$saveOrUpdateToDB$0
-INFO: ✅ University saved: American College of Greece
-Μαρ 09, 2025 12:27:29 Π.Μ. com.eapproject.DataLayer.Repo.Repository updateExtendUniversity
-INFO: 🔧 Updating extended data for university: American College of Greece
-Μαρ 09, 2025 12:27:29 Π.Μ. com.eapproject.DataLayer.Repo.Repository updateExtendUniversity
-INFO: ✅ Extended data updated for: American College of Greece
-Μαρ 09, 2025 12:27:34 Π.Μ. com.eapproject.DataLayer.Repo.Repository saveOrUpdateToDB
-INFO: 💾 Saving or updating university in DB: American College of Greece
-Μαρ 09, 2025 12:27:34 Π.Μ. com.eapproject.DataLayer.Repo.Repository lambda$saveOrUpdateToDB$0
-INFO: 🔎 Found university in DB for view increment: American College of Greece
-Μαρ 09, 2025 12:27:34 Π.Μ. com.eapproject.DataLayer.Repo.Repository lambda$saveOrUpdateToDB$0
-INFO: ✅ University saved: American College of Greece
-Μαρ 09, 2025 12:27:37 Π.Μ. com.eapproject.DataLayer.Repo.Repository saveOrUpdateToDB
-INFO: 💾 Saving or updating university in DB: Medical University of Sofia
-Μαρ 09, 2025 12:27:38 Π.Μ. com.eapproject.DataLayer.Repo.Repository lambda$saveOrUpdateToDB$0
-INFO: 🔎 Found university in DB for view increment: Medical University of Sofia
-Μαρ 09, 2025 12:27:38 Π.Μ. com.eapproject.DataLayer.Repo.Repository lambda$saveOrUpdateToDB$0
-INFO: ✅ University saved: Medical University of Sofia
+Μαρ 10, 2025 11:08:27 Π.Μ. com.eapproject.DataLayer.Repo.Repository lambda$fetchStatsAsync$2
+INFO: ✅ Fetched 35 popular universities from DB.
+Μαρ 10, 2025 11:08:27 Π.Μ. com.eapproject.DataLayer.Repo.Repository fetchStatsAsync
+INFO: 🔎 Fetching stats (popular universities) from DB asynchronously...
+Μαρ 10, 2025 11:08:27 Π.Μ. com.eapproject.DataLayer.Repo.Repository lambda$fetchStatsAsync$2
+INFO: ✅ Fetched 35 popular universities from DB.
+Μαρ 10, 2025 11:08:29 Π.Μ. com.eapproject.DataLayer.Repo.Repository fetchStatsAsync
+INFO: 🔎 Fetching stats (popular universities) from DB asynchronously...
+Μαρ 10, 2025 11:08:29 Π.Μ. com.eapproject.DataLayer.Repo.Repository lambda$fetchStatsAsync$2
+INFO: ✅ Fetched 35 popular universities from DB.
+Μαρ 10, 2025 11:08:30 Π.Μ. com.eapproject.DataLayer.Repo.Repository fetchStatsAsync
+INFO: 🔎 Fetching stats (popular universities) from DB asynchronously...
+Μαρ 10, 2025 11:08:30 Π.Μ. com.eapproject.DataLayer.Repo.Repository lambda$fetchStatsAsync$2
+INFO: ✅ Fetched 35 popular universities from DB.
+Μαρ 10, 2025 11:08:32 Π.Μ. com.eapproject.DataLayer.Repo.Repository fetchStatsAsync
+INFO: 🔎 Fetching stats (popular universities) from DB asynchronously...
+Μαρ 10, 2025 11:08:32 Π.Μ. com.eapproject.DataLayer.Repo.Repository lambda$fetchStatsAsync$2
+INFO: ✅ Fetched 35 popular universities from DB.
+Μαρ 10, 2025 11:08:33 Π.Μ. com.eapproject.DataLayer.Repo.Repository fetchStatsAsync
+INFO: 🔎 Fetching stats (popular universities) from DB asynchronously...
+Μαρ 10, 2025 11:08:33 Π.Μ. com.eapproject.DataLayer.Repo.Repository lambda$fetchStatsAsync$2
+INFO: ✅ Fetched 35 popular universities from DB.
+Μαρ 10, 2025 11:08:34 Π.Μ. com.eapproject.DataLayer.Repo.Repository fetchStatsAsync
+INFO: 🔎 Fetching stats (popular universities) from DB asynchronously...
+Μαρ 10, 2025 11:08:34 Π.Μ. com.eapproject.DataLayer.Repo.Repository lambda$fetchStatsAsync$2
+INFO: ✅ Fetched 35 popular universities from DB.
+Μαρ 10, 2025 11:08:35 Π.Μ. com.eapproject.DataLayer.Repo.Repository fetchStatsAsync
+INFO: 🔎 Fetching stats (popular universities) from DB asynchronously...
+Μαρ 10, 2025 11:08:35 Π.Μ. com.eapproject.DataLayer.Repo.Repository lambda$fetchStatsAsync$2
+INFO: ✅ Fetched 35 popular universities from DB.
+Μαρ 10, 2025 11:08:36 Π.Μ. com.eapproject.DataLayer.Repo.Repository fetchStatsAsync
+INFO: 🔎 Fetching stats (popular universities) from DB asynchronously...
+Μαρ 10, 2025 11:08:36 Π.Μ. com.eapproject.DataLayer.Repo.Repository lambda$fetchStatsAsync$2
+INFO: ✅ Fetched 35 popular universities from DB.
+Μαρ 10, 2025 11:08:37 Π.Μ. com.eapproject.DataLayer.Repo.Repository fetchStatsAsync
+INFO: 🔎 Fetching stats (popular universities) from DB asynchronously...
+Μαρ 10, 2025 11:08:37 Π.Μ. com.eapproject.DataLayer.Repo.Repository lambda$fetchStatsAsync$2
+INFO: ✅ Fetched 35 popular universities from DB.
+Μαρ 10, 2025 11:08:38 Π.Μ. com.eapproject.DataLayer.Repo.Repository fetchStatsAsync
+INFO: 🔎 Fetching stats (popular universities) from DB asynchronously...
+Μαρ 10, 2025 11:08:38 Π.Μ. com.eapproject.DataLayer.Repo.Repository lambda$fetchStatsAsync$2
+INFO: ✅ Fetched 35 popular universities from DB.
+Μαρ 10, 2025 11:08:39 Π.Μ. com.eapproject.DataLayer.Repo.Repository fetchStatsAsync
+INFO: 🔎 Fetching stats (popular universities) from DB asynchronously...
+Μαρ 10, 2025 11:08:39 Π.Μ. com.eapproject.DataLayer.Repo.Repository lambda$fetchStatsAsync$2
+INFO: ✅ Fetched 35 popular universities from DB.
+Μαρ 10, 2025 11:08:40 Π.Μ. com.eapproject.DataLayer.Repo.Repository fetchStatsAsync
+INFO: 🔎 Fetching stats (popular universities) from DB asynchronously...
+Μαρ 10, 2025 11:08:40 Π.Μ. com.eapproject.DataLayer.Repo.Repository lambda$fetchStatsAsync$2
+INFO: ✅ Fetched 35 popular universities from DB.
+Μαρ 10, 2025 11:08:42 Π.Μ. com.eapproject.DataLayer.Repo.Repository fetchStatsAsync
+INFO: 🔎 Fetching stats (popular universities) from DB asynchronously...
+Μαρ 10, 2025 11:08:42 Π.Μ. com.eapproject.DataLayer.Repo.Repository lambda$fetchStatsAsync$2
+INFO: ✅ Fetched 35 popular universities from DB.
+Μαρ 10, 2025 11:08:43 Π.Μ. com.eapproject.DataLayer.Repo.Repository fetchStatsAsync
+INFO: 🔎 Fetching stats (popular universities) from DB asynchronously...
+Μαρ 10, 2025 11:08:43 Π.Μ. com.eapproject.DataLayer.Repo.Repository lambda$fetchStatsAsync$2
+INFO: ✅ Fetched 35 popular universities from DB.
+Μαρ 10, 2025 11:08:44 Π.Μ. com.eapproject.DataLayer.Repo.Repository fetchStatsAsync
+INFO: 🔎 Fetching stats (popular universities) from DB asynchronously...
+Μαρ 10, 2025 11:08:44 Π.Μ. com.eapproject.DataLayer.Repo.Repository lambda$fetchStatsAsync$2
+INFO: ✅ Fetched 35 popular universities from DB.
+Μαρ 10, 2025 11:08:48 Π.Μ. com.eapproject.DataLayer.Repo.Repository fetchStatsAsync
+INFO: 🔎 Fetching stats (popular universities) from DB asynchronously...
+Μαρ 10, 2025 11:08:48 Π.Μ. com.eapproject.DataLayer.Repo.Repository lambda$fetchStatsAsync$2
+INFO: ✅ Fetched 35 popular universities from DB.
+Μαρ 10, 2025 11:08:49 Π.Μ. com.eapproject.DataLayer.Repo.Repository fetchStatsAsync
+INFO: 🔎 Fetching stats (popular universities) from DB asynchronously...
+Μαρ 10, 2025 11:08:49 Π.Μ. com.eapproject.DataLayer.Repo.Repository lambda$fetchStatsAsync$2
+INFO: ✅ Fetched 35 popular universities from DB.
+Μαρ 10, 2025 11:08:49 Π.Μ. com.eapproject.DataLayer.Repo.Repository fetchStatsAsync
+INFO: 🔎 Fetching stats (popular universities) from DB asynchronously...
+Μαρ 10, 2025 11:08:49 Π.Μ. com.eapproject.DataLayer.Repo.Repository lambda$fetchStatsAsync$2
+INFO: ✅ Fetched 35 popular universities from DB.
+Μαρ 10, 2025 11:08:51 Π.Μ. com.eapproject.DataLayer.Repo.Repository fetchStatsAsync
+INFO: 🔎 Fetching stats (popular universities) from DB asynchronously...
+Μαρ 10, 2025 11:08:51 Π.Μ. com.eapproject.DataLayer.Repo.Repository lambda$fetchStatsAsync$2
+INFO: ✅ Fetched 35 popular universities from DB.
+Μαρ 10, 2025 11:08:52 Π.Μ. com.eapproject.DataLayer.Repo.Repository fetchStatsAsync
+INFO: 🔎 Fetching stats (popular universities) from DB asynchronously...
+Μαρ 10, 2025 11:08:52 Π.Μ. com.eapproject.DataLayer.Repo.Repository lambda$fetchStatsAsync$2
+INFO: ✅ Fetched 35 popular universities from DB.
+Μαρ 10, 2025 11:08:53 Π.Μ. com.eapproject.DataLayer.Repo.Repository fetchStatsAsync
+INFO: 🔎 Fetching stats (popular universities) from DB asynchronously...
+Μαρ 10, 2025 11:08:53 Π.Μ. com.eapproject.DataLayer.Repo.Repository lambda$fetchStatsAsync$2
+INFO: ✅ Fetched 35 popular universities from DB.
+Μαρ 10, 2025 11:08:55 Π.Μ. com.eapproject.DataLayer.Repo.Repository fetchStatsAsync
+INFO: 🔎 Fetching stats (popular universities) from DB asynchronously...
+Μαρ 10, 2025 11:08:55 Π.Μ. com.eapproject.DataLayer.Repo.Repository lambda$fetchStatsAsync$2
+INFO: ✅ Fetched 35 popular universities from DB.
+Μαρ 10, 2025 11:08:57 Π.Μ. com.eapproject.DataLayer.Repo.Repository fetchStatsAsync
+INFO: 🔎 Fetching stats (popular universities) from DB asynchronously...
+Μαρ 10, 2025 11:08:57 Π.Μ. com.eapproject.DataLayer.Repo.Repository lambda$fetchStatsAsync$2
+INFO: ✅ Fetched 35 popular universities from DB.
+Μαρ 10, 2025 11:08:59 Π.Μ. com.eapproject.DataLayer.Repo.Repository fetchStatsAsync
+INFO: 🔎 Fetching stats (popular universities) from DB asynchronously...
+Μαρ 10, 2025 11:08:59 Π.Μ. com.eapproject.DataLayer.Repo.Repository lambda$fetchStatsAsync$2
+INFO: ✅ Fetched 35 popular universities from DB.
+Μαρ 10, 2025 11:09:00 Π.Μ. com.eapproject.DataLayer.Repo.Repository fetchStatsAsync
+INFO: 🔎 Fetching stats (popular universities) from DB asynchronously...
+Μαρ 10, 2025 11:09:00 Π.Μ. com.eapproject.DataLayer.Repo.Repository lambda$fetchStatsAsync$2
+INFO: ✅ Fetched 35 popular universities from DB.
+Μαρ 10, 2025 11:23:17 Π.Μ. com.eapproject.DataLayer.Repo.Repository initializeLogger
+INFO: 📌 Έναρξη καταγραφής του Logger στο logs/Repository.log
+Μαρ 10, 2025 11:23:18 Π.Μ. com.eapproject.DataLayer.Repo.Repository <init>
+INFO: 📌 Repository initialized.
+Μαρ 10, 2025 11:23:18 Π.Μ. com.eapproject.DataLayer.Repo.Repository getUniversities
+INFO: 🔎 Fetching universities from API...
+Μαρ 10, 2025 11:23:19 Π.Μ. com.eapproject.DataLayer.Repo.Repository getAllUniversitiesFromDb
+INFO: 🔎 Fetching all universities from DB...
+Μαρ 10, 2025 11:23:20 Π.Μ. com.eapproject.DataLayer.Repo.Repository getAllUniversitiesFromDb
+INFO: ✅ Successfully fetched 35 universities from DB.
+Μαρ 10, 2025 11:23:20 Π.Μ. com.eapproject.DataLayer.Repo.Repository$1 onResponse
+INFO: ✅ Universities fetched successfully from API. Size: 10165
+Μαρ 10, 2025 11:23:23 Π.Μ. com.eapproject.DataLayer.Repo.Repository saveOrUpdateToDB
+INFO: 💾 Saving or updating university in DB: Universidad Católica Nuestra Senora de la Asunción
+Μαρ 10, 2025 11:23:23 Π.Μ. com.eapproject.DataLayer.Repo.Repository lambda$saveOrUpdateToDB$0
+INFO: 🔎 Found university in DB for view increment: Universidad Católica Nuestra Senora de la Asunción
+Μαρ 10, 2025 11:23:23 Π.Μ. com.eapproject.DataLayer.Repo.Repository lambda$saveOrUpdateToDB$0
+INFO: ✅ University saved: Universidad Católica Nuestra Senora de la Asunción
+Μαρ 10, 2025 11:23:26 Π.Μ. com.eapproject.DataLayer.Repo.Repository fetchStatsAsync
+INFO: 🔎 Fetching stats (popular universities) from DB asynchronously...
+Μαρ 10, 2025 11:23:26 Π.Μ. com.eapproject.DataLayer.Repo.Repository lambda$fetchStatsAsync$2
+INFO: ✅ Fetched 35 popular universities from DB.
+Μαρ 10, 2025 11:23:27 Π.Μ. com.eapproject.DataLayer.Repo.Repository fetchStatsAsync
+INFO: 🔎 Fetching stats (popular universities) from DB asynchronously...
+Μαρ 10, 2025 11:23:27 Π.Μ. com.eapproject.DataLayer.Repo.Repository lambda$fetchStatsAsync$2
+INFO: ✅ Fetched 35 popular universities from DB.

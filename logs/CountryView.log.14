@@ -1,6 +1,4 @@
-Μαρ 09, 2025 12:27:38 Π.Μ. com.eapproject.PresentationLayer.CountryView initializeLogger
+Μαρ 10, 2025 11:08:39 Π.Μ. com.eapproject.PresentationLayer.CountryView initializeLogger
 INFO: 📌 Έναρξη καταγραφής του Logger στο logs/CountryView.log
-Μαρ 09, 2025 12:27:38 Π.Μ. com.eapproject.PresentationLayer.CountryView <init>
+Μαρ 10, 2025 11:08:39 Π.Μ. com.eapproject.PresentationLayer.CountryView <init>
 INFO: CountryView initialized with 10165 universities.
-Μαρ 09, 2025 12:27:40 Π.Μ. com.eapproject.PresentationLayer.CountryView$5 mouseClicked
-INFO: Διπλό κλικ στη χώρα: Bhutan - Πανεπιστήμια: [University{id=0, name='Royal University of Bhutan', country='Bhutan', alphaTwoCode='BT', stateProvince='null', domains='[rub.edu.bt]', webPages='[http://www.rub.edu.bt/]', school='null', department='null', description='null', contact='null', comments='null', isModified=false, viewCount=0}]

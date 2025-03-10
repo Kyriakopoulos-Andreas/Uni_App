@@ -1,0 +1,6 @@
+Μαρ 10, 2025 11:08:45 Π.Μ. com.eapproject.PresentationLayer.CountryView initializeLogger
+INFO: 📌 Έναρξη καταγραφής του Logger στο logs/CountryView.log
+Μαρ 10, 2025 11:08:45 Π.Μ. com.eapproject.PresentationLayer.CountryView <init>
+INFO: CountryView initialized with 10165 universities.
+Μαρ 10, 2025 11:08:47 Π.Μ. com.eapproject.PresentationLayer.CountryView$5 mouseClicked
+INFO: Διπλό κλικ στη χώρα: Bahamas - Πανεπιστήμια: [University{id=501, name='The College of The Bahamas', country='Bahamas', alphaTwoCode='BS', stateProvince='Unknown', domains='[[cob.edu.bs]]', webPages='[www.cob.edu.bs]', school='', department='Unknown', description='', contact='Unknown', comments='', isModified=false, viewCount=0}]

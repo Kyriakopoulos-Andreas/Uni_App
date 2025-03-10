@@ -6,8 +6,16 @@ import com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.util.Arrays;
 import java.util.List;
+import java.util.logging.FileHandler;
+import java.util.logging.Handler;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+import java.util.logging.SimpleFormatter;
 
 /**
  * Η κλάση {@code UniversityView} αντιπροσωπεύει ένα JPanel που εμφανίζει τις λεπτομέρειες ενός πανεπιστημίου και παρέχει δυνατότητα επεξεργασίας.
@@ -16,7 +24,9 @@ import java.util.List;
  */
 public class UniversityView extends javax.swing.JPanel {
 
-
+    // Ορισμός του Logger για καταγραφή συμβάντων στο αρχείο logs/StatisticsView.log
+    private static final Logger LOGGER = Logger.getLogger(StatisticsView.class.getName());
+    
     private int spaceY = 40;
     private int spaceYBeforeBottomDivider = 30;
     private int spaceYifFaculties = 40;
@@ -24,14 +34,51 @@ public class UniversityView extends javax.swing.JPanel {
     private  UniversitiesViewModel viewModel;
     private List<University> universities;
 
-
+    /**
+     * Κατασκευαστής της κλάσης UniversityView.
+     *
+     * @param university   Το πανεπιστήμιο που προβάλλεται
+     * @param viewModel    Το ViewModel που διαχειρίζεται την επικοινωνία με τα δεδομένα
+     * @param universities Η λίστα με όλα τα πανεπιστήμια (για επικύρωση)
+     */
     public UniversityView(University university, UniversitiesViewModel viewModel, List<University> universities) {
+        // Αρχικοποίηση του Logger για αυτή την κλάση.
+        initializeLogger();
         this.university = university;
         this.universities = universities;
         this.viewModel = viewModel;
         initComponents();
     }
+ 
+    /**
+     * Αρχικοποιεί τον Logger ώστε να καταγράφει τα συμβάντα στο αρχείο
+     * {@code logs/StatisticsView.log} με τη χρήση του {@code SimpleFormatter}.
+     */
+    private void initializeLogger() {
+        try {
+            // Δημιουργία φακέλου logs αν δεν υπάρχει.
+            Files.createDirectories(Paths.get("logs"));
+            // Αφαίρεση τυχόν υπαρχόντων handlers για αποφυγή διπλών καταγραφών.
+            for (Handler h : LOGGER.getHandlers()) {
+                LOGGER.removeHandler(h);
+            }
+            // Δημιουργία FileHandler για το αρχείο logs/StatisticsView.log (με append mode).
+            FileHandler fileHandler = new FileHandler("logs/UniversityView.log", true);
+            fileHandler.setFormatter(new SimpleFormatter());
+            LOGGER.addHandler(fileHandler);
 
+            LOGGER.setLevel(Level.ALL);
+            LOGGER.setUseParentHandlers(false);
+
+            LOGGER.info("📌 Έναρξη καταγραφής του Logger στο logs/UniversityView.log");
+        } catch (IOException e) {
+            System.err.println("❌ Σφάλμα κατά την αρχικοποίηση του Logger: " + e.getMessage());
+        }
+    }    
+    
+    /**
+     * Αρχικοποιεί και διαμορφώνει τα γραφικά στοιχεία (JComponents) της φόρμας.
+     */
     @SuppressWarnings("unchecked")
     private void initComponents() {
         this.setLayout(new BorderLayout());
@@ -52,8 +99,6 @@ public class UniversityView extends javax.swing.JPanel {
         facultiesLabel = new javax.swing.JLabel();
         universityLabelPanel = new javax.swing.JPanel();
 
-
-
         countryTodoPanel = createTodoPanel(safeValue(university.getCountry()));
         stateTodoPanel = createTodoPanel(safeValue(university.getStateProvince()));
         webPageTodoPanel = createTodoPanel(safeValue(String.join(", ", university.getWebPages())));
@@ -61,9 +106,6 @@ public class UniversityView extends javax.swing.JPanel {
         alphaTwoCodeTodoPanel = createTodoPanel(safeValue(university.getAlphaTwoCode()));
         contactTodoPanel = createTodoPanel(safeValue(university.getContact()));
         facultiesTodoPanel = createTodoPanel(safeValue(university.getDepartment()));
-
-
-
 
         // Set properties
         universityViewMainPanel.setBackground(new java.awt.Color(252, 252, 242));
@@ -87,10 +129,6 @@ public class UniversityView extends javax.swing.JPanel {
         configureLabel(alphaTwoCodeLabel, "Alpha Two Code:");
         configureLabel(contactLabel, "Contact:");
         configureLabel(facultiesLabel, "Faculties:");
-
-
-
-
 
         countryTodoPanel.setBackground(new java.awt.Color(252, 252, 242));
         stateTodoPanel.setBackground(new java.awt.Color(252, 252, 242));
@@ -190,52 +228,27 @@ public class UniversityView extends javax.swing.JPanel {
                         .addContainerGap(50, Short.MAX_VALUE)
         );
 
-
+        // Προσθήκη των components στο panel
         this.add(new JScrollPane(universityViewMainPanel));
 
     }
 
+    /**
+     * Επιστρέφει μια ασφαλή τιμή κειμένου, αποτρέποντας NullPointerException.
+     *
+     * @param value Η τιμή που θα ελεγχθεί
+     * @return Η αρχική τιμή ή "Unknown" αν είναι κενή/null
+     */
     private String safeValue(String value) {
         return (value == null || value.trim().isEmpty()) ? "Unknown" : value;
     }
 
-
-//    private void updateVisibility() {
-//        boolean isContactEmpty = TODOcontactLabel.getText().trim().isEmpty();
-//        boolean isFacultiesEmpty = TODOfacultiesLabel.getText().trim().isEmpty();
-//
-//        // Ενημέρωση ορατότητας
-//        contactLabel.setVisible(!isContactEmpty || updateOn);
-//        contactTodoPanel.setVisible(!isContactEmpty || updateOn);
-//        facultiesLabel.setVisible(!isFacultiesEmpty || updateOn);
-//        facultiesTodoPanel.setVisible(!isFacultiesEmpty || updateOn);
-//
-//        // Ρύθμιση gaps
-//        if (updateOn) {
-//            spaceY = 10; // Επιθυμητό μικρότερο gap
-//            spaceYifFaculties = 10;
-//            spaceYBeforeBottomDivider = 10;
-//        }
-//        else if (!isContactEmpty && !isFacultiesEmpty) {
-//            spaceY = 40;
-//            spaceYifFaculties = 40;
-//            spaceYBeforeBottomDivider = 30;
-//        }
-//        else if (!isContactEmpty || !isFacultiesEmpty) {
-//            spaceY = 60;
-//            spaceYBeforeBottomDivider = isFacultiesEmpty ? 45 : 86;
-//            spaceYifFaculties = isFacultiesEmpty ? 40 : 20;
-//        }
-//        else {
-//            spaceY = 100;
-//            spaceYBeforeBottomDivider = 19;
-//        }
-//
-//        revalidate();
-//        repaint();
-//    }
-
-
+    /**
+     * Δημιουργεί ένα JPanel που μπορεί να εναλλάσσεται μεταξύ λειτουργίας προβολής και επεξεργασίας.
+     *
+     * @param todoLabel Η αρχική τιμή κειμένου
+     * @return Ένα JPanel με CardLayout για εναλλαγή μεταξύ εμφάνισης και επεξεργασίας
+     */
     private JPanel createTodoPanel(String todoLabel) {
         JPanel panel = new JPanel(new CardLayout());
 
@@ -278,7 +291,7 @@ public class UniversityView extends javax.swing.JPanel {
         revalidate();
         repaint();
     }
-
+    
     private void togglePanel(boolean edit, JPanel panel) {
         CardLayout cl = (CardLayout) panel.getLayout();
         cl.show(panel, edit ? "edit" : "view");
@@ -288,6 +301,11 @@ public class UniversityView extends javax.swing.JPanel {
         copyBetweenTextAreas(false); // Από view -> edit
     }
 
+    /**
+     * Εναλλάσσει τη λειτουργία επεξεργασίας για τα πεδία του πανεπιστημίου.
+     *
+     * @param evt Το γεγονός που προκάλεσε την αλλαγή
+     */
     private void toggleEditMode(ActionEvent evt) {
 
         boolean isEditMode = updateButton.getText().equals("Save Changes");
@@ -305,7 +323,10 @@ public class UniversityView extends javax.swing.JPanel {
             setEditMode(!isEditMode);
         }
     }
-
+    
+    /**
+     * Ελέγχει αν η χώρα είναι έγκυρη και αποθηκεύει τις τροποποιήσεις.
+     */
     private void saveTodoData() {
         SwingWorker<Void, Void> worker = new SwingWorker<>() {
             @Override
@@ -314,7 +335,8 @@ public class UniversityView extends javax.swing.JPanel {
                     // Επικύρωση αν η νέα τιμή της χώρας είναι έγκυρη μέσω του viewModel.
                     viewModel.checkIfCountryUpdateIsAvailable(getTextFromPanel(countryTodoPanel), universities);
                 } catch (Exception ex) {
-
+                    // Καταγραφή σφάλματος και εμφάνιση μηνύματος σε περίπτωση εξαίρεσης.
+                    LOGGER.log(Level.SEVERE, "❌ Σφάλμα κατά την επικύρωση της χώρας", ex);
                     JOptionPane.showMessageDialog(null, "Παρουσιάστηκε σφάλμα κατά την επικύρωση.",
                             "Σφάλμα", JOptionPane.ERROR_MESSAGE);
                 }
@@ -348,6 +370,8 @@ public class UniversityView extends javax.swing.JPanel {
                         // Κλήση του viewModel για την ενημέρωση της βάσης δεδομένων
                         viewModel.updateExtendUniversity(university);
                     } catch (Exception ex) {
+                        // Σε περίπτωση σφάλματος κατά την ενημέρωση, καταγράφουμε το σφάλμα και ενημερώνουμε τον χρήστη.
+                        LOGGER.log(Level.SEVERE, "❌ Σφάλμα κατά την ενημέρωση των δεδομένων του πανεπιστημίου", ex);
                         JOptionPane.showMessageDialog(null, "Παρουσιάστηκε σφάλμα κατά την ενημέρωση του πανεπιστημίου.",
                                 "Σφάλμα", JOptionPane.ERROR_MESSAGE);
                         return;
@@ -367,12 +391,23 @@ public class UniversityView extends javax.swing.JPanel {
         worker.execute();
     }
 
-
+    /**
+     * Επιστρέφει το κείμενο από το πεδίο επεξεργασίας ενός JPanel.
+     *
+     * @param panel Το JPanel που περιέχει το JTextArea επεξεργασίας
+     * @return Το κείμενο του JTextArea ή κενή συμβολοσειρά αν δεν βρεθεί
+     */
     private String getTextFromPanel(JPanel panel) {
         JTextArea editTextArea = getEditTextArea(panel);
         return (editTextArea != null) ? editTextArea.getText().trim() : "";
     }
-
+    
+    /**
+     * Αντιγράφει το περιεχόμενο μεταξύ των JTextArea (εμφάνισης και επεξεργασίας).
+     *
+     * @param fromEditToView Αν είναι true, αντιγράφει από το πεδίο επεξεργασίας στο πεδίο εμφάνισης. 
+     *                       Αν είναι false, αντιγράφει από το πεδίο εμφάνισης στο πεδίο επεξεργασίας.
+     */
     private void copyBetweenTextAreas(boolean fromEditToView) {
         JPanel[] panels = {countryTodoPanel, stateTodoPanel, webPageTodoPanel, domainTodoPanel,
                 alphaTwoCodeTodoPanel, contactTodoPanel, facultiesTodoPanel};
@@ -386,7 +421,13 @@ public class UniversityView extends javax.swing.JPanel {
             }
         }
     }
-
+    
+    /**
+     * Επιστρέφει το JTextArea προβολής από ένα JPanel (μη επεξεργάσιμο).
+     *
+     * @param panel Το JPanel που περιέχει το JTextArea
+     * @return Το JTextArea αν υπάρχει, αλλιώς null
+     */
     private JTextArea getViewTextArea(JPanel panel) {
         for (Component c : panel.getComponents()) {
             if (c instanceof JTextArea && !((JTextArea) c).isEditable()) {
@@ -396,6 +437,12 @@ public class UniversityView extends javax.swing.JPanel {
         return null;
     }
 
+    /**
+     * Επιστρέφει το JTextArea επεξεργασίας από ένα JPanel (επεξεργάσιμο).
+     *
+     * @param panel Το JPanel που περιέχει το JTextArea
+     * @return Το JTextArea αν υπάρχει, αλλιώς null
+     */
     private JTextArea getEditTextArea(JPanel panel) {
         for (Component c : panel.getComponents()) {
             if (c instanceof JTextArea && ((JTextArea) c).isEditable()) {
@@ -405,13 +452,24 @@ public class UniversityView extends javax.swing.JPanel {
         return null;
     }
 
-
+    /**
+     * Διαμορφώνει μια JLabel με συγκεκριμένη γραμματοσειρά και χρώμα.
+     *
+     * @param label Το JLabel που θα διαμορφωθεί
+     * @param text  Το κείμενο που θα εμφανίζει
+     */
     private void configureLabel(JLabel label, String text) {
         label.setFont(new Font("Segoe UI", Font.PLAIN, 36));
         label.setForeground(new Color(223, 109, 35));
         label.setText(text);
     }
 
+    /**
+     * Διαμορφώνει μια JLabel που χρησιμοποιείται για την εμφάνιση δεδομένων (TODO πεδία).
+     *
+     * @param label Το JLabel που θα διαμορφωθεί
+     * @param text  Το κείμενο που θα εμφανίζει
+     */
     private void configureTODO(JLabel label, String text) {
         label.setFont(new Font("Segoe UI", Font.PLAIN, 28));
         label.setForeground(new Color(96, 59, 6));

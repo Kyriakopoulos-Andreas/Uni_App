@@ -26,6 +26,8 @@ UniApp is a Java application developed as part of a project for the Hellenic Ope
 - Apache Derby as the database
 - Retrofit for executing HTTP requests
 - iText for exporting statistics to PDF
+- Singleton design pattern
+- External Logger
 
 ## Api
 
