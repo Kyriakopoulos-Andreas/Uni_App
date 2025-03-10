@@ -1,0 +1,6 @@
+Μαρ 10, 2025 12:39:41 Μ.Μ. com.eapproject.PresentationLayer.StatisticsView initializeLogger
+INFO: 📌 Έναρξη καταγραφής του Logger στο logs/StatisticsView.log
+Μαρ 10, 2025 12:39:48 Μ.Μ. com.eapproject.PresentationLayer.StatisticsView$5 actionPerformed
+INFO: ℹ️ Το PDF εξήχθη επιτυχώς.
+Μαρ 10, 2025 12:49:44 Μ.Μ. com.eapproject.PresentationLayer.StatisticsView initializeLogger
+INFO: 📌 Έναρξη καταγραφής του Logger στο logs/StatisticsView.log

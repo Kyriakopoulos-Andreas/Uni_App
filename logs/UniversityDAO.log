@@ -2,3 +2,13 @@
 INFO: 📌 Έναρξη καταγραφής του Logger στο logs/UniversityDAO.log
 Μαρ 10, 2025 12:29:54 Μ.Μ. com.eapproject.DataLayer.DB.UniversityDAO initializeLogger
 INFO: 📌 Έναρξη καταγραφής του Logger στο logs/UniversityDAO.log
+Μαρ 10, 2025 12:39:20 Μ.Μ. com.eapproject.DataLayer.DB.UniversityDAO initializeLogger
+INFO: 📌 Έναρξη καταγραφής του Logger στο logs/UniversityDAO.log
+Μαρ 10, 2025 12:39:38 Μ.Μ. com.eapproject.DataLayer.DB.UniversityDAO insertUniversity
+INFO: ✅ Το πανεπιστήμιο προστέθηκε επιτυχώς: Divine Word University
+Μαρ 10, 2025 12:39:38 Μ.Μ. com.eapproject.DataLayer.DB.UniversityDAO upsertUniversity
+INFO: ✅ Νέο πανεπιστήμιο εισήχθη: Divine Word University
+Μαρ 10, 2025 12:39:39 Μ.Μ. com.eapproject.DataLayer.DB.UniversityDAO increaseViewCount
+INFO: 👁️ Ο μετρητής προβολών αυξήθηκε για το πανεπιστήμιο με ID: 1
+Μαρ 10, 2025 12:49:39 Μ.Μ. com.eapproject.DataLayer.DB.UniversityDAO initializeLogger
+INFO: 📌 Έναρξη καταγραφής του Logger στο logs/UniversityDAO.log

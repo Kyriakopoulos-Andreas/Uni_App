@@ -22,3 +22,47 @@ INFO: 📌 Έναρξη καταγραφής του Logger στο logs/MainView.
 INFO: ℹ️ Loaded universities: []
 Μαρ 10, 2025 12:30:06 Μ.Μ. com.eapproject.PresentationLayer.MainView onCountriesPanelClick
 INFO: ℹ️ Countries panel clicked!
+Μαρ 10, 2025 12:39:20 Μ.Μ. com.eapproject.PresentationLayer.MainView initializeLogger
+INFO: 📌 Έναρξη καταγραφής του Logger στο logs/MainView.log
+Μαρ 10, 2025 12:39:24 Μ.Μ. com.eapproject.PresentationLayer.MainView onCountriesPanelClick
+INFO: ℹ️ Countries panel clicked!
+Μαρ 10, 2025 12:39:24 Μ.Μ. com.eapproject.PresentationLayer.MainView update
+INFO: ℹ️ Loaded universities: []
+Μαρ 10, 2025 12:39:26 Μ.Μ. com.eapproject.PresentationLayer.MainView update
+INFO: ℹ️ Loaded universities: []
+Μαρ 10, 2025 12:39:29 Μ.Μ. com.eapproject.PresentationLayer.MainView onInformationsPanelClick
+INFO: ℹ️ Informations panel clicked!
+Μαρ 10, 2025 12:39:33 Μ.Μ. com.eapproject.PresentationLayer.MainView onCountriesPanelClick
+INFO: ℹ️ Countries panel clicked!
+Μαρ 10, 2025 12:39:37 Μ.Μ. com.eapproject.PresentationLayer.MainView update
+INFO: ℹ️ Loaded universities: []
+Μαρ 10, 2025 12:39:38 Μ.Μ. com.eapproject.PresentationLayer.MainView update
+INFO: ℹ️ Loaded universities: []
+Μαρ 10, 2025 12:39:41 Μ.Μ. com.eapproject.PresentationLayer.MainView update
+INFO: ℹ️ Loaded universities: [University{id=1, name='Divine Word University', country='Papua New Guinea', alphaTwoCode='PG', stateProvince='', domains='[dwu.ac.pg]', webPages='[[www.dwu.ac.pg]]', school='', department='', description='', contact='', comments='', isModified=false, viewCount=0}]
+Μαρ 10, 2025 12:39:59 Μ.Μ. com.eapproject.PresentationLayer.MainView onCountriesPanelClick
+INFO: ℹ️ Countries panel clicked!
+Μαρ 10, 2025 12:49:39 Μ.Μ. com.eapproject.PresentationLayer.MainView initializeLogger
+INFO: 📌 Έναρξη καταγραφής του Logger στο logs/MainView.log
+Μαρ 10, 2025 12:49:43 Μ.Μ. com.eapproject.PresentationLayer.MainView update
+INFO: ℹ️ Loaded universities: [University{id=1, name='Divine Word University', country='Papua New Guinea', alphaTwoCode='PG', stateProvince='', domains='[dwu.ac.pg]', webPages='[[www.dwu.ac.pg]]', school='', department='', description='', contact='', comments='', isModified=false, viewCount=0}]
+Μαρ 10, 2025 12:49:44 Μ.Μ. com.eapproject.PresentationLayer.MainView update
+INFO: ℹ️ Loaded universities: [University{id=1, name='Divine Word University', country='Papua New Guinea', alphaTwoCode='PG', stateProvince='', domains='[dwu.ac.pg]', webPages='[[www.dwu.ac.pg]]', school='', department='', description='', contact='', comments='', isModified=false, viewCount=0}]
+Μαρ 10, 2025 12:49:45 Μ.Μ. com.eapproject.PresentationLayer.MainView onCountriesPanelClick
+INFO: ℹ️ Countries panel clicked!
+Μαρ 10, 2025 12:49:47 Μ.Μ. com.eapproject.PresentationLayer.MainView update
+INFO: ℹ️ Loaded universities: [University{id=1, name='Divine Word University', country='Papua New Guinea', alphaTwoCode='PG', stateProvince='', domains='[dwu.ac.pg]', webPages='[[www.dwu.ac.pg]]', school='', department='', description='', contact='', comments='', isModified=false, viewCount=0}]
+Μαρ 10, 2025 12:49:48 Μ.Μ. com.eapproject.PresentationLayer.MainView onCountriesPanelClick
+INFO: ℹ️ Countries panel clicked!
+Μαρ 10, 2025 12:49:48 Μ.Μ. com.eapproject.PresentationLayer.MainView update
+INFO: ℹ️ Loaded universities: [University{id=1, name='Divine Word University', country='Papua New Guinea', alphaTwoCode='PG', stateProvince='', domains='[dwu.ac.pg]', webPages='[[www.dwu.ac.pg]]', school='', department='', description='', contact='', comments='', isModified=false, viewCount=0}]
+Μαρ 10, 2025 12:49:49 Μ.Μ. com.eapproject.PresentationLayer.MainView onCountriesPanelClick
+INFO: ℹ️ Countries panel clicked!
+Μαρ 10, 2025 12:49:49 Μ.Μ. com.eapproject.PresentationLayer.MainView update
+INFO: ℹ️ Loaded universities: [University{id=1, name='Divine Word University', country='Papua New Guinea', alphaTwoCode='PG', stateProvince='', domains='[dwu.ac.pg]', webPages='[[www.dwu.ac.pg]]', school='', department='', description='', contact='', comments='', isModified=false, viewCount=0}]
+Μαρ 10, 2025 12:49:50 Μ.Μ. com.eapproject.PresentationLayer.MainView onInformationsPanelClick
+INFO: ℹ️ Informations panel clicked!
+Μαρ 10, 2025 12:49:51 Μ.Μ. com.eapproject.PresentationLayer.MainView update
+INFO: ℹ️ Loaded universities: [University{id=1, name='Divine Word University', country='Papua New Guinea', alphaTwoCode='PG', stateProvince='', domains='[dwu.ac.pg]', webPages='[[www.dwu.ac.pg]]', school='', department='', description='', contact='', comments='', isModified=false, viewCount=0}]
+Μαρ 10, 2025 12:49:51 Μ.Μ. com.eapproject.PresentationLayer.MainView onCountriesPanelClick
+INFO: ℹ️ Countries panel clicked!
