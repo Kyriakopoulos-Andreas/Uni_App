@@ -11,8 +11,8 @@ import java.util.stream.Collectors;
 /**
  * Κλάση που αναπαριστά ένα πανεπιστήμιο από τη βάση δεδομένων.
  *
- * Περιέχει πεδία για τα χαρακτηριστικά ενός πανεπιστημίου, με ασφαλείς getters και setters,
- * καθώς και μεθόδους equals, hashCode και toString για σωστή συμπεριφορά σε συλλογές.
+ * Περιέχει πεδία για τα χαρακτηριστικά ενός πανεπιστημίου, με getters και setters,
+ * καθώς και μεθόδους equals, hashCode και toString.
  *
  */
 public class University {

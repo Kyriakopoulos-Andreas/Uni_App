@@ -86,7 +86,7 @@ public class UniversityModel {
             this.domains = domains;
             this.name = name;
 
-            LOGGER.info("ℹ️ UniversityModel created for " + name + " in " + country);
+            LOGGER.info("ℹ Δημιουργήθηκε το UniversityModel " + name + " στην " + country);
         } catch (Exception ex) {
             // Αν κάτι πάει στραβά (π.χ. NullPointerException), το καταγράφουμε
             LOGGER.log(Level.SEVERE, "❌ Σφάλμα κατά τον ορισμό δεδομένων στο UniversityModel constructor.", ex);

@@ -16,3 +16,9 @@ INFO: ℹ️ Loaded universities: []
 INFO: ℹ️ Informations panel clicked!
 Μαρ 10, 2025 12:15:27 Μ.Μ. com.eapproject.PresentationLayer.MainView onCountriesPanelClick
 INFO: ℹ️ Countries panel clicked!
+Μαρ 10, 2025 12:29:54 Μ.Μ. com.eapproject.PresentationLayer.MainView initializeLogger
+INFO: 📌 Έναρξη καταγραφής του Logger στο logs/MainView.log
+Μαρ 10, 2025 12:29:58 Μ.Μ. com.eapproject.PresentationLayer.MainView update
+INFO: ℹ️ Loaded universities: []
+Μαρ 10, 2025 12:30:06 Μ.Μ. com.eapproject.PresentationLayer.MainView onCountriesPanelClick
+INFO: ℹ️ Countries panel clicked!

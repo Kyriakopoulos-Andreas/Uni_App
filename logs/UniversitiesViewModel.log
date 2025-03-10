@@ -16,3 +16,7 @@ INFO: Uni: University of Goroka
 INFO: Uni: University of Papua New Guinea
 Μαρ 10, 2025 12:15:24 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel$2 onError
 WARNING: ⚠️ Τα στατιστικά δεν είναι διαθέσιμα.
+Μαρ 10, 2025 12:29:56 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel initializeLogger
+INFO: 📌 Έναρξη καταγραφής του Logger στο logs/UniversitiesViewModel.log
+Μαρ 10, 2025 12:29:58 Μ.Μ. com.eapproject.PresentationLayer.ViewModels.UniversitiesViewModel$1 onSuccess
+INFO: ℹ️ Επανακτήθηκαν 10165 πανεπιστήμια.

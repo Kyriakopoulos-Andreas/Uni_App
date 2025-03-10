@@ -27,27 +27,6 @@ import java.util.logging.SimpleFormatter;
  * Η κλάση δέχεται μια λίστα αντικειμένων {@link University} και ένα ViewModel (UniversitiesViewModel) ώστε να παρουσιάζει τα δεδομένα
  * με μορφή πίνακα, παρέχοντας επιλογές όπως η εξαγωγή σε PDF. Ο πίνακας εμφανίζει τρεις στήλες: "No." (αύξων αριθμός),
  * "University Name" και "Views".
- * </p>
- *
- * <p>
- * Ο σχεδιασμός περιλαμβάνει έναν πίνακα με ομοιόμορφη μορφοποίηση:
- * <ul>
- *   <li>Preferred size του JScrollPane: 849 x 610.</li>
- *   <li>Εξωτερικό περίγραμμα (2px, πορτοκαλί).</li>
- *   <li>Font στα δεδομένα: "Arial", bold, 16pt με καφέ σκούρο χρώμα (Color(139,89,61)).</li>
- *   <li>Στήλες "No." και "Views": κεντρική στοίχιση, "University Name": αριστερή στοίχιση.</li>
- * </ul>
- * 
- *
- * <p>
- * <strong>Παράδειγμα Χρήσης:</strong>
- * <pre>
- *     List&lt;University&gt; stats = UniversityDAO.getInstance().getPopularUniversities();
- *     UniversitiesViewModel viewModel = new UniversitiesViewModel();
- *     StatisticsView statisticsView = new StatisticsView(stats, viewModel);
- *     // Προσθέτουμε το statisticsView στο κύριο παράθυρο της εφαρμογής.
- * </pre>
- * 
  */
 public class StatisticsView extends JPanel {
 
@@ -329,7 +308,5 @@ public class StatisticsView extends JPanel {
         );
 
         this.add(mainPanel);
-        /* Create and display the form */
-
     }
 }

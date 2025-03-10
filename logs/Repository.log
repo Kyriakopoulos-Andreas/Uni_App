@@ -18,3 +18,15 @@ WARNING: ⚠️ No Stats Available
 INFO: 🔎 Fetching stats (popular universities) from DB asynchronously...
 Μαρ 10, 2025 12:15:22 Μ.Μ. com.eapproject.DataLayer.Repo.Repository lambda$fetchStatsAsync$2
 WARNING: ⚠️ No Stats Available
+Μαρ 10, 2025 12:29:56 Μ.Μ. com.eapproject.DataLayer.Repo.Repository initializeLogger
+INFO: 📌 Έναρξη καταγραφής του Logger στο logs/Repository.log
+Μαρ 10, 2025 12:29:56 Μ.Μ. com.eapproject.DataLayer.Repo.Repository <init>
+INFO: 📌 Repository initialized.
+Μαρ 10, 2025 12:29:56 Μ.Μ. com.eapproject.DataLayer.Repo.Repository getUniversities
+INFO: 🔎 Fetching universities from API...
+Μαρ 10, 2025 12:29:57 Μ.Μ. com.eapproject.DataLayer.Repo.Repository getAllUniversitiesFromDb
+INFO: 🔎 Fetching all universities from DB...
+Μαρ 10, 2025 12:29:58 Μ.Μ. com.eapproject.DataLayer.Repo.Repository getAllUniversitiesFromDb
+INFO: ✅ Successfully fetched 0 universities from DB.
+Μαρ 10, 2025 12:29:58 Μ.Μ. com.eapproject.DataLayer.Repo.Repository$1 onResponse
+INFO: ✅ Universities fetched successfully from API. Size: 10165

@@ -61,9 +61,6 @@ public class UniversityDAO {
     /**
      * Αρχικοποιεί τον Logger και τον ρυθμίζει να γράφει τα μηνύματα στο αρχείο
      * <code>logs/UniversityDAO.log</code> χρησιμοποιώντας τον {@code SimpleFormatter}.
-     * <p>
-     * Αν υπάρχουν ήδη προηγούμενοι handlers, αυτοί αφαιρούνται για να αποφευχθούν διπλές καταγραφές.
-     * </p>
      */
     public static void initializeLogger() {
         try {
@@ -203,35 +200,6 @@ public class UniversityDAO {
      *
      * @param uni Το αντικείμενο <code>University</code> με τις νέες τιμές.
      */
-//    public void updateUniversityUser(University uni) {
-//        String sql = "UPDATE UNIVERSITY SET NAME=?, COUNTRY=?, ALPHATWOCODE=?, STATEPROVINCE=?, DOMAINS=?, " +
-//                     "WEBPAGES=?, SCHOOL=?, DEPARTMENT=?, DESCRIPTION=?, CONTACT=?, COMMENTS=?, ISMODIFIED=? " +
-//                     "WHERE ID=?";
-//        try (Connection conn = DBUtil.getInstance().getConnection();
-//             PreparedStatement ps = conn.prepareStatement(sql)) {
-//            ps.setString(1, uni.getName());
-//            ps.setString(2, uni.getCountry());
-//            ps.setString(3, uni.getAlphaTwoCode());
-//            ps.setString(4, uni.getStateProvince());
-//            ps.setString(5, uni.getDomains());
-//            ps.setString(6, String.join(",", uni.getWebPages()));
-//            ps.setString(7, uni.getSchool());
-//            ps.setString(8, uni.getDepartment());
-//            ps.setString(9, uni.getDescription());
-//            ps.setString(10, uni.getContact());
-//            ps.setString(11, uni.getComments());
-//            ps.setBoolean(12, uni.isModified());
-//            ps.setInt(13, uni.getId());
-//            int rows = ps.executeUpdate();
-//            if (rows > 0) {
-//                LOGGER.log(Level.INFO, "✅ Το πανεπιστήμιο ενημερώθηκε: {0}", uni.getName());
-//            } else {
-//                LOGGER.log(Level.WARNING, "⚠️ Δεν πραγματοποιήθηκαν αλλαγές: {0}", uni.getName());
-//            }
-//        } catch (SQLException e) {
-//            LOGGER.log(Level.SEVERE, "❌️ Σφάλμα κατά την ενημέρωση του πανεπιστημίου: " + uni.getName(), e);
-//        }
-//    }
     public void updateUniversityUser(University uni) {
         String sql = "UPDATE UNIVERSITY SET NAME=?, COUNTRY=?, ALPHATWOCODE=?, STATEPROVINCE=?, DOMAINS=?, " +
                 "WEBPAGES=?, SCHOOL=?, DEPARTMENT=?, DESCRIPTION=?, CONTACT=?, COMMENTS=?, ISMODIFIED=? " +
@@ -252,9 +220,7 @@ public class UniversityDAO {
             ps.setBoolean(12, uni.isModified());
             ps.setString(13, uni.getName());
             int rows = ps.executeUpdate();
-            System.out.println("Join For Update");
-            System.out.println(sql);
-            System.out.println("Test" + uni.getName());
+            //System.out.println(sql);
             if (rows > 0) {
                 LOGGER.log(Level.INFO, "✅Το πανεπιστήμιο ενημερώθηκε: {0}", uni.getName());
             } else {
