@@ -1,8 +1,4 @@
-Μαρ 10, 2025 11:07:54 Π.Μ. com.eapproject.uni_app_project.Uni_App_Project initializeLogger
+Μαρ 10, 2025 12:14:56 Μ.Μ. com.eapproject.uni_app_project.Uni_App_Project initializeLogger
 INFO: 📌 Έναρξη καταγραφής του Logger στο logs/Uni_App_Project.log
-Μαρ 10, 2025 11:07:57 Π.Μ. com.eapproject.uni_app_project.Uni_App_Project lambda$main$0
-INFO: ℹ️ Η εφαρμογή ξεκίνησε επιτυχώς.
-Μαρ 10, 2025 11:23:15 Π.Μ. com.eapproject.uni_app_project.Uni_App_Project initializeLogger
-INFO: 📌 Έναρξη καταγραφής του Logger στο logs/Uni_App_Project.log
-Μαρ 10, 2025 11:23:18 Π.Μ. com.eapproject.uni_app_project.Uni_App_Project lambda$main$0
+Μαρ 10, 2025 12:14:58 Μ.Μ. com.eapproject.uni_app_project.Uni_App_Project lambda$main$0
 INFO: ℹ️ Η εφαρμογή ξεκίνησε επιτυχώς.

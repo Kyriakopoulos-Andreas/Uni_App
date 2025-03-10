@@ -115,17 +115,53 @@ public class InformationView extends JPanel {
         TextArea.setSelectedTextColor(new Color(178, 112, 69));
         TextArea.setSelectionColor(Color.WHITE);
         TextArea.setLineWrap(true);
-        TextArea.setFont(new Font("Segoe UI", Font.PLAIN, 28));
+        TextArea.setFont(new Font("Segoe UI", Font.PLAIN, 14));
         TextArea.setWrapStyleWord(true);
         TextArea.setEditable(false);
         // Ορισμός του κειμένου περιγραφής
-        TextArea.setText("This application provides detailed information about universities worldwide. "
-                + "Users can explore universities by selecting a country and viewing a list of institutions, "
-                + "or they can search for a specific university directly. Each university profile includes essential "
-                + "details such as location, ranking, available programs, and admission requirements. "
-                + "The intuitive interface ensures easy navigation, making it a valuable resource for students, "
-                + "researchers, and anyone interested in higher education. Additionally, users can compare universities, "
-                + "save their favorite institutions, and access up-to-date insights on academic offerings and scholarships.");
+        TextArea.setText("## UniApp (Java Application)\n" +
+                "UniApp is a Java application developed as part of a project for the Hellenic Open University (HOU). It processes university data from around the world using the University Domains and Names Data List API. The application provides a graphical user interface (GUI) with various features for searching and managing universities.\n" +
+                "\n" +
+                "## Team Project\n" +
+                "- Anastasiou Ioannis\n" +
+                "- Kyriakopoulos Andreas\n" +
+                "- Tsipos Stylianos\n" +
+                "\n" +
+                "## Features\n" +
+                "- University search by name\n" +
+                "- Search for universities by country and apply filters\n" +
+                "- Update and include additional details for a university\n" +
+                "- View and export the statistics of your search to PDF\n" +
+                "\n" +
+                "## Technologies Applied\n" +
+                "- Java for the implementation of the application\n" +
+                "- Swing for the GUI\n" +
+                "- JPA (EclipseLink) for data storage\n" +
+                "- Apache Derby as the database\n" +
+                "- Retrofit for executing HTTP requests\n" +
+                "- iText for exporting statistics to PDF\n" +
+                "- Singleton design pattern\n" +
+                "- External Logger\n" +
+                "- External DB settings\n" +
+                "- Internal DB management System\n" +
+                "\n" +
+                "## Api\n" +
+                "The application uses the [University Domains and Names Data List API](https://github.com/Hipo/university-domains-list-api) to retrieve university data.\n" +
+                "The returned data is in JSON format\n" +
+                "\n" +
+                "## Project Structure\n" +
+                "The project follows the MVVM (Model-View-ViewModel) architecture.\n" +
+                "\n" +
+                "## Execution\n" +
+                "1. Clone the repository:\n" +
+                "git clone [https://github.com/Kyriakopoulos-Andreas/Uni_App.git](https://github.com/Kyriakopoulos-Andreas/Uni_App.git)\n" +
+                "  \n" +                
+                "2. Open the project in NetBeans\n" +
+                "  \n" +
+                "3. Run the file UniApp.java\n" +
+                "\n" +
+                "## Note\n" +
+                "The required libraries are included locally in the project, and no additional installation is needed.");
 
         // Ορισμός του TextArea ως viewport για το JScrollPane
         jScrollPane1.setViewportView(TextArea);

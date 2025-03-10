@@ -1,5 +1,10 @@
-# UniApp (Java Application) 
+## UniApp (Java Application) 
 UniApp is a Java application developed as part of a project for the Hellenic Open University (HOU). It processes university data from around the world using the University Domains and Names Data List API. The application provides a graphical user interface (GUI) with various features for searching and managing universities.
+
+## Team Project
+Anastasiou Ioannis
+Kyriakopoulos Andreas
+Tsipos Stylianos
 
 ## Features 
 - University search by name
@@ -28,6 +33,8 @@ UniApp is a Java application developed as part of a project for the Hellenic Ope
 - iText for exporting statistics to PDF
 - Singleton design pattern
 - External Logger
+- External DB settings
+- Internal DB management System
 
 ## Api
 

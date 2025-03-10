@@ -1,4 +1,0 @@
-Μαρ 10, 2025 11:08:41 Π.Μ. com.eapproject.PresentationLayer.CountryView initializeLogger
-INFO: 📌 Έναρξη καταγραφής του Logger στο logs/CountryView.log
-Μαρ 10, 2025 11:08:41 Π.Μ. com.eapproject.PresentationLayer.CountryView <init>
-INFO: CountryView initialized with 10165 universities.
